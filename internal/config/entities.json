@@ -1,0 +1,363 @@
+{
+  "version": "1.1.0",
+  "tracked_entities": [
+    {
+      "id": "lyn-alden",
+      "name": "Lyn Alden",
+      "handle": "@LynAldenContact",
+      "category": "Macro Plumbing & Balance Sheets",
+      "primary_topics": ["Fiscal Dominance", "M2 Liquidity", "Energy Physics", "Bitcoin Network Topology"],
+      "feeds": {
+        "rss": "https://www.lynalden.com/feed/",
+        "social_relay": "relay:x:LynAldenContact"
+      },
+      "active": true
+    },
+    {
+      "id": "jack-mallers",
+      "name": "Jack Mallers",
+      "handle": "@jackmallers",
+      "category": "Agentic Rails & Settlement",
+      "primary_topics": ["Lightning Network", "L402 Protocol", "M2M AI Micropayments", "Strike"],
+      "feeds": {
+        "social_relay": "relay:x:jackmallers"
+      },
+      "active": true
+    },
+    {
+      "id": "andrej-karpathy",
+      "name": "Andrej Karpathy",
+      "handle": "@karpathy",
+      "category": "Autonomous Intelligence",
+      "primary_topics": ["Edge Intelligence", "Distilled Models", "Agentic Orchestration", "Local LLMs"],
+      "feeds": {
+        "social_relay": "relay:x:karpathy",
+        "github": "https://github.com/karpathy"
+      },
+      "active": true
+    },
+    {
+      "id": "arthur-hayes",
+      "name": "Arthur Hayes",
+      "handle": "@CryptoHayes",
+      "category": "Macro Plumbing & Balance Sheets",
+      "primary_topics": ["Global Sovereign Debt", "Dollar Swap Lines", "Treasury Refunding", "Fed Balance Sheet"],
+      "feeds": {
+        "substack_rss": "https://cryptohayes.substack.com/feed",
+        "social_relay": "relay:x:CryptoHayes"
+      },
+      "active": true
+    },
+    {
+      "id": "ercot-grid",
+      "name": "ERCOT & Baseload Grid Monitors",
+      "handle": "@ERCOT_ISO",
+      "category": "Compute, Power & The Grid",
+      "primary_topics": ["Interconnection Queue", "Behind-the-Meter Generation", "Nuclear PPAs", "Miner Curtailment"],
+      "feeds": {
+        "press_rss": "https://ercot.com/news/releases/rss",
+        "social_relay": "relay:x:ERCOT_ISO"
+      },
+      "active": true
+    },
+    {
+      "id": "adam-back",
+      "name": "Dr. Adam Back",
+      "handle": "@adam3us",
+      "category": "Bitcoin",
+      "primary_topics": ["Hashcash Proof-of-Work", "Liquid Network L2", "Bitcoin Mining Satellite", "Confidential Transactions"],
+      "feeds": {
+        "social_relay": "relay:x:adam3us"
+      },
+      "active": true
+    },
+    {
+      "id": "american-hodl",
+      "name": "American HODL",
+      "handle": "@americanhodl8",
+      "category": "Bitcoin",
+      "primary_topics": ["Sovereign Balance Sheets", "Bitcoin Macro Psychology", "Monetary Debasement", "Capital Allocation"],
+      "feeds": {
+        "social_relay": "relay:x:americanhodl8"
+      },
+      "active": true
+    },
+    {
+      "id": "bitcoin-core-org",
+      "name": "Bitcoin Core Project",
+      "handle": "@bitcoincoreorg",
+      "category": "Bitcoin",
+      "primary_topics": ["Consensus Protocol Rules", "Node Network Topology", "Cryptographic Security", "Mempool Policies"],
+      "feeds": {
+        "social_relay": "relay:x:bitcoincoreorg",
+        "github": "https://github.com/bitcoin/bitcoin"
+      },
+      "active": true
+    },
+    {
+      "id": "pierre-rochard",
+      "name": "Pierre Rochard",
+      "handle": "@BitcoinPierre",
+      "category": "Bitcoin",
+      "primary_topics": ["Industrial Mining Economics", "Grid Curtailment Dynamics", "Bitcoin Corporate Treasury", "FASB Fair-Value Accounting"],
+      "feeds": {
+        "social_relay": "relay:x:BitcoinPierre"
+      },
+      "active": true
+    },
+    {
+      "id": "michael-goldstein",
+      "name": "Michael Goldstein",
+      "handle": "@bitstein",
+      "category": "Bitcoin",
+      "primary_topics": ["Austrian Monetary Economics", "Satoshi Nakamoto Institute", "Monetary History", "Hyperbitcoinization"],
+      "feeds": {
+        "social_relay": "relay:x:bitstein"
+      },
+      "active": true
+    },
+    {
+      "id": "calle-btc",
+      "name": "Calle",
+      "handle": "@callebtc",
+      "category": "Agentic Rails & Settlement",
+      "primary_topics": ["Cashu Ecash Protocol", "Chaumian Privacy Mints", "Lightning Settlement", "M2M Anonymous Payments"],
+      "feeds": {
+        "social_relay": "relay:x:callebtc",
+        "github": "https://github.com/cashubtc"
+      },
+      "active": true
+    },
+    {
+      "id": "dr-jeff-ross",
+      "name": "Dr. Jeff Ross",
+      "handle": "@FormerDrJeff",
+      "category": "Macro Plumbing & Balance Sheets",
+      "primary_topics": ["Macro Asset Allocation", "Vailshire Capital", "Monetary Liquidity Cycles", "Treasury Yield Dynamics"],
+      "feeds": {
+        "social_relay": "relay:x:FormerDrJeff"
+      },
+      "active": true
+    },
+    {
+      "id": "james-lavish",
+      "name": "James Lavish",
+      "handle": "@jameslavish",
+      "category": "Macro Plumbing & Balance Sheets",
+      "primary_topics": ["The Informationist", "Sovereign Debt Spirals", "Treasury Refunding", "Fiscal Dominance", "M2 Expansion"],
+      "feeds": {
+        "social_relay": "relay:x:jameslavish"
+      },
+      "active": true
+    },
+    {
+      "id": "jan3-com",
+      "name": "JAN3",
+      "handle": "@JAN3com",
+      "category": "Bitcoin",
+      "primary_topics": ["Nation-State Bitcoin Adoption", "Sovereign Bonds", "Geopolitical Reserve Assets", "AQUA Wallet", "Hydropower Mining"],
+      "feeds": {
+        "social_relay": "relay:x:JAN3com"
+      },
+      "active": true
+    },
+    {
+      "id": "jason-lowery",
+      "name": "Jason Lowery",
+      "handle": "@JasonPLowery",
+      "category": "Compute, Power & The Grid",
+      "primary_topics": ["Softwar Theory", "Proof-of-Work Physical Security", "National Strategic Compute", "Thermodynamic Power Projection"],
+      "feeds": {
+        "social_relay": "relay:x:JasonPLowery"
+      },
+      "active": true
+    },
+    {
+      "id": "jeff-booth",
+      "name": "Jeff Booth",
+      "handle": "@JeffBooth",
+      "category": "Autonomous Intelligence",
+      "primary_topics": ["The Price of Tomorrow", "Technological Deflation", "AI Abundance Dynamics", "ego death capital", "Sound Money Alignment"],
+      "feeds": {
+        "social_relay": "relay:x:JeffBooth"
+      },
+      "active": true
+    },
+    {
+      "id": "jimmy-song",
+      "name": "Jimmy Song",
+      "handle": "@jimmysong",
+      "category": "Bitcoin",
+      "primary_topics": ["Programming Bitcoin", "Bitcoin Developer Education", "Fiat Economics Critique", "Open-Source Sovereignty"],
+      "feeds": {
+        "social_relay": "relay:x:jimmysong"
+      },
+      "active": true
+    },
+    {
+      "id": "lawrence-lepard",
+      "name": "Lawrence Lepard",
+      "handle": "@LawrenceLepard",
+      "category": "Macro Plumbing & Balance Sheets",
+      "primary_topics": ["Currency Debasement", "Sound Money", "Sovereign Debt Default", "Gold & Bitcoin Ratio", "Fed Insolvency"],
+      "feeds": {
+        "social_relay": "relay:x:LawrenceLepard"
+      },
+      "active": true
+    },
+    {
+      "id": "lisa-hough",
+      "name": "Lisa Hough",
+      "handle": "@lisa_hough_",
+      "category": "Compute, Power & The Grid",
+      "primary_topics": ["Grid Balancing", "Stranded Natural Gas", "Energy Transition Physics", "Baseload Electricity", "Miner Grid Interconnection"],
+      "feeds": {
+        "social_relay": "relay:x:lisa_hough_"
+      },
+      "active": true
+    },
+    {
+      "id": "jameson-lopp",
+      "name": "Jameson Lopp",
+      "handle": "@lopp",
+      "category": "Bitcoin",
+      "primary_topics": ["Casa Multisig", "Self-Custody Architecture", "Node Telemetry", "Key Management", "Adversarial Stress Testing"],
+      "feeds": {
+        "social_relay": "relay:x:lopp"
+      },
+      "active": true
+    },
+    {
+      "id": "preston-pysh",
+      "name": "Preston Pysh",
+      "handle": "@PrestonPysh",
+      "category": "Macro Plumbing & Balance Sheets",
+      "primary_topics": ["Bitcoin Fundamentals Podcast", "Credit Cycles", "Corporate Treasuries", "Central Bank Liquidity", "Fed Repo Mechanics"],
+      "feeds": {
+        "social_relay": "relay:x:PrestonPysh"
+      },
+      "active": true
+    },
+    {
+      "id": "rockstar-dev",
+      "name": "Rockstar Dev",
+      "handle": "@r0ckstardev",
+      "category": "Bitcoin",
+      "primary_topics": ["BTCPay Server", "Merchant Settlement", "Non-Custodial Payments", "Open Source Rails", "Lightning Gateway"],
+      "feeds": {
+        "social_relay": "relay:x:r0ckstardev"
+      },
+      "active": true
+    },
+    {
+      "id": "tomer-strolight",
+      "name": "Tomer Strolight",
+      "handle": "@TomerStrolight",
+      "category": "Bitcoin",
+      "primary_topics": ["First-Principles Monetary Philosophy", "Why Bitcoin", "Swan Bitcoin", "Sound Money Ethics"],
+      "feeds": {
+        "social_relay": "relay:x:TomerStrolight"
+      },
+      "active": true
+    },
+    {
+      "id": "clement-delangue",
+      "name": "Clément Delangue",
+      "handle": "@ClementDelangue",
+      "category": "Autonomous Intelligence",
+      "primary_topics": ["Hugging Face", "Open Source AI", "Open Weight Models", "Local Model Distribution", "Developer AI Ecosystem"],
+      "feeds": {
+        "social_relay": "relay:x:ClementDelangue"
+      },
+      "active": true
+    },
+    {
+      "id": "jensen-huang",
+      "name": "Jensen Huang",
+      "handle": "@JensenHuang",
+      "category": "Compute, Power & The Grid",
+      "primary_topics": ["Accelerated Computing", "Blackwell GPU Clusters", "Datacenter Power Scaling", "Physical AI Infrastructure"],
+      "feeds": {
+        "social_relay": "relay:x:JensenHuang"
+      },
+      "active": true
+    },
+    {
+      "id": "palantir-tech",
+      "name": "Palantir Technologies",
+      "handle": "@Palantirtech",
+      "category": "Autonomous Intelligence",
+      "primary_topics": ["Palantir AIP", "Enterprise Ontology", "Operational AI Systems", "Defense Infrastructure", "Mission Critical Compute"],
+      "feeds": {
+        "social_relay": "relay:x:Palantirtech"
+      },
+      "active": true
+    },
+    {
+      "id": "shyam-sankar",
+      "name": "Shyam Sankar",
+      "handle": "@ssankar",
+      "category": "Autonomous Intelligence",
+      "primary_topics": ["Palantir CTO", "Operational AI", "Industrial Software Ontology", "Defense Tech", "High-Agency Systems"],
+      "feeds": {
+        "social_relay": "relay:x:ssankar"
+      },
+      "active": true
+    },
+    {
+      "id": "the-ai-agency-sv",
+      "name": "The AI Agency",
+      "handle": "@theaiagencysv",
+      "category": "Autonomous Intelligence",
+      "primary_topics": ["Autonomous Agents", "Agentic Orchestration", "Enterprise Automation", "API Agent Tooling"],
+      "feeds": {
+        "social_relay": "relay:x:theaiagencysv"
+      },
+      "active": true
+    },
+    {
+      "id": "alex-epstein",
+      "name": "Alex Epstein",
+      "handle": "@AlexEpstein",
+      "category": "Compute, Power & The Grid",
+      "primary_topics": ["Fossil Future", "Baseload Power Density", "Grid Reliability Physics", "Thermodynamics of Energy Growth", "Industrial Energy"],
+      "feeds": {
+        "social_relay": "relay:x:AlexEpstein"
+      },
+      "active": true
+    },
+    {
+      "id": "arny-trezzi",
+      "name": "Arny Trezzi",
+      "handle": "@arny_trezzi",
+      "category": "Autonomous Intelligence",
+      "primary_topics": ["Palantir Bullets", "Enterprise AI Economics", "Foundry Ontology", "AI Software Moats", "AIP Commercialization"],
+      "feeds": {
+        "social_relay": "relay:x:arny_trezzi"
+      },
+      "active": true
+    },
+    {
+      "id": "cig-smoking-mill",
+      "name": "Cigarette Smoking Millionaire",
+      "handle": "@CigSmokingMill",
+      "category": "Macro Plumbing & Balance Sheets",
+      "primary_topics": ["Macro Liquidity Flows", "Treasury Auction Dynamics", "Fed Reverse Repo Facility", "Fiscal Deficit Expansion"],
+      "feeds": {
+        "social_relay": "relay:x:CigSmokingMill"
+      },
+      "active": true
+    },
+    {
+      "id": "treasury-bonds",
+      "name": "Treasury Bonds Monitor",
+      "handle": "@TreasuryBonds1",
+      "category": "Macro Plumbing & Balance Sheets",
+      "primary_topics": ["US Treasury Auctions", "Yield Curve Inversions", "Foreign Central Bank Reserves", "Debt Maturity Wall", "Bond Market Liquidity"],
+      "feeds": {
+        "social_relay": "relay:x:TreasuryBonds1"
+      },
+      "active": true
+    }
+  ]
+}

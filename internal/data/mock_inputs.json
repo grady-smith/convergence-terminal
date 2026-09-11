@@ -1,0 +1,434 @@
+[
+  {
+    "id": "item-001",
+    "timestamp": "2026-09-10T18:30:00Z",
+    "entity": {
+      "name": "Lyn Alden",
+      "handle": "@LynAldenContact",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/LynAldenContact"
+    },
+    "source_url": "https://x.com/LynAldenContact",
+    "source_url_type": "profile",
+    "category": "Compute, Power & The Grid",
+    "raw_text": "ERCOT power auction clearing prices show rising premium for flexible baseload curtailment contracts. Data center operators are actively bidding against industrial Bitcoin miners for behind-the-meter generation assets.",
+    "velocity_hint": 8.7,
+    "sparkline": [
+      12,
+      18,
+      15,
+      34,
+      60,
+      95,
+      130
+    ]
+  },
+  {
+    "id": "item-002",
+    "timestamp": "2026-09-10T17:45:00Z",
+    "entity": {
+      "name": "Dr. Adam Back",
+      "handle": "@adam3us",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/adam3us"
+    },
+    "source_url": "https://x.com/adam3us",
+    "source_url_type": "profile",
+    "category": "Bitcoin",
+    "raw_text": "Proof-of-Work anchors digital scarcity to unforgeable physical thermodynamics. You cannot print gigawatt-hours or inflate away consensus hash difficulty. Every attempt at virtualized or permissioned consensus inevitably re-introduces trusted third parties.",
+    "velocity_hint": 9.4,
+    "sparkline": [
+      20,
+      28,
+      40,
+      68,
+      92,
+      125,
+      160
+    ]
+  },
+  {
+    "id": "item-003",
+    "timestamp": "2026-09-10T17:15:00Z",
+    "entity": {
+      "name": "Jack Mallers",
+      "handle": "@jackmallers",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/jackmallers"
+    },
+    "source_url": "https://x.com/jackmallers",
+    "source_url_type": "profile",
+    "category": "Agentic Rails & Settlement",
+    "raw_text": "Autonomous AI agents cannot hold legacy credit card merchant accounts or KYC bank logins. The only native payment rail that makes sense for agent-to-agent inference settlement at sub-cent increments is the Lightning Network.",
+    "velocity_hint": 9.2,
+    "sparkline": [
+      25,
+      30,
+      45,
+      70,
+      85,
+      110,
+      145
+    ]
+  },
+  {
+    "id": "item-004",
+    "timestamp": "2026-09-10T16:50:00Z",
+    "entity": {
+      "name": "Jameson Lopp",
+      "handle": "@lopp",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/lopp"
+    },
+    "source_url": "https://x.com/lopp",
+    "source_url_type": "profile",
+    "category": "Bitcoin",
+    "raw_text": "Global Bitcoin full node count reaches multi-year high as sovereign individuals migrate to independent block verification. Pruned nodes and compact client filters ensure validation costs remain accessible on commodity consumer hardware.",
+    "velocity_hint": 8.9,
+    "sparkline": [
+      15,
+      22,
+      35,
+      55,
+      78,
+      105,
+      135
+    ]
+  },
+  {
+    "id": "item-005",
+    "timestamp": "2026-09-10T16:00:00Z",
+    "entity": {
+      "name": "Andrej Karpathy",
+      "handle": "@karpathy",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/karpathy"
+    },
+    "source_url": "https://x.com/karpathy",
+    "source_url_type": "profile",
+    "category": "Autonomous Intelligence",
+    "raw_text": "The transition from centralized monolithic LLMs to distributed swarms of specialized local edge agents is accelerating. The bottleneck is no longer parameter count, but orchestration latency and deterministic execution environments.",
+    "velocity_hint": 7.9,
+    "sparkline": [
+      10,
+      14,
+      22,
+      38,
+      45,
+      68,
+      92
+    ]
+  },
+  {
+    "id": "item-006",
+    "timestamp": "2026-09-10T15:35:00Z",
+    "entity": {
+      "name": "Bitcoin Core Project",
+      "handle": "@bitcoincoreorg",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/bitcoincoreorg"
+    },
+    "source_url": "https://github.com/bitcoin/bitcoin/pulls",
+    "source_url_type": "post",
+    "category": "Bitcoin",
+    "raw_text": "Cluster Mempool architecture implementation milestone reached in core branch. Linearization algorithm significantly improves peer-to-peer transaction relay incentives, anti-DoS resistance, and fee-bumping predictability under heavy block congestion.",
+    "velocity_hint": 9.1,
+    "sparkline": [
+      18,
+      26,
+      38,
+      62,
+      88,
+      118,
+      152
+    ]
+  },
+  {
+    "id": "item-007",
+    "timestamp": "2026-09-10T15:20:00Z",
+    "entity": {
+      "name": "Arthur Hayes",
+      "handle": "@CryptoHayes",
+      "platform": "substack",
+      "avatar_url": "https://unavatar.io/x/CryptoHayes"
+    },
+    "source_url": "https://cryptohayes.substack.com/",
+    "source_url_type": "profile",
+    "category": "Macro Plumbing & Balance Sheets",
+    "raw_text": "US Treasury net issuance cannot be absorbed by private domestic balance sheets without ongoing indirect central bank monetization. Global M2 is entering a forced expansion phase to sustain sovereign rollover obligations.",
+    "velocity_hint": 8.5,
+    "sparkline": [
+      40,
+      42,
+      50,
+      65,
+      80,
+      105,
+      125
+    ]
+  },
+  {
+    "id": "item-008",
+    "timestamp": "2026-09-10T14:45:00Z",
+    "entity": {
+      "name": "Grid & Power Monitor",
+      "handle": "@ERCOT_ISO",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/ERCOT_ISO"
+    },
+    "source_url": "https://www.ercot.com/news/releases",
+    "source_url_type": "post",
+    "category": "Compute, Power & The Grid",
+    "raw_text": "Interconnection queue backlog for 2026-2028 shows 42GW of proposed large flexible loads. Co-located generation plants with private substations are trading at record premiums due to multi-year transmission approval delays.",
+    "velocity_hint": 8.1,
+    "sparkline": [
+      15,
+      20,
+      28,
+      40,
+      52,
+      74,
+      98
+    ]
+  },
+  {
+    "id": "item-009",
+    "timestamp": "2026-09-10T14:10:00Z",
+    "entity": {
+      "name": "Pierre Rochard",
+      "handle": "@BitcoinPierre",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/BitcoinPierre"
+    },
+    "source_url": "https://x.com/BitcoinPierre",
+    "source_url_type": "profile",
+    "category": "Bitcoin",
+    "raw_text": "Corporate treasuries adopting FASB fair-value accounting are demonstrating clear balance sheet outperformance vs cash-drag peers. Bitcoin's zero counterparty risk and instant global liquidity make it the premier reserve asset for modern capital allocators.",
+    "velocity_hint": 8.8,
+    "sparkline": [
+      22,
+      28,
+      42,
+      60,
+      84,
+      112,
+      138
+    ]
+  },
+  {
+    "id": "item-010",
+    "timestamp": "2026-09-10T13:30:00Z",
+    "entity": {
+      "name": "Lyn Alden",
+      "handle": "@LynAldenContact",
+      "platform": "newsletter",
+      "avatar_url": "https://unavatar.io/x/LynAldenContact"
+    },
+    "source_url": "https://www.lynalden.com/",
+    "source_url_type": "profile",
+    "category": "Macro Plumbing & Balance Sheets",
+    "raw_text": "Fiscal dominance means interest rate hikes expand interest expense paid to the private sector, inadvertently increasing aggregate deficit spending. Capital allocators are forced into scarce real assets and proof-of-work monetary reserves.",
+    "velocity_hint": 9.0,
+    "sparkline": [
+      30,
+      35,
+      48,
+      62,
+      85,
+      115,
+      140
+    ]
+  },
+  {
+    "id": "item-011",
+    "timestamp": "2026-09-10T12:50:00Z",
+    "entity": {
+      "name": "Rockstar Dev",
+      "handle": "@r0ckstardev",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/r0ckstardev"
+    },
+    "source_url": "https://x.com/r0ckstardev",
+    "source_url_type": "profile",
+    "category": "Bitcoin",
+    "raw_text": "BTCPay Server v2.4 roll-out introduces seamless Lightning LSP auto-channel splicing and zero-conf merchant acceptance. Self-hosted payment sovereignty removes all intermediary choke points and payment processing fees.",
+    "velocity_hint": 8.6,
+    "sparkline": [
+      14,
+      20,
+      32,
+      50,
+      72,
+      98,
+      128
+    ]
+  },
+  {
+    "id": "item-012",
+    "timestamp": "2026-09-10T12:15:00Z",
+    "entity": {
+      "name": "Lightning Labs",
+      "handle": "@lightning",
+      "platform": "github",
+      "avatar_url": "https://unavatar.io/x/lightning"
+    },
+    "source_url": "https://github.com/lightninglabs/L402",
+    "source_url_type": "post",
+    "category": "Agentic Rails & Settlement",
+    "raw_text": "Released L402 protocol specification v2.1: standardized HTTP 402 Payment Required headers enabling automated micropayments for REST and gRPC endpoints by autonomous AI agent clusters without custodial API keys.",
+    "velocity_hint": 9.5,
+    "sparkline": [
+      18,
+      25,
+      42,
+      75,
+      110,
+      150,
+      195
+    ]
+  },
+  {
+    "id": "item-013",
+    "timestamp": "2026-09-10T11:40:00Z",
+    "entity": {
+      "name": "Lisa Hough",
+      "handle": "@lisa_hough_",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/lisa_hough_"
+    },
+    "source_url": "https://x.com/lisa_hough_",
+    "source_url_type": "profile",
+    "category": "Compute, Power & The Grid",
+    "raw_text": "Energy producers deploying modular Bitcoin hashing units at stranded natural gas flaring sites are capturing 98% of wasted thermal BTU energy, turning an environmental liability into immediate high-density capital generation.",
+    "velocity_hint": 8.4,
+    "sparkline": [
+      12,
+      16,
+      26,
+      44,
+      65,
+      88,
+      116
+    ]
+  },
+  {
+    "id": "item-014",
+    "timestamp": "2026-09-10T11:00:00Z",
+    "entity": {
+      "name": "Jimmy Song",
+      "handle": "@jimmysong",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/jimmysong"
+    },
+    "source_url": "https://x.com/jimmysong",
+    "source_url_type": "profile",
+    "category": "Bitcoin",
+    "raw_text": "Fiat debt architectures rely on continual dilution and political discretion to survive math insolvency. Bitcoin is absolute mathematical truth enforced by global consensus code and cryptographic physics.",
+    "velocity_hint": 8.2,
+    "sparkline": [
+      10,
+      15,
+      24,
+      38,
+      56,
+      78,
+      102
+    ]
+  },
+  {
+    "id": "item-015",
+    "timestamp": "2026-09-10T10:20:00Z",
+    "entity": {
+      "name": "Shyam Sankar",
+      "handle": "@ssankar",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/ssankar"
+    },
+    "source_url": "https://x.com/ssankar",
+    "source_url_type": "profile",
+    "category": "Autonomous Intelligence",
+    "raw_text": "True operational autonomy requires deterministic ontology and high-agency agents deployed directly inside the perimeter. Cloud-dependent chat wrappers crumble when exposed to real-world edge friction.",
+    "velocity_hint": 8.3,
+    "sparkline": [
+      16,
+      22,
+      30,
+      46,
+      68,
+      92,
+      120
+    ]
+  },
+  {
+    "id": "item-016",
+    "timestamp": "2026-09-10T09:40:00Z",
+    "entity": {
+      "name": "James Lavish",
+      "handle": "@jameslavish",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/jameslavish"
+    },
+    "source_url": "https://x.com/jameslavish",
+    "source_url_type": "profile",
+    "category": "Macro Plumbing & Balance Sheets",
+    "raw_text": "Annualized US net interest payments have officially crossed $1.2 Trillion, overtaking the total Department of Defense budget. The feedback loop is self-reinforcing: more borrowing produces higher interest obligations, demanding even greater issuance.",
+    "velocity_hint": 8.9,
+    "sparkline": [
+      28,
+      34,
+      46,
+      64,
+      88,
+      116,
+      142
+    ]
+  },
+  {
+    "id": "item-017",
+    "timestamp": "2026-09-10T09:00:00Z",
+    "entity": {
+      "name": "JAN3",
+      "handle": "@JAN3com",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/JAN3com"
+    },
+    "source_url": "https://x.com/JAN3com",
+    "source_url_type": "profile",
+    "category": "Bitcoin",
+    "raw_text": "Emerging market sovereign treasury delegates finalize national geothermal mining infrastructure plans. Monetizing stranded volcanic base-load into unseizable reserve assets bypasses IMF structural debt traps.",
+    "velocity_hint": 8.7,
+    "sparkline": [
+      18,
+      24,
+      36,
+      52,
+      74,
+      102,
+      132
+    ]
+  },
+  {
+    "id": "item-018",
+    "timestamp": "2026-09-10T08:15:00Z",
+    "entity": {
+      "name": "Clément Delangue",
+      "handle": "@ClementDelangue",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/ClementDelangue"
+    },
+    "source_url": "https://x.com/ClementDelangue",
+    "source_url_type": "profile",
+    "category": "Autonomous Intelligence",
+    "raw_text": "Open weight model downloads have surged 400% year-over-year. Developers and enterprises are refusing closed cloud API lock-in, prioritizing sovereign locally-hosted weights that cannot be altered or shut off.",
+    "velocity_hint": 7.8,
+    "sparkline": [
+      12,
+      18,
+      26,
+      38,
+      54,
+      76,
+      96
+    ]
+  }
+]

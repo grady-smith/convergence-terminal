@@ -1,0 +1,19 @@
+{
+  "description": "Log of raw ingested feed items dropped at the ingestion layer under the Lyn Alden Standard (Rule 4: Zero Sludge).",
+  "dropped_items": [
+    {
+      "timestamp": "2026-09-09T14:10:00Z",
+      "source_handle": "@CryptoHype99",
+      "raw_text": "MASSIVE BTC BREAKOUT IMMINENT!! 🚀 $250k incoming this weekend! Don't get left behind!",
+      "drop_reason": "Speculative price prediction / engagement bait without thermodynamic or macro basis",
+      "rule_violated": "Rule 4 (Zero Sludge) & Rule 2 (Macro Plumbing over price guessing)"
+    },
+    {
+      "timestamp": "2026-09-09T12:05:00Z",
+      "source_handle": "@TechDramaNews",
+      "raw_text": "VC founder calls rival AI startup CEO a fraud in savage late-night tweet thread.",
+      "drop_reason": "Personality feud and emotional rage-bait with zero architectural or engineering substance",
+      "rule_violated": "Rule 4 (Zero Sludge)"
+    }
+  ]
+}
