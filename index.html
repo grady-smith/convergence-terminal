@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ConvergenceTerminal | High-Signal Intelligence</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              base: '#0b0f17',
+              card: '#131924',
+              hover: '#17202f',
+              border: '#21293a',
+              amber: '#f59e0b',
+              cyan: '#38bdf8',
+              purple: '#a855f7',
+              emerald: '#10b981',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Google Fonts: preconnect for early DNS+TLS, then parallel non-blocking load -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-[#0b0f17] text-slate-100 min-h-screen flex flex-col antialiased selection:bg-amber-500/30 selection:text-amber-200">
+
+  <!-- Top Navigation / Status Header -->
+  <header class="border-b border-[#21293a] bg-[#0b0f17]/90 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex items-center justify-between gap-4 flex-wrap sm:flex-nowrap">
+      
+      <!-- Brand & Mission -->
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 font-mono font-black text-lg glow-amber">
+          ⚡
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <h1 class="font-mono font-bold text-base sm:text-lg tracking-wider text-slate-100 uppercase">
+              Convergence<span class="text-amber-400">Terminal</span>
+            </h1>
+            <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-emerald-950/60 text-emerald-400 border border-emerald-500/40 uppercase tracking-widest flex items-center gap-1">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 pulse-active"></span>
+              Live Feed
+            </span>
+          </div>
+          <p class="text-[11px] font-mono text-slate-400">
+            Bitcoin • Thermodynamics • Energy Grids • Agentic Settlement
+          </p>
+        </div>
+      </div>
+
+      <!-- Engine Status & Sludge Filter Transparency Chip -->
+      <div class="flex items-center gap-3 font-mono text-xs text-slate-400 flex-wrap">
+        <div class="flex items-center gap-1.5 bg-[#131924] px-2.5 py-1 rounded border border-[#21293a] text-slate-300">
+          <span class="text-amber-400">🛡️ SLUDGE DROPPED:</span>
+          <span id="stat-sludge-dropped" class="text-amber-300 font-bold">142</span>
+        </div>
+        <div class="hidden md:flex items-center gap-2 bg-[#131924] px-3 py-1.5 rounded border border-[#21293a]">
+          <span class="text-slate-400">ENGINE:</span>
+          <span class="text-amber-400 font-semibold">Convergence Engine v1.1</span>
+        </div>
+        <div class="flex items-center gap-2 bg-[#131924] px-3 py-1.5 rounded border border-[#21293a]">
+          <span class="text-slate-400">SYNC:</span>
+          <span id="last-updated-time" class="text-emerald-400 font-bold">--:--:--</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Soft Polling Update Toast (Hidden by default) -->
+    <div id="new-signals-toast" class="hidden bg-amber-500 text-slate-950 px-4 py-2 text-xs font-mono font-bold items-center justify-between shadow-lg cursor-pointer transition-all hover:bg-amber-400" onclick="reloadFreshSignals()">
+      <div class="flex items-center gap-2 max-w-7xl mx-auto w-full justify-center">
+        <span class="w-2 h-2 rounded-full bg-slate-950 animate-ping"></span>
+        <span>⚡ Fresh intelligence synthesized! Click here to update your terminal view.</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-1 w-full space-y-6">
+    
+    <!-- Executive Mission & Stats Bar -->
+    <section class="grid grid-cols-2 lg:grid-cols-4 gap-3.5">
+      <!-- Total Signals -->
+      <div class="terminal-card rounded-xl p-4 flex flex-col justify-between">
+        <div class="flex items-center justify-between text-xs font-mono text-slate-400">
+          <span>HIGH-SIGNAL FEED</span>
+          <span class="text-amber-400 font-bold">●</span>
+        </div>
+        <div class="mt-2 flex items-baseline gap-2">
+          <span id="stat-total-signals" class="text-2xl sm:text-3xl font-mono font-black text-slate-100">--</span>
+          <span class="text-xs text-slate-400">curated items</span>
+        </div>
+        <p class="text-[11px] text-slate-400 mt-1 font-mono">Zero rage-bait, zero noise</p>
+      </div>
+
+      <!-- Urgent Macro Shifts -->
+      <div class="terminal-card rounded-xl p-4 flex flex-col justify-between border-rose-900/30">
+        <div class="flex items-center justify-between text-xs font-mono text-rose-400">
+          <span>CRITICAL SHIFTS</span>
+          <span class="w-2 h-2 rounded-full bg-rose-500 animate-ping"></span>
+        </div>
+        <div class="mt-2 flex items-baseline gap-2">
+          <span id="stat-urgent-shifts" class="text-2xl sm:text-3xl font-mono font-black text-rose-400">--</span>
+          <span class="text-xs text-slate-400">urgent alerts</span>
+        </div>
+        <p class="text-[11px] text-rose-400/80 mt-1 font-mono">Thermodynamic & debt shifts</p>
+      </div>
+
+      <!-- Average Velocity -->
+      <div class="terminal-card rounded-xl p-4 flex flex-col justify-between">
+        <div class="flex items-center justify-between text-xs font-mono text-cyan-400">
+          <span>VELOCITY INDEX</span>
+          <span class="text-cyan-400 font-bold">⚡</span>
+        </div>
+        <div class="mt-2 flex items-baseline gap-2">
+          <span id="stat-avg-velocity" class="text-2xl sm:text-3xl font-mono font-black text-cyan-400">--</span>
+          <span class="text-xs text-slate-400">/ 10.0 momentum</span>
+        </div>
+        <p class="text-[11px] text-slate-400 mt-1 font-mono">7-day network momentum</p>
+      </div>
+
+      <!-- Monitored Entities Metric -->
+      <div class="terminal-card rounded-xl p-4 flex flex-col justify-between border-emerald-900/30">
+        <div class="flex items-center justify-between text-xs font-mono text-emerald-400">
+          <span>ENTITIES TRACKED</span>
+          <span class="text-emerald-400 font-bold">📡</span>
+        </div>
+        <div class="mt-2 flex items-baseline gap-2">
+          <span id="stat-tracked-entities" class="text-2xl sm:text-3xl font-mono font-black text-emerald-400">--</span>
+          <span class="text-xs text-slate-400">VIP sources</span>
+        </div>
+        <p id="stat-tracked-entities-sub" class="text-[11px] text-emerald-400/80 mt-1 font-mono">VIP Thinkers across Bitcoin, Grid, AI & Macro</p>
+      </div>
+    </section>
+
+    <!-- Filters & Search Toolbar -->
+    <section class="space-y-3 bg-[#131924]/60 p-4 rounded-xl border border-[#21293a]">
+      <div class="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3">
+        
+        <!-- Search Input -->
+        <div class="relative flex-1">
+          <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+            </svg>
+          </div>
+          <input 
+            id="search-input" 
+            type="text" 
+            placeholder="Search signals by thinker, keyword, Convergence Lens, or cross-reference..." 
+            class="w-full pl-9 pr-4 py-2 bg-[#0b0f17] border border-[#21293a] rounded-lg text-xs sm:text-sm font-mono text-slate-200 placeholder-slate-400 focus:outline-none focus:border-amber-500 transition-colors"
+          />
+        </div>
+
+        <!-- Urgent Quick Toggle -->
+        <button 
+          id="btn-urgent-toggle"
+          class="px-3 py-2 bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white rounded-lg text-xs font-mono font-medium border border-slate-700/60 transition-colors flex items-center justify-center gap-2"
+        >
+          <span class="w-2 h-2 rounded-full bg-rose-500"></span>
+          <span>Only Urgent Shifts</span>
+        </button>
+      </div>
+
+      <!-- Category Filter Pills & Shortcuts -->
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pt-2 border-t border-[#21293a]/80">
+        <div class="flex items-center gap-2 flex-wrap" id="category-filters">
+          <!-- Rendered dynamically by app.js -->
+        </div>
+        <div class="hidden lg:flex items-center gap-1.5 text-[11px] font-mono text-slate-400">
+          <span class="text-slate-400">SHORTCUTS:</span>
+          <kbd class="px-1.5 py-0.5 bg-slate-800 rounded border border-slate-700 text-slate-300 text-[10px]">/</kbd>
+          <span>Search</span>
+          <kbd class="px-1.5 py-0.5 bg-slate-800 rounded border border-slate-700 text-slate-300 text-[10px]">1-6</kbd>
+          <span>Filter</span>
+          <kbd class="px-1.5 py-0.5 bg-slate-800 rounded border border-slate-700 text-slate-300 text-[10px]">U</kbd>
+          <span>Urgent</span>
+          <kbd class="px-1.5 py-0.5 bg-slate-800 rounded border border-slate-700 text-slate-300 text-[10px]">Esc</kbd>
+          <span>Reset</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Signal Count Header -->
+    <div class="flex items-center justify-between text-xs font-mono text-slate-400 px-1">
+      <span id="filtered-count">Loading signals...</span>
+      <span>Sorted by: <strong class="text-slate-300">Velocity (Desc)</strong></span>
+    </div>
+
+    <!-- Feed Container -->
+    <section id="signals-container" class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+      <!-- Signal cards rendered dynamically by app.js -->
+    </section>
+
+  </main>
+
+  <!-- Terminal Footer -->
+  <footer class="border-t border-[#21293a] bg-[#0b0f17] py-8 text-slate-400 text-xs font-mono">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4 border-b border-slate-800/80 pb-4">
+        <div class="flex items-center gap-2">
+          <span class="text-amber-400 font-bold">⚡ ConvergenceTerminal</span>
+          <span>• High-Density Signal Engine</span>
+        </div>
+        <div class="text-slate-400 text-center sm:text-right">
+          Built on <strong>First-Principles Convergence</strong>: Thermodynamics • Macro Liquidity • Network Physics
+        </div>
+      </div>
+      <div class="flex flex-wrap items-center justify-between gap-2 text-[11px] text-slate-400">
+        <div>
+          <span>ConvergenceTerminal Public Edition • Zero Advertising • No Algorithmic Feed</span>
+        </div>
+        <div>
+          <span>Continuous High-Density Intelligence • Powered by Convergence Synthesis</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- App Script -->
+  <script src="app.js"></script>
+</body>
+</html>
