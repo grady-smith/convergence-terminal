@@ -40,5 +40,5 @@ jobs:
           git config --global user.name "ConvergenceTerminal Bot"
           git config --global user.email "bot@convergenceterminal.internal"
           git add public/data.json internal/db/terminal.db internal/data/archive/
-          git commit -m "chore(feed): automated intelligence update [skip ci]"
+          git commit -m "chore(feed): automated intelligence update"
           git push
