@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 ConvergenceTerminal Database Controller (SQLite)
-Rex (Employee #5) - Data Pipeline Specialist
 Zero-cost, fast local storage for raw items, sludge quarantine, and signal export.
 """
 

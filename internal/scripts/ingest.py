@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 ConvergenceTerminal - Active RSS & Feed Ingestion Engine
-Rex (Employee #5) - Data & Ingestion Specialist
 Fetches real-time feeds from configured RSS/Atom anchors, parses clean summaries,
 resolves canonical source URLs, and stages records in internal/data/raw_feeds.json.
 """
@@ -370,7 +369,7 @@ def harvest_twitter_relay(watchlist, api_key, max_accounts=8):
 def main():
     print("==================================================")
     print("⚡ ConvergenceTerminal: Active Ingest Pipeline")
-    print("   Data Specialist: Rex (Employee #5)")
+    print("   Module: Active Ingestion Engine")
     print("==================================================")
 
     # 1. Check Developer Relay API Key

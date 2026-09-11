@@ -1,14 +1,13 @@
-# 📥 CEO's Crypto Twitter VIP Watchlist Intake
+# 📥 Crypto Twitter VIP Watchlist Intake
 
-**Boss**: When you log on tomorrow, simply paste or type your favorite "Crypto Twitter" thinkers, analysts, founders, or traders below. 
-
-You can just write handles (e.g. `@cobie`, `@danheld`, `@TuurDemeester`) or add any specific notes. Arron and Rex will parse and wire them directly into our ingestion pipeline!
+When you log on tomorrow, simply paste or type your favorite "Crypto Twitter" thinkers, analysts, founders, or traders below. 
+ 
+ You can just write handles (e.g. `@cobie`, `@danheld`, `@TuurDemeester`) or add any specific notes. The ingestion pipeline will stage these accounts!
 
 ---
 
 ## ✍️ Paste Your Handles Below:
 
-<!-- Feel free to list as many or as few as you like! -->
 
 1. `@adam3us` - **Dr. Adam Back** (Blockstream CEO, Hashcash inventor, Proof-of-Work pioneer, Liquid L2)
 2. `@americanhodl8` - **American HODL** (Bitcoin cultural voice, sovereign balance sheet strategy, monetary debasement)
@@ -48,4 +47,4 @@ You can just write handles (e.g. `@cobie`, `@danheld`, `@TuurDemeester`) or add 
 - `@ERCOT_ISO` (Baseload Power, Grid Interconnection, Datacenter Curtailment)
 
 ---
-*Once updated, Rex will ingest these and Sam will calculate the exact daily sub-cent cost!*
+*Once updated, the ingestion pipeline will stage these accounts and the ledger will track the cost!*

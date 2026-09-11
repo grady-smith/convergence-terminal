@@ -1,14 +1,12 @@
-# 📊 Sam's Financial Research: X (Twitter) Data Ingestion Options
+# 📊 Financial Research: X (Twitter) Data Ingestion Options
 
-**Prepared for**: Boss / CEO (Employee #0)  
-**Prepared by**: Sam (Lead Bookkeeper — Employee #3)  
-**Objective**: Find the highest-ROI, lowest-cost method to track the Boss's favorite Crypto Twitter thinkers without breaking the personal pocket budget.
+**Objective**: Find the highest-ROI, lowest-cost method to track Crypto Twitter thinkers without breaking the personal pocket budget.
 
 ---
 
 ## 🔍 The Landscape: 4 Viable Approaches
 
-| Approach | Monthly Cost | Rate / Limit | Pros | Cons | Sam's Recommendation |
+| Approach | Monthly Cost | Rate / Limit | Pros | Cons | Recommendation |
 |---|---|---|---|---|---|
 | **1. Official X API (Basic Tier)** | **$100.00 / mo** | ~10,000 read posts/month | Official compliance, uptime guarantees. | Insane price per read ($0.01/tweet). 10k limit is quickly exhausted by 10-15 active accounts. | ❌ **REJECT**: Terrible ROI for personal pocket. |
 | **2. Developer Relays (TwitterAPI.io / SocialData)** | **$9.00 – $15.00 / mo** *(Pay-As-You-Go)* | ~$0.15 – $0.20 per 1,000 tweets retrieved | Real-time user timeline fetching, sub-cent pay-as-you-go, no monthly lock-in. | Third-party proxy, requires prepaid API balance ($10 deposit). | ⭐️ **TOP RECOMMENDATION**: Maximum bang for your buck. |
@@ -30,7 +28,7 @@
 
 ---
 
-## 🛡️ Sam's Wallet-Protection Safeguards
+## 🛡️ Wallet-Protection Safeguards
 1. **Prepaid Hard Cap**: Load exactly $10 into the relay account. It will automatically halt if the balance hits $0 (zero surprise overdrafts).
 2. **Deduplication Filter**: Cache tweet IDs locally so we never pay to fetch the same tweet twice.
 3. **Smart Polling Schedule**: Poll active thinkers during peak market hours and sleep during quiet market hours.

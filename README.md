@@ -20,7 +20,7 @@ ConvergenceTerminal replaces the noise, algorithmic rage-bait, and dopamine trap
 
 ```
 convergence-terminal/
-├── COMPANY_ROSTER.md            # Official company directory and agent roles
+├── ARCHITECTURE.md              # Architecture documentation
 ├── requirements.txt             # Python deps (currently stdlib-only; see file for future additions)
 ├── .github/
 │   └── workflows/
@@ -44,7 +44,7 @@ convergence-terminal/
 │   ├── db/
 │   │   ├── schema.sql           # SQLite schema (entities, raw_posts, sludge_log, signals)
 │   │   └── terminal.db          # Live SQLite database (git-ignored in production)
-│   ├── ledger/                  # Sam's cost tracking
+│   ├── ledger/                  # Cost & budget ledger
 │   └── scripts/                 # ← Canonical pipeline — all logic lives here
 │       ├── ingest.py            # Stage 1: RSS + Twitter relay ingestion → SQLite
 │       ├── pipeline.py          # Stage 2: Sludge filter + topic synthesis engine
@@ -120,16 +120,3 @@ ingest.py  ──────────► pipeline.py
                       public/index.html + app.js
                         (Static terminal UI)
 ```
-
----
-
-## 👥 Company Directory
-- **#0 Boss / CEO**: Vision & Strategic Directives
-- **#1 Linda**: Head of People Operations & HR (`linda`)
-- **#2 Arron**: General Manager & Operations Lead (`arron`)
-- **#3 Sam**: Lead Bookkeeper & Financial Controller (`sam`)
-- **#4 Elena**: Frontend UI Specialist (`elena`)
-- **#5 Rex**: Data & Pipeline Specialist (`rex`)
-- **#6 Dr. Clara Vance**: Chief Intelligence Officer (`clara`)
-- **#7 Marcus Vance**: Site Reliability & DevOps Lead (`marcus`)
-- **#8 Maya Lin**: Systems QA & Verification Lead (`maya`)

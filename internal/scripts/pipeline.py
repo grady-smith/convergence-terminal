@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 ConvergenceTerminal Two-Stage Ingestion & Curation Pipeline
-Rex (Employee #5) - Data Pipeline Specialist
 
 Stage 1: Sludge Filter (Fast Bouncer) -> Rejects noise, rage-bait, price predictions
 Stage 2: Alden Engine (Synthesis) -> Contextualizes physical, monetary & settlement signals
@@ -47,7 +46,7 @@ def evaluate_sludge(text):
 # STAGE 2: THE ALDEN ENGINE SYNTHESIS
 # ==========================================
 
-# Fine-grained topic synthesis matrix operated by Dr. Clara Vance (Employee #6)
+# Fine-grained topic synthesis matrix
 TOPIC_SYNTHESIZERS = [
     (
         r"(hashcash|proof-of-work|pow\b|mining|hashrate|thermodynamic|energy-backed)",

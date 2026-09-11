@@ -5,13 +5,15 @@ on:
     branches:
       - master
   schedule:
-    # Runs 3 times a day (06:00, 14:00, 22:00 UTC)
-    - cron: '0 6,14,22 * * *'
+    # Runs 3 times a day (12:00, 18:00, 00:00 UTC -> 08:00, 14:00, 20:00 ET)
+    - cron: '0 0,12,18 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:
   ingest-and-synthesize:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -38,5 +40,5 @@ jobs:
           git config --global user.name "ConvergenceTerminal Bot"
           git config --global user.email "bot@convergenceterminal.internal"
           git add public/data.json internal/db/terminal.db internal/data/archive/
-          git commit -m "chore(feed): automated intelligence update [skip ci]" || echo "No changes to commit"
+          git commit -m "chore(feed): automated intelligence update [skip ci]"
           git push

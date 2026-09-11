@@ -38,6 +38,5 @@
       "api_key_status": "provisioned_active",
       "api_key_storage": "local .env (git-ignored, zero raw secrets in version control)"
     }
-  },
-  "ledger_maintained_by": "Sam (Bookkeeper #3)"
+  }
 }

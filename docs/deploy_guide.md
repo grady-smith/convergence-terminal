@@ -1,6 +1,5 @@
 # 🌐 ConvergenceTerminal: Zero-Cost Deployment Guide
 
-**Prepared by**: Arron (GM #2) & Sam (Bookkeeper #3)  
 **Total Monthly Hosting Cost**: **$0.00**
 
 ---

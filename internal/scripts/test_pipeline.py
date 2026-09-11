@@ -18,8 +18,33 @@ import ingest
 
 class TestConvergencePipeline(unittest.TestCase):
 
+    @classmethod
+    def setUpClass(cls):
+        # Override database and export paths to be isolated and ephemeral
+        cls.test_db_path = os.path.join(db.BASE_DIR, "internal", "db", "terminal_test.db")
+        cls.test_public_data_path = os.path.join(db.BASE_DIR, "public", "test_data.json")
+        db.DB_PATH = cls.test_db_path
+        db.PUBLIC_DATA_PATH = cls.test_public_data_path
+
     def setUp(self):
+        # Ensure fresh state before each test
+        if os.path.exists(db.DB_PATH):
+            os.remove(db.DB_PATH)
+        if os.path.exists(db.PUBLIC_DATA_PATH):
+            os.remove(db.PUBLIC_DATA_PATH)
         db.init_db()
+
+    def tearDown(self):
+        if os.path.exists(db.DB_PATH):
+            try:
+                os.remove(db.DB_PATH)
+            except Exception:
+                pass
+        if os.path.exists(db.PUBLIC_DATA_PATH):
+            try:
+                os.remove(db.PUBLIC_DATA_PATH)
+            except Exception:
+                pass
 
     def test_database_and_deduplication(self):
         """Verify that identical posts produce identical hashes and deduplicate cleanly."""
@@ -243,7 +268,7 @@ class TestConvergencePipeline(unittest.TestCase):
         self.assertEqual(len(record["sparkline"]), 7)
 
     def test_fine_grained_topic_synthesis(self):
-        """Verify that Dr. Clara's synthesis classifies diverse domains and enriches First-Principles lenses."""
+        """Verify that the synthesis engine classifies diverse domains and enriches First-Principles lenses."""
         samples = [
             ("Proof-of-work hashrate binds digital scarcity to real megawatts.", "Bitcoin", "Proof-of-Work"),
             ("Autonomous agent clusters use HTTP 402 and Lightning for inference.", "Agentic Rails & Settlement", "Autonomous Agent"),
@@ -259,6 +284,13 @@ class TestConvergencePipeline(unittest.TestCase):
 
     def test_tracked_entities_count_meets_vip_standard(self):
         """Verify that public/data.json tracks entities accurately based on DB counts."""
+        db.upsert_entity({
+            "id": "test-entity-vip",
+            "handle": "@vip_test",
+            "name": "VIP Test Entity",
+            "category": "Bitcoin",
+            "active": True
+        })
         db.export_public_data(limit=50)
         with open(db.PUBLIC_DATA_PATH, "r", encoding="utf-8") as f:
             data = json.load(f)
