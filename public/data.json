@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-11T22:29:55+00:00",
+  "generated_at": "2026-09-11T22:30:35.393117+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 36,
   "total_signals": 24,
-  "sludge_filtered_count": 4,
+  "sludge_filtered_count": 8,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -297,7 +297,7 @@
       "source_url": "https://twitter.com/LynAldenContact/status/2098077343549890967",
       "source_url_type": "post",
       "category": "Uncategorized",
-      "raw_summary": "The Grand Egyptian Museum 🔥",
+      "raw_summary": "The Grand Egyptian Museum \ud83d\udd25",
       "elevated_intelligence": {
         "signal_headline": "Signal Awaiting Classification",
         "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
@@ -799,7 +799,7 @@
       "id": "sig_cf3f6458112cc846",
       "timestamp": "2026-09-10T08:15:00Z",
       "entity": {
-        "name": "Clément Delangue",
+        "name": "Cl\u00e9ment Delangue",
         "handle": "@ClementDelangue",
         "platform": "x",
         "avatar_url": "https://unavatar.io/x/ClementDelangue"
