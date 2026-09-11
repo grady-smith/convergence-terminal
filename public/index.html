@@ -64,19 +64,18 @@
         </div>
       </div>
 
-      <!-- Engine Status & Sludge Filter Transparency Chip -->
+      <!-- Sync Status & Sludge Filter Transparency Chip -->
       <div class="flex items-center gap-3 font-mono text-xs text-slate-400 flex-wrap">
         <div class="flex items-center gap-1.5 bg-[#131924] px-2.5 py-1 rounded border border-[#21293a] text-slate-300">
           <span class="text-amber-400">🛡️ SLUDGE DROPPED:</span>
           <span id="stat-sludge-dropped" class="text-amber-300 font-bold">142</span>
         </div>
-        <div class="hidden md:flex items-center gap-2 bg-[#131924] px-3 py-1.5 rounded border border-[#21293a]">
-          <span class="text-slate-400">ENGINE:</span>
-          <span class="text-amber-400 font-semibold">Convergence Engine v1.1</span>
-        </div>
         <div class="flex items-center gap-2 bg-[#131924] px-3 py-1.5 rounded border border-[#21293a]">
-          <span class="text-slate-400">SYNC:</span>
-          <span id="last-updated-time" class="text-emerald-400 font-bold">--:--:--</span>
+          <span class="text-slate-400">LAST SYNC:</span>
+          <span id="last-updated-time" class="text-emerald-400 font-bold">--:--</span>
+          <div id="sync-schedule-indicators" class="flex items-center gap-1.5 ml-1 border-l border-slate-700/50 pl-2">
+            <!-- Sync times injected via JS -->
+          </div>
         </div>
       </div>
     </div>
