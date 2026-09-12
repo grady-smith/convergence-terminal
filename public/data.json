@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-12T14:51:02.222840+00:00",
+  "generated_at": "2026-09-12T20:02:56.682754+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 36,
   "total_signals": 34,
-  "sludge_filtered_count": 16,
+  "sludge_filtered_count": 20,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -354,6 +354,40 @@
       }
     },
     {
+      "id": "sig_e08fb1a3b49ea83a",
+      "timestamp": "2026-09-10T13:30:00Z",
+      "entity": {
+        "name": "Lyn Alden",
+        "handle": "@LynAldenContact",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+      },
+      "source_url": "https://www.lynalden.com/",
+      "source_url_type": "profile",
+      "category": "Bitcoin",
+      "raw_summary": "Fiscal dominance means interest rate hikes expand interest expense paid to the private sector, inadvertently increasing aggregate deficit spending. Capital allocators are forced into scarce real assets and proof-of-work monetary reserves.",
+      "elevated_intelligence": {
+        "signal_headline": "Proof-of-Work Thermodynamically Anchors Digital Scarcity to Unforgeable Physics",
+        "convergence_lens": "Consensus difficulty mathematically binds monetary credibility to real-world energy expenditure, eliminating political dilution and arbitrary debasement.",
+        "alden_lens": "Consensus difficulty mathematically binds monetary credibility to real-world energy expenditure, eliminating political dilution and arbitrary debasement.",
+        "cross_reference": "Builds upon Hashcash proof-of-work principles and Szabo's unforgeable costliness axioms.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.0,
+        "momentum_label": "+360% 6h spike",
+        "sparkline_points": [
+          30,
+          35,
+          48,
+          62,
+          85,
+          115,
+          140
+        ]
+      }
+    },
+    {
       "id": "sig_cfaf242b6d3c4364",
       "timestamp": "Sat, 20 Jul 2024 19:48:33 +0000",
       "entity": {
@@ -690,40 +724,6 @@
           80,
           115,
           145
-        ]
-      }
-    },
-    {
-      "id": "sig_e08fb1a3b49ea83a",
-      "timestamp": "2026-09-10T13:30:00Z",
-      "entity": {
-        "name": "Lyn Alden",
-        "handle": "@LynAldenContact",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/LynAldenContact"
-      },
-      "source_url": "https://www.lynalden.com/",
-      "source_url_type": "profile",
-      "category": "Bitcoin",
-      "raw_summary": "Fiscal dominance means interest rate hikes expand interest expense paid to the private sector, inadvertently increasing aggregate deficit spending. Capital allocators are forced into scarce real assets and proof-of-work monetary reserves.",
-      "elevated_intelligence": {
-        "signal_headline": "Proof-of-Work Thermodynamically Anchors Digital Scarcity to Unforgeable Physics",
-        "convergence_lens": "Consensus difficulty mathematically binds monetary credibility to real-world energy expenditure, eliminating political dilution and arbitrary debasement.",
-        "alden_lens": "Consensus difficulty mathematically binds monetary credibility to real-world energy expenditure, eliminating political dilution and arbitrary debasement.",
-        "cross_reference": "Builds upon Hashcash proof-of-work principles and Szabo's unforgeable costliness axioms.",
-        "is_urgent_shift": true
-      },
-      "metrics": {
-        "velocity_score": 9.0,
-        "momentum_label": "+360% 6h spike",
-        "sparkline_points": [
-          30,
-          35,
-          48,
-          62,
-          85,
-          115,
-          140
         ]
       }
     },
