@@ -117,6 +117,16 @@ def classify_source_url(url):
     if re.search(r"substack\.com/p/[^/?#]+", url, re.IGNORECASE):
         return "post"
 
+    # Lyn Alden research article slugs (e.g. lynalden.com/article-title/)
+    if "lynalden.com" in url.lower():
+        try:
+            from urllib.parse import urlparse
+            parts = [p for p in urlparse(url).path.split("/") if p]
+            if parts and parts[0] not in ("feed", "about", "contact"):
+                return "post"
+        except Exception:
+            pass
+
     # Generic heuristic: URL has >= 3 non-empty path segments (e.g. /blog/2026/article-title)
     # but exclude known profile/index anchors like /news/releases or /feed/
     try:
@@ -225,6 +235,7 @@ def upsert_entity(entity_dict):
             ON CONFLICT(handle) DO UPDATE SET
                 name=excluded.name,
                 category=excluded.category,
+                platform=excluded.platform,
                 avatar_url=excluded.avatar_url,
                 feed_url=excluded.feed_url,
                 active=excluded.active
@@ -323,7 +334,7 @@ def export_public_data(limit=50):
             FROM synthesized_signals s
             JOIN raw_posts r ON s.raw_post_id = r.id
             LEFT JOIN entities e ON (s.entity_id = e.id OR lower(e.handle) = lower('@' || s.entity_id) OR lower(e.handle) = lower(s.entity_id))
-            ORDER BY s.velocity_score DESC, s.published_at DESC
+            ORDER BY s.velocity_score DESC, r.timestamp DESC, s.published_at DESC
             LIMIT ?
         """, (limit,))
 

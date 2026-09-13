@@ -127,7 +127,7 @@ async function loadSignals(isBackgroundPoll = false) {
       container.innerHTML = `
         <div class="p-8 text-center terminal-card rounded-lg border border-rose-500/30 text-rose-300">
           <p class="font-mono text-lg font-bold">⚠️ Intelligence feed unavailable</p>
-          <p class="text-sm text-slate-400 mt-2">Run <code>python3 internal/scripts/synthesize.py</code> to generate <code>public/data.json</code>.</p>
+          <p class="text-sm text-slate-400 mt-2">Run <code>python3 internal/scripts/ingest.py</code> to generate <code>public/data.json</code>.</p>
         </div>
       `;
     }
@@ -351,7 +351,7 @@ function renderCard(item, style) {
   `;
 
   return `
-    <article class="terminal-card rounded-xl p-5 border-l-4 ${style.accentBorder} flex flex-col justify-between gap-4">
+    <article class="terminal-card rounded-xl p-5 border-l-4 ${style.accentBorder} flex flex-col justify-between gap-4 col-span-full max-w-4xl mx-auto w-full">
       <!-- Card Top Bar -->
       <div class="flex items-start justify-between gap-3 flex-wrap sm:flex-nowrap">
         <div class="flex items-center gap-3">
@@ -455,11 +455,13 @@ function renderSignals() {
 
   filtered.sort((a, b) => (b.metrics?.velocity_score || 0) - (a.metrics?.velocity_score || 0));
 
+  const displaySignals = filtered.slice(0, 1);
+
   if (countDisplay) {
-    countDisplay.textContent = `Showing ${filtered.length} of ${allSignals.length} verified signals`;
+    countDisplay.textContent = `Showing 1 live signal from primary feed (Lyn Alden Newsletter)`;
   }
 
-  if (filtered.length === 0) {
+  if (displaySignals.length === 0) {
     container.innerHTML = `
       <div class="col-span-full py-16 text-center terminal-card rounded-xl border border-slate-800 p-8">
         <p class="font-mono text-base text-slate-400">No signals match the active filters or search query.</p>
@@ -479,7 +481,7 @@ function renderSignals() {
     sparkColor: '#f59e0b'
   };
 
-  container.innerHTML = filtered
+  container.innerHTML = displaySignals
     .map(item => renderCard(item, CATEGORY_STYLES[item.category] || defaultStyle))
     .join('');
 }

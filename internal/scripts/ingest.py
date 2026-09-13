@@ -12,6 +12,7 @@ import re
 import urllib.request
 import urllib.error
 import xml.etree.ElementTree as ET
+import email.utils
 from datetime import datetime, timezone
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -52,26 +53,6 @@ RSS_FEEDS = [
         "platform": "newsletter",
         "avatar_url": "https://unavatar.io/x/LynAldenContact",
         "velocity_hint": 9.0
-    },
-    {
-        "name": "Arthur Hayes Substack",
-        "url": "https://cryptohayes.substack.com/feed",
-        "entity_name": "Arthur Hayes",
-        "handle": "@CryptoHayes",
-        "category": "Macro Plumbing & Balance Sheets",
-        "platform": "substack",
-        "avatar_url": "https://unavatar.io/x/CryptoHayes",
-        "velocity_hint": 8.7
-    },
-    {
-        "name": "Lightning Labs Releases",
-        "url": "https://github.com/lightninglabs/lightning-terminal/releases.atom",
-        "entity_name": "Lightning Labs",
-        "handle": "@lightning",
-        "category": "Agentic Rails & Settlement",
-        "platform": "github",
-        "avatar_url": "https://unavatar.io/x/lightning",
-        "velocity_hint": 9.5
     }
 ]
 
@@ -135,12 +116,20 @@ def parse_xml_feed(xml_content, feed_config):
                 if len(raw_text) > 400:
                     raw_text = raw_text[:397] + "..."
 
+                iso_pub_date = None
+                if pub_date:
+                    try:
+                        parsed_dt = email.utils.parsedate_to_datetime(pub_date)
+                        iso_pub_date = parsed_dt.astimezone(timezone.utc).isoformat()
+                    except Exception:
+                        iso_pub_date = pub_date
+
                 if title or desc:
                     items.append({
                         "title": title,
                         "link": link,
                         "raw_text": raw_text,
-                        "timestamp": pub_date or datetime.now(timezone.utc).isoformat()
+                        "timestamp": iso_pub_date or datetime.now(timezone.utc).isoformat()
                     })
     else:
         # Atom feed
@@ -396,16 +385,6 @@ def main():
         live_tweets = harvest_twitter_relay(watchlist, api_key, max_accounts=8)
         all_staged.extend(live_tweets)
 
-    # C) Anchor Baseline: Ensure all 32 entities maintain high-signal representation
-    baseline_path = os.path.join(BASE_DIR, "internal", "data", "mock_inputs.json")
-    if os.path.exists(baseline_path):
-        with open(baseline_path, "r", encoding="utf-8") as f:
-            baseline_items = json.load(f)
-        staged_handles = {item.get("entity", {}).get("handle", "").lower() for item in all_staged}
-        for b_item in baseline_items:
-            b_handle = b_item.get("entity", {}).get("handle", "").lower()
-            if b_handle not in staged_handles:
-                all_staged.append(b_item)
 
     # 4. Save Staged Feeds
     raw_feeds_path = os.path.join(BASE_DIR, "internal", "data", "raw_feeds.json")

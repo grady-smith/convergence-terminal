@@ -217,7 +217,7 @@ def synthesize_signal(post_id, entity_id, raw_text, source_url, timestamp, veloc
         "published_at": datetime.now(timezone.utc).isoformat()
     }
 
-def run_pipeline(mock_inputs_path=None):
+def run_pipeline(raw_inputs_path=None):
     print("==================================================")
     print("⚡ ConvergenceTerminal: Ingestion & Synthesis Engine")
     print("   Filter Standard: The Lyn Alden Standard")
@@ -233,10 +233,15 @@ def run_pipeline(mock_inputs_path=None):
                 db.upsert_entity(ent)
         print(f"👥 Synced VIP entities into SQLite database.")
 
-    if not mock_inputs_path:
-        mock_inputs_path = os.path.join(os.path.dirname(SCRIPT_DIR), "data", "mock_inputs.json")
+    if not raw_inputs_path:
+        raw_inputs_path = os.path.join(os.path.dirname(SCRIPT_DIR), "data", "raw_feeds.json")
 
-    with open(mock_inputs_path, "r", encoding="utf-8") as f:
+    if not os.path.exists(raw_inputs_path):
+        print(f"❌ Ingestion error: raw feed file not found at {raw_inputs_path}")
+        print("   Please run `python3 internal/scripts/ingest.py` to harvest live feeds first.")
+        return
+
+    with open(raw_inputs_path, "r", encoding="utf-8") as f:
         incoming_posts = json.load(f)
 
     print(f"📥 Received {len(incoming_posts)} incoming posts to evaluate.")
