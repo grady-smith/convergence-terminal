@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-11T22:29:55+00:00",
+  "generated_at": "2026-09-13T09:42:42.463509+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
-  "tracked_entities_count": 36,
-  "total_signals": 24,
-  "sludge_filtered_count": 4,
+  "tracked_entities_count": 32,
+  "total_signals": 10,
+  "sludge_filtered_count": 0,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -14,392 +14,86 @@
   ],
   "items": [
     {
-      "id": "sig_97edb844ad806065",
-      "timestamp": "2026-06-30T20:02:41Z",
-      "entity": {
-        "name": "Lightning Labs",
-        "handle": "@lightning",
-        "platform": "github",
-        "avatar_url": "https://unavatar.io/x/lightning"
-      },
-      "source_url": "https://github.com/lightninglabs/lightning-terminal/releases/tag/v0.17.0-alpha.rc1",
-      "source_url_type": "post",
-      "category": "Agentic Rails & Settlement",
-      "raw_summary": "Lightning Terminal v0.17.0-alpha.rc1. This version of Lightning Terminal (LiT) ships lnd v0.21.0-beta , tapd v0.8.0 , loop v0.33.3-beta and pool v0.7.1-beta . This release also ships native SQL database backend support for LiT, and adds support for migrating legacy bbolt database backends to sql . Database Migration IMPORTANT NOTE : If not explicitly configured, LiT will by default initiate the...",
-      "elevated_intelligence": {
-        "signal_headline": "Autonomous Agent Swarms Mandate Protocol-Native Micro-Settlement Rails",
-        "convergence_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
-        "alden_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
-        "cross_reference": "Parallels early HTTP 402 specifications now revitalized for machine-to-machine inference.",
-        "is_urgent_shift": true
-      },
-      "metrics": {
-        "velocity_score": 9.5,
-        "momentum_label": "+380% 6h spike",
-        "sparkline_points": [
-          15,
-          24,
-          38,
-          55,
-          80,
-          115,
-          145
-        ]
-      }
-    },
-    {
-      "id": "sig_f07b81fc6a89d080",
-      "timestamp": "2026-06-30T20:09:01Z",
-      "entity": {
-        "name": "Lightning Labs",
-        "handle": "@lightning",
-        "platform": "github",
-        "avatar_url": "https://unavatar.io/x/lightning"
-      },
-      "source_url": "https://github.com/lightninglabs/lightning-terminal/releases/tag/v0.17.0-alpha",
-      "source_url_type": "post",
-      "category": "Agentic Rails & Settlement",
-      "raw_summary": "Lightning Terminal v0.17.0-alpha. This version of Lightning Terminal (LiT) includes lnd v0.21.1-beta , tapd v0.8.0 , loop v0.33.3-beta and pool v0.7.1-beta . This release also introduces native SQL database backend support for LiT, and adds support for migrating legacy bbolt database backends to sql . Action required: Database Migration This release contains a sensitive database migration from ...",
-      "elevated_intelligence": {
-        "signal_headline": "Autonomous Agent Swarms Mandate Protocol-Native Micro-Settlement Rails",
-        "convergence_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
-        "alden_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
-        "cross_reference": "Parallels early HTTP 402 specifications now revitalized for machine-to-machine inference.",
-        "is_urgent_shift": true
-      },
-      "metrics": {
-        "velocity_score": 9.5,
-        "momentum_label": "+380% 6h spike",
-        "sparkline_points": [
-          15,
-          24,
-          38,
-          55,
-          80,
-          115,
-          145
-        ]
-      }
-    },
-    {
-      "id": "sig_c1723a24aea4c5d8",
-      "timestamp": "2026-08-14T00:02:34Z",
-      "entity": {
-        "name": "Lightning Labs",
-        "handle": "@lightning",
-        "platform": "github",
-        "avatar_url": "https://unavatar.io/x/lightning"
-      },
-      "source_url": "https://github.com/lightninglabs/lightning-terminal/releases/tag/v0.17.1-alpha",
-      "source_url_type": "post",
-      "category": "Agentic Rails & Settlement",
-      "raw_summary": "Lightning Terminal v0.17.1-alpha. This version of Lightning Terminal (LiT) includes lnd v0.21.2-beta and loop v0.34.0-beta . Action required: Database Migration The previous release contains a sensitive database migration from bbolt to SQL-based database backends. It has been extensively tested and while it is recommended for all users, the migration requires your explicit approval or disapprov...",
-      "elevated_intelligence": {
-        "signal_headline": "Autonomous Agent Swarms Mandate Protocol-Native Micro-Settlement Rails",
-        "convergence_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
-        "alden_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
-        "cross_reference": "Parallels early HTTP 402 specifications now revitalized for machine-to-machine inference.",
-        "is_urgent_shift": true
-      },
-      "metrics": {
-        "velocity_score": 9.5,
-        "momentum_label": "+380% 6h spike",
-        "sparkline_points": [
-          15,
-          24,
-          38,
-          55,
-          80,
-          115,
-          145
-        ]
-      }
-    },
-    {
-      "id": "sig_f14195a7d8c71556",
-      "timestamp": "2026-08-19T10:30:36Z",
-      "entity": {
-        "name": "Lightning Labs",
-        "handle": "@lightning",
-        "platform": "github",
-        "avatar_url": "https://unavatar.io/x/lightning"
-      },
-      "source_url": "https://github.com/lightninglabs/lightning-terminal/releases/tag/v0.17.2-alpha",
-      "source_url_type": "post",
-      "category": "Bitcoin",
-      "raw_summary": "Lightning Terminal v0.17.2-alpha. This version of Lightning Terminal (LiT) ships taproot-assets v0.8.1 and loop v0.34.0-beta-v0.8.1-tapd . This version also includes a bug fix for an issue that caused litd to error during startup when used in combination with large lnd nodes in the previous release. Action required: Database Migration The previous release contains a sensitive database migration...",
-      "elevated_intelligence": {
-        "signal_headline": "Cluster Mempool Linearization & Sovereign Node Telemetry Fortify Consensus Topology",
-        "convergence_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
-        "alden_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
-        "cross_reference": "Directly advances Bitcoin Core peer-to-peer consensus relay and Layer-2 settlement guarantees.",
-        "is_urgent_shift": true
-      },
-      "metrics": {
-        "velocity_score": 9.5,
-        "momentum_label": "+380% 6h spike",
-        "sparkline_points": [
-          15,
-          24,
-          38,
-          55,
-          80,
-          115,
-          145
-        ]
-      }
-    },
-    {
-      "id": "sig_454f2f4d3f1a5731",
-      "timestamp": "2026-08-27T23:02:27Z",
-      "entity": {
-        "name": "Lightning Labs",
-        "handle": "@lightning",
-        "platform": "github",
-        "avatar_url": "https://unavatar.io/x/lightning"
-      },
-      "source_url": "https://github.com/lightninglabs/lightning-terminal/releases/tag/v0.17.3-alpha",
-      "source_url_type": "post",
-      "category": "Agentic Rails & Settlement",
-      "raw_summary": "Lightning Terminal v0.17.3-alpha. New in this version of Lightning Terminal (LiT) : loop v0.35.0-beta and faraday v0.2.18-alpha . We'll be continuously working to improve the user experience based on feedback from the community. Installation and configuration instructions can be found in the README . This release packages LND v0.21.2-beta , Taproot Assets Daemon v0.8.1 , Loop v0.35.0-beta , Poo...",
-      "elevated_intelligence": {
-        "signal_headline": "Autonomous Agent Swarms Mandate Protocol-Native Micro-Settlement Rails",
-        "convergence_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
-        "alden_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
-        "cross_reference": "Parallels early HTTP 402 specifications now revitalized for machine-to-machine inference.",
-        "is_urgent_shift": true
-      },
-      "metrics": {
-        "velocity_score": 9.5,
-        "momentum_label": "+380% 6h spike",
-        "sparkline_points": [
-          15,
-          24,
-          38,
-          55,
-          80,
-          115,
-          145
-        ]
-      }
-    },
-    {
-      "id": "sig_efb5ada2f0f09417",
-      "timestamp": "2026-09-03T16:19:33Z",
-      "entity": {
-        "name": "Lightning Labs",
-        "handle": "@lightning",
-        "platform": "github",
-        "avatar_url": "https://unavatar.io/x/lightning"
-      },
-      "source_url": "https://github.com/lightninglabs/lightning-terminal/releases/tag/v0.17.4-alpha",
-      "source_url_type": "post",
-      "category": "Agentic Rails & Settlement",
-      "raw_summary": "Lightning Terminal v0.17.4-alpha. New in this version of Lightning Terminal (LiT) : lnd v0.21.3-beta , taproot-assets v0.8.3 and faraday v0.2.19-alpha . We'll be continuously working to improve the user experience based on feedback from the community. Installation and configuration instructions can be found in the README . This release packages LND v0.21.3-beta , Taproot Assets Daemon v0.8.3 , ...",
-      "elevated_intelligence": {
-        "signal_headline": "Autonomous Agent Swarms Mandate Protocol-Native Micro-Settlement Rails",
-        "convergence_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
-        "alden_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
-        "cross_reference": "Parallels early HTTP 402 specifications now revitalized for machine-to-machine inference.",
-        "is_urgent_shift": true
-      },
-      "metrics": {
-        "velocity_score": 9.5,
-        "momentum_label": "+380% 6h spike",
-        "sparkline_points": [
-          15,
-          24,
-          38,
-          55,
-          80,
-          115,
-          145
-        ]
-      }
-    },
-    {
-      "id": "sig_f9fc2d0178b65d84",
-      "timestamp": "2026-09-10T17:45:00Z",
-      "entity": {
-        "name": "Dr. Adam Back",
-        "handle": "@adam3us",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/adam3us"
-      },
-      "source_url": "https://x.com/adam3us",
-      "source_url_type": "profile",
-      "category": "Bitcoin",
-      "raw_summary": "Proof-of-Work anchors digital scarcity to unforgeable physical thermodynamics. You cannot print gigawatt-hours or inflate away consensus hash difficulty. Every attempt at virtualized or permissioned consensus inevitably re-introduces trusted third parties.",
-      "elevated_intelligence": {
-        "signal_headline": "Proof-of-Work Thermodynamically Anchors Digital Scarcity to Unforgeable Physics",
-        "convergence_lens": "Consensus difficulty mathematically binds monetary credibility to real-world energy expenditure, eliminating political dilution and arbitrary debasement.",
-        "alden_lens": "Consensus difficulty mathematically binds monetary credibility to real-world energy expenditure, eliminating political dilution and arbitrary debasement.",
-        "cross_reference": "Builds upon Hashcash proof-of-work principles and Szabo's unforgeable costliness axioms.",
-        "is_urgent_shift": true
-      },
-      "metrics": {
-        "velocity_score": 9.4,
-        "momentum_label": "+376% 6h spike",
-        "sparkline_points": [
-          20,
-          28,
-          40,
-          68,
-          92,
-          125,
-          160
-        ]
-      }
-    },
-    {
-      "id": "sig_20273e127fda323b",
-      "timestamp": "2026-09-10T17:15:00Z",
-      "entity": {
-        "name": "Jack Mallers",
-        "handle": "@jackmallers",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/jackmallers"
-      },
-      "source_url": "https://x.com/jackmallers",
-      "source_url_type": "profile",
-      "category": "Agentic Rails & Settlement",
-      "raw_summary": "Autonomous AI agents cannot hold legacy credit card merchant accounts or KYC bank logins. The only native payment rail that makes sense for agent-to-agent inference settlement at sub-cent increments is the Lightning Network.",
-      "elevated_intelligence": {
-        "signal_headline": "Autonomous Agent Swarms Mandate Protocol-Native Micro-Settlement Rails",
-        "convergence_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
-        "alden_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
-        "cross_reference": "Parallels early HTTP 402 specifications now revitalized for machine-to-machine inference.",
-        "is_urgent_shift": true
-      },
-      "metrics": {
-        "velocity_score": 9.2,
-        "momentum_label": "+368% 6h spike",
-        "sparkline_points": [
-          25,
-          30,
-          45,
-          70,
-          85,
-          110,
-          145
-        ]
-      }
-    },
-    {
-      "id": "sig_71424855ac490201",
-      "timestamp": "2026-09-10T15:53:13+00:00",
+      "id": "sig_dbd1d8f6a6ac347c",
+      "timestamp": "2026-07-15T14:16:27+00:00",
       "entity": {
         "name": "Lyn Alden",
         "handle": "@LynAldenContact",
-        "platform": "x",
+        "platform": "newsletter",
         "avatar_url": "https://unavatar.io/x/LynAldenContact"
       },
-      "source_url": "https://twitter.com/LynAldenContact/status/2098077343549890967",
+      "source_url": "https://www.lynalden.com/orange-juice/",
       "source_url_type": "post",
-      "category": "Uncategorized",
-      "raw_summary": "The Grand Egyptian Museum 🔥",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "An Alternative to Private Equity: Introducing ORANGE JUICE. July 15, 2026 The rest of the team at Ego Death Capital and I have partnered with Adrian Steckel and Ruben Zweiban to launch ORANGE JUICE. It s a company that acquires, improves, and permanently holds cash-flowing businesses, backed by a bitcoin treasury. More specifically, ORANGE JUICE seeks to acquire profitable small and mid-sized b...",
       "elevated_intelligence": {
-        "signal_headline": "Signal Awaiting Classification",
-        "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
-        "alden_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
-        "cross_reference": "See TOPIC_SYNTHESIZERS in pipeline.py to add a matching regex.",
-        "is_urgent_shift": true
-      },
-      "metrics": {
-        "velocity_score": 9.2,
-        "momentum_label": "+368% 6h spike",
-        "sparkline_points": [
-          10,
-          15,
-          22,
-          35,
-          52,
-          75,
-          105
-        ]
-      }
-    },
-    {
-      "id": "sig_45a7d903c9c442b4",
-      "timestamp": "2026-09-10T15:35:00Z",
-      "entity": {
-        "name": "Bitcoin Core Project",
-        "handle": "@bitcoincoreorg",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/bitcoincoreorg"
-      },
-      "source_url": "https://github.com/bitcoin/bitcoin/pulls",
-      "source_url_type": "post",
-      "category": "Bitcoin",
-      "raw_summary": "Cluster Mempool architecture implementation milestone reached in core branch. Linearization algorithm significantly improves peer-to-peer transaction relay incentives, anti-DoS resistance, and fee-bumping predictability under heavy block congestion.",
-      "elevated_intelligence": {
-        "signal_headline": "Cluster Mempool Linearization & Sovereign Node Telemetry Fortify Consensus Topology",
-        "convergence_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
-        "alden_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
-        "cross_reference": "Directly advances Bitcoin Core peer-to-peer consensus relay and Layer-2 settlement guarantees.",
-        "is_urgent_shift": true
-      },
-      "metrics": {
-        "velocity_score": 9.1,
-        "momentum_label": "+364% 6h spike",
-        "sparkline_points": [
-          18,
-          26,
-          38,
-          62,
-          88,
-          118,
-          152
-        ]
-      }
-    },
-    {
-      "id": "sig_e08fb1a3b49ea83a",
-      "timestamp": "2026-09-10T13:30:00Z",
-      "entity": {
-        "name": "Lyn Alden",
-        "handle": "@LynAldenContact",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/LynAldenContact"
-      },
-      "source_url": "https://www.lynalden.com/",
-      "source_url_type": "profile",
-      "category": "Bitcoin",
-      "raw_summary": "Fiscal dominance means interest rate hikes expand interest expense paid to the private sector, inadvertently increasing aggregate deficit spending. Capital allocators are forced into scarce real assets and proof-of-work monetary reserves.",
-      "elevated_intelligence": {
-        "signal_headline": "Proof-of-Work Thermodynamically Anchors Digital Scarcity to Unforgeable Physics",
-        "convergence_lens": "Consensus difficulty mathematically binds monetary credibility to real-world energy expenditure, eliminating political dilution and arbitrary debasement.",
-        "alden_lens": "Consensus difficulty mathematically binds monetary credibility to real-world energy expenditure, eliminating political dilution and arbitrary debasement.",
-        "cross_reference": "Builds upon Hashcash proof-of-work principles and Szabo's unforgeable costliness axioms.",
+        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
+        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
         "is_urgent_shift": true
       },
       "metrics": {
         "velocity_score": 9.0,
         "momentum_label": "+360% 6h spike",
         "sparkline_points": [
-          30,
-          35,
-          48,
-          62,
-          85,
+          15,
+          24,
+          38,
+          55,
+          80,
           115,
-          140
+          145
         ]
       }
     },
     {
-      "id": "sig_feccb5304405d558",
-      "timestamp": "2026-09-10T09:40:00Z",
+      "id": "sig_fa8f05e26c7a0b81",
+      "timestamp": "2026-03-13T13:29:44+00:00",
       "entity": {
-        "name": "James Lavish",
-        "handle": "@jameslavish",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/jameslavish"
+        "name": "Lyn Alden",
+        "handle": "@LynAldenContact",
+        "platform": "newsletter",
+        "avatar_url": "https://unavatar.io/x/LynAldenContact"
       },
-      "source_url": "https://x.com/jameslavish",
-      "source_url_type": "profile",
+      "source_url": "https://www.lynalden.com/the-stolguard-incident/",
+      "source_url_type": "post",
+      "category": "Autonomous Intelligence",
+      "raw_summary": "New Book: The Stolguard Incident. My new sci fi thriller, The Stolguard Incident, is now available! It can be purchased in print, ebook, or audio versions on Amazon here. You can also find the print version on Barnes Noble here, or you may be able to ask your local bookstore to order it for you. Premise: In the late [ ] The post New Book: The Stolguard Incident appeared first on Lyn Alden .",
+      "elevated_intelligence": {
+        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
+        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.0,
+        "momentum_label": "+360% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_aa4608f31eccabcf",
+      "timestamp": "2026-03-11T23:04:33+00:00",
+      "entity": {
+        "name": "Lyn Alden",
+        "handle": "@LynAldenContact",
+        "platform": "newsletter",
+        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+      },
+      "source_url": "https://www.lynalden.com/fractional-reserve-banking/",
+      "source_url_type": "post",
       "category": "Uncategorized",
-      "raw_summary": "Annualized US net interest payments have officially crossed $1.2 Trillion, overtaking the total Department of Defense budget. The feedback loop is self-reinforcing: more borrowing produces higher interest obligations, demanding even greater issuance.",
+      "raw_summary": "Fractional Reserve Banking 101. Banks work in ways that are unintuitive for a lot of people. And yet, understanding the banking system as a whole is really helpful for investing, because having a grasp of how the banking system is functioning helps you determine whether you should expect monetary inflation or disinflation, and whether the risks of widespread financial [ ] The post Fractional Re...",
       "elevated_intelligence": {
         "signal_headline": "Signal Awaiting Classification",
         "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
@@ -408,338 +102,236 @@
         "is_urgent_shift": true
       },
       "metrics": {
-        "velocity_score": 8.9,
-        "momentum_label": "+356% 6h spike",
-        "sparkline_points": [
-          28,
-          34,
-          46,
-          64,
-          88,
-          116,
-          142
-        ]
-      }
-    },
-    {
-      "id": "sig_a2db8fd0ec1efdcb",
-      "timestamp": "2026-09-10T16:50:00Z",
-      "entity": {
-        "name": "Jameson Lopp",
-        "handle": "@lopp",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/lopp"
-      },
-      "source_url": "https://x.com/lopp",
-      "source_url_type": "profile",
-      "category": "Bitcoin",
-      "raw_summary": "Global Bitcoin full node count reaches multi-year high as sovereign individuals migrate to independent block verification. Pruned nodes and compact client filters ensure validation costs remain accessible on commodity consumer hardware.",
-      "elevated_intelligence": {
-        "signal_headline": "Cluster Mempool Linearization & Sovereign Node Telemetry Fortify Consensus Topology",
-        "convergence_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
-        "alden_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
-        "cross_reference": "Directly advances Bitcoin Core peer-to-peer consensus relay and Layer-2 settlement guarantees.",
-        "is_urgent_shift": true
-      },
-      "metrics": {
-        "velocity_score": 8.9,
-        "momentum_label": "+356% 6h spike",
+        "velocity_score": 9.0,
+        "momentum_label": "+360% 6h spike",
         "sparkline_points": [
           15,
-          22,
-          35,
-          55,
-          78,
-          105,
-          135
-        ]
-      }
-    },
-    {
-      "id": "sig_f4e704a859e6e5b6",
-      "timestamp": "2026-09-10T14:10:00Z",
-      "entity": {
-        "name": "Pierre Rochard",
-        "handle": "@BitcoinPierre",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
-      },
-      "source_url": "https://x.com/BitcoinPierre",
-      "source_url_type": "profile",
-      "category": "Macro Plumbing & Balance Sheets",
-      "raw_summary": "Corporate treasuries adopting FASB fair-value accounting are demonstrating clear balance sheet outperformance vs cash-drag peers. Bitcoin's zero counterparty risk and instant global liquidity make it the premier reserve asset for modern capital allocators.",
-      "elevated_intelligence": {
-        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
-        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
-        "is_urgent_shift": true
-      },
-      "metrics": {
-        "velocity_score": 8.8,
-        "momentum_label": "+352% 6h spike",
-        "sparkline_points": [
-          22,
-          28,
-          42,
-          60,
-          84,
-          112,
-          138
-        ]
-      }
-    },
-    {
-      "id": "sig_3fbaa2114c7d524b",
-      "timestamp": "2026-09-10T09:00:00Z",
-      "entity": {
-        "name": "JAN3",
-        "handle": "@JAN3com",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/JAN3com"
-      },
-      "source_url": "https://x.com/JAN3com",
-      "source_url_type": "profile",
-      "category": "Bitcoin",
-      "raw_summary": "Emerging market sovereign treasury delegates finalize national geothermal mining infrastructure plans. Monetizing stranded volcanic base-load into unseizable reserve assets bypasses IMF structural debt traps.",
-      "elevated_intelligence": {
-        "signal_headline": "Proof-of-Work Thermodynamically Anchors Digital Scarcity to Unforgeable Physics",
-        "convergence_lens": "Consensus difficulty mathematically binds monetary credibility to real-world energy expenditure, eliminating political dilution and arbitrary debasement.",
-        "alden_lens": "Consensus difficulty mathematically binds monetary credibility to real-world energy expenditure, eliminating political dilution and arbitrary debasement.",
-        "cross_reference": "Builds upon Hashcash proof-of-work principles and Szabo's unforgeable costliness axioms.",
-        "is_urgent_shift": true
-      },
-      "metrics": {
-        "velocity_score": 8.7,
-        "momentum_label": "+348% 6h spike",
-        "sparkline_points": [
-          18,
           24,
-          36,
-          52,
-          74,
-          102,
-          132
+          38,
+          55,
+          80,
+          115,
+          145
         ]
       }
     },
     {
-      "id": "sig_4212fc7835df1871",
-      "timestamp": "2026-09-10T18:30:00Z",
+      "id": "sig_583f0baed971ef9d",
+      "timestamp": "2025-12-01T17:45:10+00:00",
       "entity": {
         "name": "Lyn Alden",
         "handle": "@LynAldenContact",
-        "platform": "x",
+        "platform": "newsletter",
         "avatar_url": "https://unavatar.io/x/LynAldenContact"
       },
-      "source_url": "https://x.com/LynAldenContact",
-      "source_url_type": "profile",
-      "category": "Compute, Power & The Grid",
-      "raw_summary": "ERCOT power auction clearing prices show rising premium for flexible baseload curtailment contracts. Data center operators are actively bidding against industrial Bitcoin miners for behind-the-meter generation assets.",
+      "source_url": "https://www.lynalden.com/why-most-cryptocurrencies-wont-accrue-value/",
+      "source_url_type": "post",
+      "category": "Uncategorized",
+      "raw_summary": "Why Most Cryptocurrencies Won\u2019t Accrue Value. December 2025 For many years now, I ve been bullish on bitcoin, and continue to be, but have not extended that view toward any other cryptocurrency. That decision continues to hold up well. Since I first recommended it in April 2020, it has gone from $6,900 to $126,000, and is currently back down to around $85,000. [ ] The post Why Most Cryptocurren...",
       "elevated_intelligence": {
-        "signal_headline": "Baseload Grid Interconnection Bottlenecks Accelerate Behind-the-Meter Power Co-Location",
-        "convergence_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
-        "alden_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
-        "cross_reference": "Directly links to recent corporate nuclear power purchase agreements and miner colocation pivots.",
+        "signal_headline": "Signal Awaiting Classification",
+        "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "alden_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "cross_reference": "See TOPIC_SYNTHESIZERS in pipeline.py to add a matching regex.",
         "is_urgent_shift": true
       },
       "metrics": {
-        "velocity_score": 8.7,
-        "momentum_label": "+348% 6h spike",
+        "velocity_score": 9.0,
+        "momentum_label": "+360% 6h spike",
         "sparkline_points": [
-          12,
-          18,
-          15,
-          34,
-          60,
-          95,
-          130
-        ]
-      }
-    },
-    {
-      "id": "sig_b336ab58b5ff88b4",
-      "timestamp": "2026-09-10T12:50:00Z",
-      "entity": {
-        "name": "Rockstar Dev",
-        "handle": "@r0ckstardev",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/r0ckstardev"
-      },
-      "source_url": "https://x.com/r0ckstardev",
-      "source_url_type": "profile",
-      "category": "Agentic Rails & Settlement",
-      "raw_summary": "BTCPay Server v2.4 roll-out introduces seamless Lightning LSP auto-channel splicing and zero-conf merchant acceptance. Self-hosted payment sovereignty removes all intermediary choke points and payment processing fees.",
-      "elevated_intelligence": {
-        "signal_headline": "Autonomous Agent Swarms Mandate Protocol-Native Micro-Settlement Rails",
-        "convergence_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
-        "alden_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
-        "cross_reference": "Parallels early HTTP 402 specifications now revitalized for machine-to-machine inference.",
-        "is_urgent_shift": true
-      },
-      "metrics": {
-        "velocity_score": 8.6,
-        "momentum_label": "+344% 6h spike",
-        "sparkline_points": [
-          14,
-          20,
-          32,
-          50,
-          72,
-          98,
-          128
-        ]
-      }
-    },
-    {
-      "id": "sig_30b78c86f4251d6f",
-      "timestamp": "2026-09-10T15:20:00Z",
-      "entity": {
-        "name": "Arthur Hayes",
-        "handle": "@CryptoHayes",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/CryptoHayes"
-      },
-      "source_url": "https://cryptohayes.substack.com/",
-      "source_url_type": "profile",
-      "category": "Macro Plumbing & Balance Sheets",
-      "raw_summary": "US Treasury net issuance cannot be absorbed by private domestic balance sheets without ongoing indirect central bank monetization. Global M2 is entering a forced expansion phase to sustain sovereign rollover obligations.",
-      "elevated_intelligence": {
-        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
-        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
-        "is_urgent_shift": true
-      },
-      "metrics": {
-        "velocity_score": 8.5,
-        "momentum_label": "+340% 6h spike",
-        "sparkline_points": [
-          40,
-          42,
-          50,
-          65,
-          80,
-          105,
-          125
-        ]
-      }
-    },
-    {
-      "id": "sig_a90f99084031a7ae",
-      "timestamp": "2026-09-10T11:40:00Z",
-      "entity": {
-        "name": "Lisa Hough",
-        "handle": "@lisa_hough_",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/lisa_hough_"
-      },
-      "source_url": "https://x.com/lisa_hough_",
-      "source_url_type": "profile",
-      "category": "Compute, Power & The Grid",
-      "raw_summary": "Energy producers deploying modular Bitcoin hashing units at stranded natural gas flaring sites are capturing 98% of wasted thermal BTU energy, turning an environmental liability into immediate high-density capital generation.",
-      "elevated_intelligence": {
-        "signal_headline": "Stranded Natural Gas Flaring Capture Converts Thermal Waste to Monetary Energy",
-        "convergence_lens": "Modular mobile compute provides continuous economic demand at the wellhead, abating methane emissions with zero transmission loss.",
-        "alden_lens": "Modular mobile compute provides continuous economic demand at the wellhead, abating methane emissions with zero transmission loss.",
-        "cross_reference": "Validates thermodynamic co-location principles and energy monetization physics.",
-        "is_urgent_shift": false
-      },
-      "metrics": {
-        "velocity_score": 8.4,
-        "momentum_label": "+336% 6h spike",
-        "sparkline_points": [
-          12,
-          16,
-          26,
-          44,
-          65,
-          88,
-          116
-        ]
-      }
-    },
-    {
-      "id": "sig_0970b1c7a5e14194",
-      "timestamp": "2026-09-10T10:20:00Z",
-      "entity": {
-        "name": "Shyam Sankar",
-        "handle": "@ssankar",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/ssankar"
-      },
-      "source_url": "https://x.com/ssankar",
-      "source_url_type": "profile",
-      "category": "Autonomous Intelligence",
-      "raw_summary": "True operational autonomy requires deterministic ontology and high-agency agents deployed directly inside the perimeter. Cloud-dependent chat wrappers crumble when exposed to real-world edge friction.",
-      "elevated_intelligence": {
-        "signal_headline": "Compute Architecture Shifts from Cloud Monoliths to Distributed Edge Agents",
-        "convergence_lens": "Physical latency and privacy constraints drive the unbundling of general intelligence into task-specific deterministic local models.",
-        "alden_lens": "Physical latency and privacy constraints drive the unbundling of general intelligence into task-specific deterministic local models.",
-        "cross_reference": "Validates the historical transition from mainframe compute to personal workstation distribution.",
-        "is_urgent_shift": false
-      },
-      "metrics": {
-        "velocity_score": 8.3,
-        "momentum_label": "+332% 6h spike",
-        "sparkline_points": [
-          16,
-          22,
-          30,
-          46,
-          68,
-          92,
-          120
-        ]
-      }
-    },
-    {
-      "id": "sig_94b3b364824c82cf",
-      "timestamp": "2026-09-10T11:00:00Z",
-      "entity": {
-        "name": "Jimmy Song",
-        "handle": "@jimmysong",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/jimmysong"
-      },
-      "source_url": "https://x.com/jimmysong",
-      "source_url_type": "profile",
-      "category": "Macro Plumbing & Balance Sheets",
-      "raw_summary": "Fiat debt architectures rely on continual dilution and political discretion to survive math insolvency. Bitcoin is absolute mathematical truth enforced by global consensus code and cryptographic physics.",
-      "elevated_intelligence": {
-        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
-        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
-        "is_urgent_shift": true
-      },
-      "metrics": {
-        "velocity_score": 8.2,
-        "momentum_label": "+328% 6h spike",
-        "sparkline_points": [
-          10,
           15,
           24,
           38,
-          56,
-          78,
-          102
+          55,
+          80,
+          115,
+          145
         ]
       }
     },
     {
-      "id": "sig_b0546235d17b8790",
-      "timestamp": "2026-09-10T14:45:00Z",
+      "id": "sig_a10bd49e975419d0",
+      "timestamp": "2025-07-06T14:03:34+00:00",
       "entity": {
-        "name": "Grid & Power Monitor",
-        "handle": "@ERCOT_ISO",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/ERCOT_ISO"
+        "name": "Lyn Alden",
+        "handle": "@LynAldenContact",
+        "platform": "newsletter",
+        "avatar_url": "https://unavatar.io/x/LynAldenContact"
       },
-      "source_url": "https://www.ercot.com/news/releases",
-      "source_url_type": "profile",
+      "source_url": "https://www.lynalden.com/bitcoin-stocks-and-bonds/",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "The Rise of Bitcoin Stocks and Bonds. Originally published: July 2025 During the past year or so, the Bitcoin ecosystem has largely been led by the rise of corporate bitcoin treasury strategies. Although Strategy (MSTR) pioneered the trend back in 2020, the follow-on adoption by others was slow. However, after yet another cycle of bear market and bull market activity, as well [ ] The post The R...",
+      "elevated_intelligence": {
+        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
+        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.0,
+        "momentum_label": "+360% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_299a87e4b017bfe6",
+      "timestamp": "2025-02-27T23:16:32+00:00",
+      "entity": {
+        "name": "Lyn Alden",
+        "handle": "@LynAldenContact",
+        "platform": "newsletter",
+        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+      },
+      "source_url": "https://www.lynalden.com/twitter-compromised/",
+      "source_url_type": "post",
+      "category": "Autonomous Intelligence",
+      "raw_summary": "Twitter/X Restored. My Twitter/X account was compromised from February 26th to March 3rd, but I confirm that I ve regained control of it now. Thank you to everyone who helped make it happen. Fortunately, I still had access to Nostr during that time (e.g. primal.net/lyn), which is decentralized social media. Eight months ago, at the Oslo Freedom Forum, [ ] The post Twitter/X Restored appeared fi...",
+      "elevated_intelligence": {
+        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
+        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.0,
+        "momentum_label": "+360% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_03533fe0488a6880",
+      "timestamp": "2025-01-08T12:51:03+00:00",
+      "entity": {
+        "name": "Lyn Alden",
+        "handle": "@LynAldenContact",
+        "platform": "newsletter",
+        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+      },
+      "source_url": "https://www.lynalden.com/full-steam-ahead-all-aboard-fiscal-dominance/",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "Full Steam Ahead: All Aboard Fiscal Dominance. This research piece on fiscal dominance in the United States was compiled and written by Sam Callahan, and commissioned and advised by Lyn Alden. Published: January 2025 Executive Summary \u2022 Structural fiscal deficits have surpassed private sector lending and monetary policy as the primary drivers of economic activity and inflation, marking a fundam...",
+      "elevated_intelligence": {
+        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
+        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.0,
+        "momentum_label": "+360% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_9f44da38d3e7db8b",
+      "timestamp": "2024-09-24T17:59:32+00:00",
+      "entity": {
+        "name": "Lyn Alden",
+        "handle": "@LynAldenContact",
+        "platform": "newsletter",
+        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+      },
+      "source_url": "https://www.lynalden.com/bitcoin-a-global-liquidity-barometer/",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "Bitcoin: A Global Liquidity Barometer. This research piece on the correlation between measures of liquidity and the price of Bitcoin was compiled and written by Sam Callahan, and commissioned and advised by Lyn Alden. Published: September 2024 Executive Summary Bitcoin moves in the direction of global liquidity 83% of the time in any given 12-month period, which is higher than [ ] The post Bitc...",
+      "elevated_intelligence": {
+        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
+        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.0,
+        "momentum_label": "+360% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_6f8350078c5e0356",
+      "timestamp": "2024-08-04T16:08:13+00:00",
+      "entity": {
+        "name": "Lyn Alden",
+        "handle": "@LynAldenContact",
+        "platform": "newsletter",
+        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+      },
+      "source_url": "https://www.lynalden.com/a-new-look-at-corporate-treasury-strategy/",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "A New Look at Corporate Treasury Strategy. Published: August 2024 In the modern era of corporate finance, the balance sheet of a corporation has trended toward being less important relative to the income statement. Back during Benjamin Graham s quintessential value investing days, he looked at balance sheet valuation metrics almost as much as he did income-related valuation metrics. But in mode...",
+      "elevated_intelligence": {
+        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
+        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.0,
+        "momentum_label": "+360% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_cfaf242b6d3c4364",
+      "timestamp": "2024-07-20T19:48:33+00:00",
+      "entity": {
+        "name": "Lyn Alden",
+        "handle": "@LynAldenContact",
+        "platform": "newsletter",
+        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+      },
+      "source_url": "https://www.lynalden.com/the-power-of-nostr/",
+      "source_url_type": "post",
       "category": "Compute, Power & The Grid",
-      "raw_summary": "Interconnection queue backlog for 2026-2028 shows 42GW of proposed large flexible loads. Co-located generation plants with private substations are trading at record premiums due to multi-year transmission approval delays.",
+      "raw_summary": "The Power of Nostr: Decentralized Social Media and More. Published: July 2024 It would be powerful if you could bring your digital identity, content, and followers from one social ecosystem, such as Twitter, LinkedIn, Instagram, or Substack, to another. Imagine if you could publish content and send messages in any of those types of ecosystems, with one continuous digital identity rather than se...",
       "elevated_intelligence": {
         "signal_headline": "Baseload Grid Interconnection Bottlenecks Accelerate Behind-the-Meter Power Co-Location",
         "convergence_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
@@ -748,84 +340,16 @@
         "is_urgent_shift": true
       },
       "metrics": {
-        "velocity_score": 8.1,
-        "momentum_label": "+324% 6h spike",
+        "velocity_score": 9.0,
+        "momentum_label": "+360% 6h spike",
         "sparkline_points": [
           15,
-          20,
-          28,
-          40,
-          52,
-          74,
-          98
-        ]
-      }
-    },
-    {
-      "id": "sig_602eb82ff62156a8",
-      "timestamp": "2026-09-10T16:00:00Z",
-      "entity": {
-        "name": "Andrej Karpathy",
-        "handle": "@karpathy",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/karpathy"
-      },
-      "source_url": "https://x.com/karpathy",
-      "source_url_type": "profile",
-      "category": "Autonomous Intelligence",
-      "raw_summary": "The transition from centralized monolithic LLMs to distributed swarms of specialized local edge agents is accelerating. The bottleneck is no longer parameter count, but orchestration latency and deterministic execution environments.",
-      "elevated_intelligence": {
-        "signal_headline": "Compute Architecture Shifts from Cloud Monoliths to Distributed Edge Agents",
-        "convergence_lens": "Physical latency and privacy constraints drive the unbundling of general intelligence into task-specific deterministic local models.",
-        "alden_lens": "Physical latency and privacy constraints drive the unbundling of general intelligence into task-specific deterministic local models.",
-        "cross_reference": "Validates the historical transition from mainframe compute to personal workstation distribution.",
-        "is_urgent_shift": false
-      },
-      "metrics": {
-        "velocity_score": 7.9,
-        "momentum_label": "+197% 24h gain",
-        "sparkline_points": [
-          10,
-          14,
-          22,
+          24,
           38,
-          45,
-          68,
-          92
-        ]
-      }
-    },
-    {
-      "id": "sig_cf3f6458112cc846",
-      "timestamp": "2026-09-10T08:15:00Z",
-      "entity": {
-        "name": "Clément Delangue",
-        "handle": "@ClementDelangue",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/ClementDelangue"
-      },
-      "source_url": "https://x.com/ClementDelangue",
-      "source_url_type": "profile",
-      "category": "Autonomous Intelligence",
-      "raw_summary": "Open weight model downloads have surged 400% year-over-year. Developers and enterprises are refusing closed cloud API lock-in, prioritizing sovereign locally-hosted weights that cannot be altered or shut off.",
-      "elevated_intelligence": {
-        "signal_headline": "Compute Architecture Shifts from Cloud Monoliths to Distributed Edge Agents",
-        "convergence_lens": "Physical latency and privacy constraints drive the unbundling of general intelligence into task-specific deterministic local models.",
-        "alden_lens": "Physical latency and privacy constraints drive the unbundling of general intelligence into task-specific deterministic local models.",
-        "cross_reference": "Validates the historical transition from mainframe compute to personal workstation distribution.",
-        "is_urgent_shift": false
-      },
-      "metrics": {
-        "velocity_score": 7.8,
-        "momentum_label": "+195% 24h gain",
-        "sparkline_points": [
-          12,
-          18,
-          26,
-          38,
-          54,
-          76,
-          96
+          55,
+          80,
+          115,
+          145
         ]
       }
     }
