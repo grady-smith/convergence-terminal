@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-13T09:42:42.463509+00:00",
+  "generated_at": "2026-09-14T10:48:19.013370+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 32,
-  "total_signals": 10,
-  "sludge_filtered_count": 0,
+  "total_signals": 50,
+  "sludge_filtered_count": 4,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -14,28 +14,28 @@
   ],
   "items": [
     {
-      "id": "sig_dbd1d8f6a6ac347c",
-      "timestamp": "2026-07-15T14:16:27+00:00",
+      "id": "sig_2c1b16e2c27bf1ee",
+      "timestamp": "2026-07-10T14:25:37Z",
       "entity": {
-        "name": "Lyn Alden",
-        "handle": "@LynAldenContact",
-        "platform": "newsletter",
-        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+        "name": "Bitcoin Core Project",
+        "handle": "@bitcoincoreorg",
+        "platform": "github",
+        "avatar_url": "https://unavatar.io/x/bitcoincoreorg"
       },
-      "source_url": "https://www.lynalden.com/orange-juice/",
+      "source_url": "https://github.com/bitcoin/bitcoin/releases/tag/v29.4",
       "source_url_type": "post",
-      "category": "Macro Plumbing & Balance Sheets",
-      "raw_summary": "An Alternative to Private Equity: Introducing ORANGE JUICE. July 15, 2026 The rest of the team at Ego Death Capital and I have partnered with Adrian Steckel and Ruben Zweiban to launch ORANGE JUICE. It s a company that acquires, improves, and permanently holds cash-flowing businesses, backed by a bitcoin treasury. More specifically, ORANGE JUICE seeks to acquire profitable small and mid-sized b...",
+      "category": "Bitcoin",
+      "raw_summary": "Bitcoin Core 29.4. Bitcoin Core version 29.4 is now available from: https://bitcoincore.org/bin/bitcoin-core-29.4/ For the release notes please see the git repository: https://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-29.4.md Do not use the links provided by GitHub, rather use the above download links, they are guaranteed to be generated deterministically and signed.",
       "elevated_intelligence": {
-        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
-        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
+        "signal_headline": "Cluster Mempool Linearization & Sovereign Node Telemetry Fortify Consensus Topology",
+        "convergence_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "alden_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "cross_reference": "Directly advances Bitcoin Core peer-to-peer consensus relay and Layer-2 settlement guarantees.",
         "is_urgent_shift": true
       },
       "metrics": {
-        "velocity_score": 9.0,
-        "momentum_label": "+360% 6h spike",
+        "velocity_score": 9.5,
+        "momentum_label": "+380% 6h spike",
         "sparkline_points": [
           15,
           24,
@@ -48,28 +48,334 @@
       }
     },
     {
-      "id": "sig_fa8f05e26c7a0b81",
-      "timestamp": "2026-03-13T13:29:44+00:00",
+      "id": "sig_fc3d77f0564bf468",
+      "timestamp": "2026-07-10T09:34:59Z",
       "entity": {
-        "name": "Lyn Alden",
-        "handle": "@LynAldenContact",
-        "platform": "newsletter",
-        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+        "name": "Bitcoin Core Project",
+        "handle": "@bitcoincoreorg",
+        "platform": "github",
+        "avatar_url": "https://unavatar.io/x/bitcoincoreorg"
       },
-      "source_url": "https://www.lynalden.com/the-stolguard-incident/",
+      "source_url": "https://github.com/bitcoin/bitcoin/releases/tag/v30.3",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "Bitcoin Core 30.3. Bitcoin Core version 30.3 is now available from: https://bitcoincore.org/bin/bitcoin-core-30.3/ For the release notes please see the git repository: https://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-30.3.md Do not use the links provided by GitHub, rather use the above download links, they are guaranteed to be generated deterministically and signed.",
+      "elevated_intelligence": {
+        "signal_headline": "Cluster Mempool Linearization & Sovereign Node Telemetry Fortify Consensus Topology",
+        "convergence_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "alden_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "cross_reference": "Directly advances Bitcoin Core peer-to-peer consensus relay and Layer-2 settlement guarantees.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.5,
+        "momentum_label": "+380% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_78209b00ac500392",
+      "timestamp": "2026-07-08T09:14:15Z",
+      "entity": {
+        "name": "Bitcoin Core Project",
+        "handle": "@bitcoincoreorg",
+        "platform": "github",
+        "avatar_url": "https://unavatar.io/x/bitcoincoreorg"
+      },
+      "source_url": "https://github.com/bitcoin/bitcoin/releases/tag/v31.1",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "Bitcoin Core 31.1. Bitcoin Core version 31.1 is now available from: https://bitcoincore.org/bin/bitcoin-core-31.1/ For the release notes please see the git repository: https://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-31.1.md Do not use the links provided by GitHub. Use the above download links instead, as they are guaranteed to be generated deterministically and si...",
+      "elevated_intelligence": {
+        "signal_headline": "Cluster Mempool Linearization & Sovereign Node Telemetry Fortify Consensus Topology",
+        "convergence_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "alden_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "cross_reference": "Directly advances Bitcoin Core peer-to-peer consensus relay and Layer-2 settlement guarantees.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.5,
+        "momentum_label": "+380% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_dfb4853712388e39",
+      "timestamp": "2026-06-24T09:18:35Z",
+      "entity": {
+        "name": "Bitcoin Core Project",
+        "handle": "@bitcoincoreorg",
+        "platform": "github",
+        "avatar_url": "https://unavatar.io/x/bitcoincoreorg"
+      },
+      "source_url": "https://github.com/bitcoin/bitcoin/releases/tag/v29.4rc1",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "v29.4rc1: Bitcoin Core 29.4 release candidate 1. Tree-SHA512: 57d647f0baf124128d84072c3865cca72ca4a266e95f88b8e1313230aa70a25d76d372e042b095312325b57983805943179d46bfa898522303e90adb69c74347",
+      "elevated_intelligence": {
+        "signal_headline": "Cluster Mempool Linearization & Sovereign Node Telemetry Fortify Consensus Topology",
+        "convergence_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "alden_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "cross_reference": "Directly advances Bitcoin Core peer-to-peer consensus relay and Layer-2 settlement guarantees.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.5,
+        "momentum_label": "+380% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_b3c896a21136f2df",
+      "timestamp": "2026-06-23T18:14:19Z",
+      "entity": {
+        "name": "Bitcoin Core Project",
+        "handle": "@bitcoincoreorg",
+        "platform": "github",
+        "avatar_url": "https://unavatar.io/x/bitcoincoreorg"
+      },
+      "source_url": "https://github.com/bitcoin/bitcoin/releases/tag/v30.3rc1",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "v30.3rc1: Bitcoin Core 30.3 release candidate 1. Tree-SHA512: 75fb64f744a0689a9bc4f5a25128bf2aaad7459d7a430f552200b995498428d89de28820f477780f95e7e8485eea9f657ad5fdeae253940df4f29bf51346b4ff",
+      "elevated_intelligence": {
+        "signal_headline": "Cluster Mempool Linearization & Sovereign Node Telemetry Fortify Consensus Topology",
+        "convergence_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "alden_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "cross_reference": "Directly advances Bitcoin Core peer-to-peer consensus relay and Layer-2 settlement guarantees.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.5,
+        "momentum_label": "+380% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_18d80c611ec1b920",
+      "timestamp": "2026-06-23T09:58:30Z",
+      "entity": {
+        "name": "Bitcoin Core Project",
+        "handle": "@bitcoincoreorg",
+        "platform": "github",
+        "avatar_url": "https://unavatar.io/x/bitcoincoreorg"
+      },
+      "source_url": "https://github.com/bitcoin/bitcoin/releases/tag/v31.1rc1",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "v31.1rc1: Bitcoin Core 31.1 release candidate 1. Tree-SHA512: a04909c1ce82d6f3412655ee7b52f4c482f5a175f9ec4e1468a84a4d488f935ab0ab333a3dc4d75f68fe2a9e7bae169d624c9061308435527b29b5a014c43dc3",
+      "elevated_intelligence": {
+        "signal_headline": "Cluster Mempool Linearization & Sovereign Node Telemetry Fortify Consensus Topology",
+        "convergence_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "alden_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "cross_reference": "Directly advances Bitcoin Core peer-to-peer consensus relay and Layer-2 settlement guarantees.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.5,
+        "momentum_label": "+380% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_1056c657a4a8c7cd",
+      "timestamp": "2026-04-22T01:06:45Z",
+      "entity": {
+        "name": "Bitcoin Core Project",
+        "handle": "@bitcoincoreorg",
+        "platform": "github",
+        "avatar_url": "https://unavatar.io/x/bitcoincoreorg"
+      },
+      "source_url": "https://github.com/bitcoin/bitcoin/releases/tag/v27-final",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "v27-final: Bitcoin Core 27.x Final. Tree-SHA512: 7e1913df148dd1b264a337d7c14de34011a8002fb0950ab00f4c73c60e2df1b3098d3b5aad311d9b33c01416c4e5fa06f23592232d63e9a942eeeb23bd371b3a",
+      "elevated_intelligence": {
+        "signal_headline": "Cluster Mempool Linearization & Sovereign Node Telemetry Fortify Consensus Topology",
+        "convergence_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "alden_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "cross_reference": "Directly advances Bitcoin Core peer-to-peer consensus relay and Layer-2 settlement guarantees.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.5,
+        "momentum_label": "+380% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_507170cf3fda3e4a",
+      "timestamp": "2026-04-22T01:04:57Z",
+      "entity": {
+        "name": "Bitcoin Core Project",
+        "handle": "@bitcoincoreorg",
+        "platform": "github",
+        "avatar_url": "https://unavatar.io/x/bitcoincoreorg"
+      },
+      "source_url": "https://github.com/bitcoin/bitcoin/releases/tag/v26-final",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "v26-final: Bitcoin Core 25.x Final. Tree-SHA512: ecf01e45f9ebb11c683252d6ca6a5a31ff767be08bb5760d1a65e583793ab50a94c3396b47931451c67830f704781eb9264a81b4b05bec943f041ef38f563475",
+      "elevated_intelligence": {
+        "signal_headline": "Cluster Mempool Linearization & Sovereign Node Telemetry Fortify Consensus Topology",
+        "convergence_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "alden_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "cross_reference": "Directly advances Bitcoin Core peer-to-peer consensus relay and Layer-2 settlement guarantees.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.5,
+        "momentum_label": "+380% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_01a410558dc63b74",
+      "timestamp": "2026-04-22T01:04:21Z",
+      "entity": {
+        "name": "Bitcoin Core Project",
+        "handle": "@bitcoincoreorg",
+        "platform": "github",
+        "avatar_url": "https://unavatar.io/x/bitcoincoreorg"
+      },
+      "source_url": "https://github.com/bitcoin/bitcoin/releases/tag/v25-final",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "v25-final: Bitcoin Core 25.x Final. Tree-SHA512: 827b20fad32a2f140e12595ff297fc29769a6189561f13c06e4b3dc05265f48efbf3185320d436229767918dfda9d7417ec8a39018662379641e3f7828ba93a5",
+      "elevated_intelligence": {
+        "signal_headline": "Cluster Mempool Linearization & Sovereign Node Telemetry Fortify Consensus Topology",
+        "convergence_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "alden_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "cross_reference": "Directly advances Bitcoin Core peer-to-peer consensus relay and Layer-2 settlement guarantees.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.5,
+        "momentum_label": "+380% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_443c08e98c6fda7b",
+      "timestamp": "2026-04-22T01:01:22Z",
+      "entity": {
+        "name": "Bitcoin Core Project",
+        "handle": "@bitcoincoreorg",
+        "platform": "github",
+        "avatar_url": "https://unavatar.io/x/bitcoincoreorg"
+      },
+      "source_url": "https://github.com/bitcoin/bitcoin/releases/tag/v24-final",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "v24-final: Bitcoin Core 24.x Final. Tree-SHA512: 339466ace2d3401a690e1bbd7f7636a9905f379870a06a38151a745d0df4f1c9a532acecd38cade608e417343c6ac20563e42eae5fbd42128cb81802e3212340",
+      "elevated_intelligence": {
+        "signal_headline": "Cluster Mempool Linearization & Sovereign Node Telemetry Fortify Consensus Topology",
+        "convergence_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "alden_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "cross_reference": "Directly advances Bitcoin Core peer-to-peer consensus relay and Layer-2 settlement guarantees.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.5,
+        "momentum_label": "+380% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_91f101ef8e2118b0",
+      "timestamp": "2026-09-07 20:06:44 UTC",
+      "entity": {
+        "name": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "platform": "github",
+        "avatar_url": "https://unavatar.io/x/karpathy"
+      },
+      "source_url": "https://github.com/karpathy/nanochat/compare/437943bd90...07620a2567",
       "source_url_type": "post",
       "category": "Autonomous Intelligence",
-      "raw_summary": "New Book: The Stolguard Incident. My new sci fi thriller, The Stolguard Incident, is now available! It can be purchased in print, ebook, or audio versions on Amazon here. You can also find the print version on Barnes Noble here, or you may be able to ask your local bookstore to order it for you. Premise: In the late [ ] The post New Book: The Stolguard Incident appeared first on Lyn Alden .",
+      "raw_summary": "karpathy pushed nanochat. karpathy pushed to karpathy/nanochat \u00b7 September 7, 2026 20:06 1 commit to experiment_refactor 07620a2 base_train: resolve the training horizon before the batch size, LRs a\u2026",
       "elevated_intelligence": {
-        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
-        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
-        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
-        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
+        "signal_headline": "Compute Architecture Shifts from Cloud Monoliths to Distributed Edge Agents",
+        "convergence_lens": "Physical latency and privacy constraints drive the unbundling of general intelligence into task-specific deterministic local models.",
+        "alden_lens": "Physical latency and privacy constraints drive the unbundling of general intelligence into task-specific deterministic local models.",
+        "cross_reference": "Validates the historical transition from mainframe compute to personal workstation distribution.",
         "is_urgent_shift": true
       },
       "metrics": {
-        "velocity_score": 9.0,
-        "momentum_label": "+360% 6h spike",
+        "velocity_score": 9.3,
+        "momentum_label": "+372% 6h spike",
         "sparkline_points": [
           15,
           24,
@@ -82,18 +388,86 @@
       }
     },
     {
-      "id": "sig_aa4608f31eccabcf",
-      "timestamp": "2026-03-11T23:04:33+00:00",
+      "id": "sig_5b0d7b73aab00b17",
+      "timestamp": "2026-09-07 18:43:07 UTC",
       "entity": {
-        "name": "Lyn Alden",
-        "handle": "@LynAldenContact",
-        "platform": "newsletter",
-        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+        "name": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "platform": "github",
+        "avatar_url": "https://unavatar.io/x/karpathy"
       },
-      "source_url": "https://www.lynalden.com/fractional-reserve-banking/",
+      "source_url": "https://github.com/karpathy/nanochat/compare/c833469041...437943bd90",
+      "source_url_type": "post",
+      "category": "Autonomous Intelligence",
+      "raw_summary": "karpathy pushed nanochat. karpathy pushed to karpathy/nanochat \u00b7 September 7, 2026 18:43 1 commit to experiment_refactor 437943b The experiment refactor: one run.sh, packed shards, a thin SFT, a har\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Compute Architecture Shifts from Cloud Monoliths to Distributed Edge Agents",
+        "convergence_lens": "Physical latency and privacy constraints drive the unbundling of general intelligence into task-specific deterministic local models.",
+        "alden_lens": "Physical latency and privacy constraints drive the unbundling of general intelligence into task-specific deterministic local models.",
+        "cross_reference": "Validates the historical transition from mainframe compute to personal workstation distribution.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.3,
+        "momentum_label": "+372% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_5914643dfa446cae",
+      "timestamp": "2026-09-02T23:01:16+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/atencion",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "Atenci\u00f3n. Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new alerts It s Friday in the deep Patagonian winter, and I m doing what I do: hiking and skiing in the backcountry. The yearly Santa Rosa storm dumped over a meter of snow in the alpine, but it took colder temperatures an...",
+      "elevated_intelligence": {
+        "signal_headline": "Structural Thesis: Macro Plumbing & Balance Sheets",
+        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "cross_reference": "First-principles convergence framework.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_816ff9a7095ef6d2",
+      "timestamp": "2026-09-02T23:01:16+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/atencion",
       "source_url_type": "post",
       "category": "Uncategorized",
-      "raw_summary": "Fractional Reserve Banking 101. Banks work in ways that are unintuitive for a lot of people. And yet, understanding the banking system as a whole is really helpful for investing, because having a grasp of how the banking system is functioning helps you determine whether you should expect monetary inflation or disinflation, and whether the risks of widespread financial [ ] The post Fractional Re...",
+      "raw_summary": "Atenci\u00f3n. (Any views expressed here are the personal views of the author and should not form the basis for making investment decisions, nor be construed as a recommendation or advice to engage in investment transactions.) Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new alerts...",
       "elevated_intelligence": {
         "signal_headline": "Signal Awaiting Classification",
         "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
@@ -102,8 +476,8 @@
         "is_urgent_shift": true
       },
       "metrics": {
-        "velocity_score": 9.0,
-        "momentum_label": "+360% 6h spike",
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
         "sparkline_points": [
           15,
           24,
@@ -116,18 +490,52 @@
       }
     },
     {
-      "id": "sig_583f0baed971ef9d",
-      "timestamp": "2025-12-01T17:45:10+00:00",
+      "id": "sig_c1b6ea6cf0498175",
+      "timestamp": "2026-08-24T23:01:33+00:00",
       "entity": {
-        "name": "Lyn Alden",
-        "handle": "@LynAldenContact",
-        "platform": "newsletter",
-        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
-      "source_url": "https://www.lynalden.com/why-most-cryptocurrencies-wont-accrue-value/",
+      "source_url": "https://cryptohayes.substack.com/p/same-same-but-different",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "Same Same But Different. Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new alerts I need you to suspend your rational mind and engage your whimsical imagination; stay with me. Take One. It s Saturday night at the rebooted Brooklyn Mirage, now called Pacha in New York City, the ...",
+      "elevated_intelligence": {
+        "signal_headline": "Structural Thesis: Macro Plumbing & Balance Sheets",
+        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "cross_reference": "First-principles convergence framework.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_b72f94c3d28b1337",
+      "timestamp": "2026-08-24T23:01:33+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/same-same-but-different",
       "source_url_type": "post",
       "category": "Uncategorized",
-      "raw_summary": "Why Most Cryptocurrencies Won\u2019t Accrue Value. December 2025 For many years now, I ve been bullish on bitcoin, and continue to be, but have not extended that view toward any other cryptocurrency. That decision continues to hold up well. Since I first recommended it in April 2020, it has gone from $6,900 to $126,000, and is currently back down to around $85,000. [ ] The post Why Most Cryptocurren...",
+      "raw_summary": "Same Same But Different. (Any views expressed here are the personal views of the author and should not form the basis for making investment decisions, nor be construed as a recommendation or advice to engage in investment transactions.) Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe...",
       "elevated_intelligence": {
         "signal_headline": "Signal Awaiting Classification",
         "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
@@ -136,8 +544,8 @@
         "is_urgent_shift": true
       },
       "metrics": {
-        "velocity_score": 9.0,
-        "momentum_label": "+360% 6h spike",
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
         "sparkline_points": [
           15,
           24,
@@ -150,28 +558,28 @@
       }
     },
     {
-      "id": "sig_a10bd49e975419d0",
-      "timestamp": "2025-07-06T14:03:34+00:00",
+      "id": "sig_4f577ff7262be896",
+      "timestamp": "2026-08-19T23:01:48+00:00",
       "entity": {
-        "name": "Lyn Alden",
-        "handle": "@LynAldenContact",
-        "platform": "newsletter",
-        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
-      "source_url": "https://www.lynalden.com/bitcoin-stocks-and-bonds/",
+      "source_url": "https://cryptohayes.substack.com/p/the-book-of-genesis",
       "source_url_type": "post",
       "category": "Macro Plumbing & Balance Sheets",
-      "raw_summary": "The Rise of Bitcoin Stocks and Bonds. Originally published: July 2025 During the past year or so, the Bitcoin ecosystem has largely been led by the rise of corporate bitcoin treasury strategies. Although Strategy (MSTR) pioneered the trend back in 2020, the follow-on adoption by others was slow. However, after yet another cycle of bear market and bull market activity, as well [ ] The post The R...",
+      "raw_summary": "The Book of Genesis. Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new alerts And on the 28th day, God created Alan Turing, who one day later created the computer. The computer s usefulness advanced as other humans made it faster and smarter. Some weeks later, the computer bega...",
       "elevated_intelligence": {
-        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
-        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
+        "signal_headline": "Structural Thesis: Macro Plumbing & Balance Sheets",
+        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "cross_reference": "First-principles convergence framework.",
         "is_urgent_shift": true
       },
       "metrics": {
-        "velocity_score": 9.0,
-        "momentum_label": "+360% 6h spike",
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
         "sparkline_points": [
           15,
           24,
@@ -184,18 +592,52 @@
       }
     },
     {
-      "id": "sig_299a87e4b017bfe6",
-      "timestamp": "2025-02-27T23:16:32+00:00",
+      "id": "sig_01216041135ca849",
+      "timestamp": "2026-08-19T23:01:48+00:00",
       "entity": {
-        "name": "Lyn Alden",
-        "handle": "@LynAldenContact",
-        "platform": "newsletter",
-        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
-      "source_url": "https://www.lynalden.com/twitter-compromised/",
+      "source_url": "https://cryptohayes.substack.com/p/the-book-of-genesis",
+      "source_url_type": "post",
+      "category": "Uncategorized",
+      "raw_summary": "The Book of Genesis. (Any views expressed here are the personal views of the author and should not form the basis for making investment decisions, nor be construed as a recommendation or advice to engage in investment transactions.) Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for...",
+      "elevated_intelligence": {
+        "signal_headline": "Signal Awaiting Classification",
+        "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "alden_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "cross_reference": "See TOPIC_SYNTHESIZERS in pipeline.py to add a matching regex.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_c6325514ac53c2c8",
+      "timestamp": "2026-08-11T01:00:40+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/yen-quake",
       "source_url_type": "post",
       "category": "Autonomous Intelligence",
-      "raw_summary": "Twitter/X Restored. My Twitter/X account was compromised from February 26th to March 3rd, but I confirm that I ve regained control of it now. Thank you to everyone who helped make it happen. Fortunately, I still had access to Nostr during that time (e.g. primal.net/lyn), which is decentralized social media. Eight months ago, at the Oslo Freedom Forum, [ ] The post Twitter/X Restored appeared fi...",
+      "raw_summary": "Yen-quake. Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new alerts My internal dialogue in early March 2011: What s my costume going to be for sevens this year? Can my body handle another back-to-back, Taiwan Spring Scream? [1] Back to reality. I m sitting at my desk at Deutsc...",
       "elevated_intelligence": {
         "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
         "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
@@ -204,8 +646,8 @@
         "is_urgent_shift": true
       },
       "metrics": {
-        "velocity_score": 9.0,
-        "momentum_label": "+360% 6h spike",
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
         "sparkline_points": [
           15,
           24,
@@ -218,18 +660,936 @@
       }
     },
     {
-      "id": "sig_03533fe0488a6880",
-      "timestamp": "2025-01-08T12:51:03+00:00",
+      "id": "sig_5e81bce8bfd4daee",
+      "timestamp": "2026-08-11T01:00:40+00:00",
       "entity": {
-        "name": "Lyn Alden",
-        "handle": "@LynAldenContact",
-        "platform": "newsletter",
-        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
-      "source_url": "https://www.lynalden.com/full-steam-ahead-all-aboard-fiscal-dominance/",
+      "source_url": "https://cryptohayes.substack.com/p/yen-quake",
+      "source_url_type": "post",
+      "category": "Uncategorized",
+      "raw_summary": "Yen-quake. (Any views expressed here are the personal views of the author and should not form the basis for making investment decisions, nor be construed as a recommendation or advice to engage in investment transactions.) Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new alert...",
+      "elevated_intelligence": {
+        "signal_headline": "Signal Awaiting Classification",
+        "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "alden_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "cross_reference": "See TOPIC_SYNTHESIZERS in pipeline.py to add a matching regex.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_f177264fb9fc478d",
+      "timestamp": "2026-08-04T23:02:06+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/situationship",
       "source_url_type": "post",
       "category": "Macro Plumbing & Balance Sheets",
-      "raw_summary": "Full Steam Ahead: All Aboard Fiscal Dominance. This research piece on fiscal dominance in the United States was compiled and written by Sam Callahan, and commissioned and advised by Lyn Alden. Published: January 2025 Executive Summary \u2022 Structural fiscal deficits have surpassed private sector lending and monetary policy as the primary drivers of economic activity and inflation, marking a fundam...",
+      "raw_summary": "Situationship. Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new alerts Let your gaze wander and feast your beady eyes upon the disfigurement of Earth s natural environment visited upon it by humanity. Some alterations are pleasant and some horrific, but each one started as an ...",
+      "elevated_intelligence": {
+        "signal_headline": "Structural Thesis: Macro Plumbing & Balance Sheets",
+        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "cross_reference": "First-principles convergence framework.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_accc11916ad65e74",
+      "timestamp": "2026-08-04T23:02:06+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/situationship",
+      "source_url_type": "post",
+      "category": "Uncategorized",
+      "raw_summary": "Situationship. (Any views expressed here are the personal views of the author and should not form the basis for making investment decisions, nor be construed as a recommendation or advice to engage in investment transactions.) Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new a...",
+      "elevated_intelligence": {
+        "signal_headline": "Signal Awaiting Classification",
+        "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "alden_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "cross_reference": "See TOPIC_SYNTHESIZERS in pipeline.py to add a matching regex.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_e5d74f411244a63a",
+      "timestamp": "2026-06-08T23:01:28+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/reality-test",
+      "source_url_type": "post",
+      "category": "Autonomous Intelligence",
+      "raw_summary": "Reality Test. Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new alerts Am I dreaming - or is AI investing as easy as buying a subscription to Citrini Research and buying every stonk they write about? Am I dreaming - or does the price of oil not matter to economics or politics a...",
+      "elevated_intelligence": {
+        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
+        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_f78781203886b537",
+      "timestamp": "2026-06-08T23:01:28+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/reality-test",
+      "source_url_type": "post",
+      "category": "Uncategorized",
+      "raw_summary": "Reality Test. (Any views expressed here are the personal views of the author and should not form the basis for making investment decisions, nor be construed as a recommendation or advice to engage in investment transactions.) Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new al...",
+      "elevated_intelligence": {
+        "signal_headline": "Signal Awaiting Classification",
+        "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "alden_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "cross_reference": "See TOPIC_SYNTHESIZERS in pipeline.py to add a matching regex.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_e2d4818685620bc8",
+      "timestamp": "2026-05-11T23:02:00+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/the-butterfly-touch",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "The Butterfly Touch. Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new alerts The seductive sensation of expectation permeates my body as the incipient bull market gently caresses my soul. As I jubilantly press the buy button, I know speculative excesses will propel my portfoli...",
+      "elevated_intelligence": {
+        "signal_headline": "Structural Thesis: Macro Plumbing & Balance Sheets",
+        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "cross_reference": "First-principles convergence framework.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_597ec31a0db2eb6a",
+      "timestamp": "2026-05-11T23:02:00+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/the-butterfly-touch",
+      "source_url_type": "post",
+      "category": "Uncategorized",
+      "raw_summary": "The Butterfly Touch. (Any views expressed here are the personal views of the author and should not form the basis for making investment decisions, nor be construed as a recommendation or advice to engage in investment transactions.) Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for...",
+      "elevated_intelligence": {
+        "signal_headline": "Signal Awaiting Classification",
+        "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "alden_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "cross_reference": "See TOPIC_SYNTHESIZERS in pipeline.py to add a matching regex.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_c477e6cf982a4ca5",
+      "timestamp": "2026-04-15T23:01:14+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/no-trade-zone",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "No Trade Zone. Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new alerts Because Maelstrom s trading went quiet in the first quarter, many of our brokers occasionally ping me asking my thoughts on the market and if there is anything they can do for us. I reply, It s a no-trade z...",
+      "elevated_intelligence": {
+        "signal_headline": "Structural Thesis: Macro Plumbing & Balance Sheets",
+        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "cross_reference": "First-principles convergence framework.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_91316848247cff25",
+      "timestamp": "2026-04-15T23:01:14+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/no-trade-zone",
+      "source_url_type": "post",
+      "category": "Uncategorized",
+      "raw_summary": "No Trade Zone. (Any views expressed here are the personal views of the author and should not form the basis for making investment decisions, nor be construed as a recommendation or advice to engage in investment transactions.) Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new a...",
+      "elevated_intelligence": {
+        "signal_headline": "Signal Awaiting Classification",
+        "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "alden_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "cross_reference": "See TOPIC_SYNTHESIZERS in pipeline.py to add a matching regex.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_969637da1a3c79f6",
+      "timestamp": "2026-03-09T11:03:25+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/hype-man",
+      "source_url_type": "post",
+      "category": "Autonomous Intelligence",
+      "raw_summary": "$HYPE Man. Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new alerts Lift, glide, step. Lift, glide, step. Time to switch back, plant, pivot, raise, kick, plant Lift, glide, step. Into the frozen forest and up the steep volcano we go. It s just another day of ski touring meditat...",
+      "elevated_intelligence": {
+        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
+        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_11fdeee273f8e712",
+      "timestamp": "2026-03-09T11:03:25+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/hype-man",
+      "source_url_type": "post",
+      "category": "Uncategorized",
+      "raw_summary": "$HYPE Man. (Any views expressed here are the personal views of the author and should not form the basis for making investment decisions, nor be construed as a recommendation or advice to engage in investment transactions.) Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new alert...",
+      "elevated_intelligence": {
+        "signal_headline": "Signal Awaiting Classification",
+        "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "alden_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "cross_reference": "See TOPIC_SYNTHESIZERS in pipeline.py to add a matching regex.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_602f4acf96bc609d",
+      "timestamp": "2026-03-01T23:01:19+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/ios-warfare",
+      "source_url_type": "post",
+      "category": "Autonomous Intelligence",
+      "raw_summary": "iOS Warfare. Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new alerts At the behest of the most peaceful president in US history, Donald J. Trump, the US Department of War and OpenAI launched their offensive agentic AI weapon, a deadly new Apple iOS. This operating system, once...",
+      "elevated_intelligence": {
+        "signal_headline": "Compute Architecture Shifts from Cloud Monoliths to Distributed Edge Agents",
+        "convergence_lens": "Physical latency and privacy constraints drive the unbundling of general intelligence into task-specific deterministic local models.",
+        "alden_lens": "Physical latency and privacy constraints drive the unbundling of general intelligence into task-specific deterministic local models.",
+        "cross_reference": "Validates the historical transition from mainframe compute to personal workstation distribution.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_ca8246ae1bb997a3",
+      "timestamp": "2026-03-01T23:01:19+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/ios-warfare",
+      "source_url_type": "post",
+      "category": "Uncategorized",
+      "raw_summary": "iOS Warfare. (Any views expressed here are the personal views of the author and should not form the basis for making investment decisions, nor be construed as a recommendation or advice to engage in investment transactions.) Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new ale...",
+      "elevated_intelligence": {
+        "signal_headline": "Signal Awaiting Classification",
+        "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "alden_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "cross_reference": "See TOPIC_SYNTHESIZERS in pipeline.py to add a matching regex.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_a962decd0664760f",
+      "timestamp": "2026-02-17T23:01:07+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/this-is-fine",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "This Is Fine. Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new alerts When the fire alarm rings in your apartment or office building, you usually dismiss it. But sometimes death comes swiftly to those who ignore obvious warnings. Given the amount of noise swirling throughout o...",
+      "elevated_intelligence": {
+        "signal_headline": "Structural Thesis: Macro Plumbing & Balance Sheets",
+        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "cross_reference": "First-principles convergence framework.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_4c14b918fa93aa64",
+      "timestamp": "2026-02-17T23:01:07+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/this-is-fine",
+      "source_url_type": "post",
+      "category": "Uncategorized",
+      "raw_summary": "This Is Fine. (Any views expressed here are the personal views of the author and should not form the basis for making investment decisions, nor be construed as a recommendation or advice to engage in investment transactions.) Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new al...",
+      "elevated_intelligence": {
+        "signal_headline": "Signal Awaiting Classification",
+        "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "alden_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "cross_reference": "See TOPIC_SYNTHESIZERS in pipeline.py to add a matching regex.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_b155dc4b5d0fdb8e",
+      "timestamp": "2026-01-27T23:01:23+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/woomph",
+      "source_url_type": "post",
+      "category": "Autonomous Intelligence",
+      "raw_summary": "Woomph. Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new alerts The mountain go Woomph . Me: Did you hear that? In the valley of powder, certain sounds cause an immediate need to stop, listen, and adapt. The mountain go Woomph . My friend: The snow pack is failing. Skinning on...",
+      "elevated_intelligence": {
+        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
+        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_ddce38ab57ce3fe1",
+      "timestamp": "2026-01-27T23:01:23+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/woomph",
+      "source_url_type": "post",
+      "category": "Uncategorized",
+      "raw_summary": "Woomph. (Any views expressed here are the personal views of the author and should not form the basis for making investment decisions, nor be construed as a recommendation or advice to engage in investment transactions.) Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new alerts T...",
+      "elevated_intelligence": {
+        "signal_headline": "Signal Awaiting Classification",
+        "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "alden_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "cross_reference": "See TOPIC_SYNTHESIZERS in pipeline.py to add a matching regex.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_18f96edd49522787",
+      "timestamp": "2026-01-14T23:01:37+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/frowny-cloud",
+      "source_url_type": "post",
+      "category": "Autonomous Intelligence",
+      "raw_summary": "Frowny Cloud. Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar ***Subscribe for new alerts*** The personifications of my gods take the form of cuddly plush toys. During the Hokkaido peak ski season of January and February, I pray to Frowny Cloud, the goddess of snow. The weather patterns that d...",
+      "elevated_intelligence": {
+        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
+        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_95bb4573287cd1d0",
+      "timestamp": "2026-01-14T23:01:37+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/frowny-cloud",
+      "source_url_type": "post",
+      "category": "Uncategorized",
+      "raw_summary": "Frowny Cloud. (Any views expressed here are the personal views of the author and should not form the basis for making investment decisions, nor be construed as a recommendation or advice to engage in investment transactions.) Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar ***Subscribe for new...",
+      "elevated_intelligence": {
+        "signal_headline": "Signal Awaiting Classification",
+        "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "alden_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "cross_reference": "See TOPIC_SYNTHESIZERS in pipeline.py to add a matching regex.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_0fc1984926544385",
+      "timestamp": "2026-01-05T23:02:04+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/suavemente",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "Suavemente. Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar ***Subscribe for new alerts*** Conversation overheard between US President Donald Trump video conferencing into the plane flying Venezuelan President Pepe Maduro from Caracas to New York City. Trump: Pepe Maduro, you are one bad hombr...",
+      "elevated_intelligence": {
+        "signal_headline": "Structural Thesis: Macro Plumbing & Balance Sheets",
+        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "cross_reference": "First-principles convergence framework.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_ad1efcd2f1eea9d5",
+      "timestamp": "2026-01-05T23:02:04+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/suavemente",
+      "source_url_type": "post",
+      "category": "Uncategorized",
+      "raw_summary": "Suavemente. (Any views expressed here are the personal views of the author and should not form the basis for making investment decisions, nor be construed as a recommendation or advice to engage in investment transactions.) Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar ***Subscribe for new a...",
+      "elevated_intelligence": {
+        "signal_headline": "Signal Awaiting Classification",
+        "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "alden_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "cross_reference": "See TOPIC_SYNTHESIZERS in pipeline.py to add a matching regex.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_e903049c5501d9a7",
+      "timestamp": "2025-12-19T13:02:50+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/love-language",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "Love Language. Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new alerts If I had an online dating profile, it would sound something like this: Love Language: Euphemistic terms and acronyms created by politicians and central bankers describing money printing. The two most apropo...",
+      "elevated_intelligence": {
+        "signal_headline": "Structural Thesis: Macro Plumbing & Balance Sheets",
+        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "cross_reference": "First-principles convergence framework.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_7eea5845417057d1",
+      "timestamp": "2025-12-19T13:02:50+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/love-language",
+      "source_url_type": "post",
+      "category": "Uncategorized",
+      "raw_summary": "Love Language. (Any views expressed here are the personal views of the author and should not form the basis for making investment decisions, nor be construed as a recommendation or advice to engage in investment transactions.) Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new a...",
+      "elevated_intelligence": {
+        "signal_headline": "Signal Awaiting Classification",
+        "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "alden_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "cross_reference": "See TOPIC_SYNTHESIZERS in pipeline.py to add a matching regex.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_bf1ddd3aa35ccf25",
+      "timestamp": "2025-11-27T23:00:49+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/adapt-or-die",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "Adapt or Die. Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new alerts Less than a decade ago, the elevated and distinguished TradFi scallywags heaped scorn and disdain on the 100x leverage crypto derivatives market BitMEX created using this new derivatives contract called a pe...",
+      "elevated_intelligence": {
+        "signal_headline": "Cryptographic Consensus Guarantees Unchangeable Monetary Scarcity",
+        "convergence_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
+        "alden_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
+        "cross_reference": "Contrast between Austrian sound money principles and discretionary fiat credit expansion.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_149cf7e9fbe41817",
+      "timestamp": "2025-11-27T23:00:49+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/adapt-or-die",
+      "source_url_type": "post",
+      "category": "Uncategorized",
+      "raw_summary": "Adapt or Die. (Any views expressed here are the personal views of the author and should not form the basis for making investment decisions, nor be construed as a recommendation or advice to engage in investment transactions.) Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new al...",
+      "elevated_intelligence": {
+        "signal_headline": "Signal Awaiting Classification",
+        "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "alden_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "cross_reference": "See TOPIC_SYNTHESIZERS in pipeline.py to add a matching regex.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_048445bb2803c4b9",
+      "timestamp": "2025-11-17T15:31:07+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/snow-forecast",
+      "source_url_type": "post",
+      "category": "Autonomous Intelligence",
+      "raw_summary": "Snow Forecast. Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new alerts It s that time again when I become an armchair meteorologist. Concepts like La Nina and El Ni o enter my lexicon. Predicting a storm s wind direction is just as important as the amount of snowfall when dete...",
+      "elevated_intelligence": {
+        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
+        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_bbc79bff5d8f4504",
+      "timestamp": "2025-11-17T15:31:07+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/snow-forecast",
+      "source_url_type": "post",
+      "category": "Uncategorized",
+      "raw_summary": "Snow Forecast. (Any views expressed here are the personal views of the author and should not form the basis for making investment decisions, nor be construed as a recommendation or advice to engage in investment transactions.) Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new a...",
+      "elevated_intelligence": {
+        "signal_headline": "Signal Awaiting Classification",
+        "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "alden_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "cross_reference": "See TOPIC_SYNTHESIZERS in pipeline.py to add a matching regex.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_46a41f330f260636",
+      "timestamp": "2025-11-03T23:00:28+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/hallelujah",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "Hallelujah. Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new alerts Praise be to Lord Satoshi that time and compounding interest exist regardless of who you are. Even if you are a government, there are only two ways to pay for stuff, using savings or debt. For a government, sa...",
       "elevated_intelligence": {
         "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
         "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
@@ -238,8 +1598,8 @@
         "is_urgent_shift": true
       },
       "metrics": {
-        "velocity_score": 9.0,
-        "momentum_label": "+360% 6h spike",
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
         "sparkline_points": [
           15,
           24,
@@ -252,28 +1612,28 @@
       }
     },
     {
-      "id": "sig_9f44da38d3e7db8b",
-      "timestamp": "2024-09-24T17:59:32+00:00",
+      "id": "sig_be15d7aeccbddc4e",
+      "timestamp": "2025-11-03T23:00:28+00:00",
       "entity": {
-        "name": "Lyn Alden",
-        "handle": "@LynAldenContact",
-        "platform": "newsletter",
-        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
-      "source_url": "https://www.lynalden.com/bitcoin-a-global-liquidity-barometer/",
+      "source_url": "https://cryptohayes.substack.com/p/hallelujah",
       "source_url_type": "post",
-      "category": "Macro Plumbing & Balance Sheets",
-      "raw_summary": "Bitcoin: A Global Liquidity Barometer. This research piece on the correlation between measures of liquidity and the price of Bitcoin was compiled and written by Sam Callahan, and commissioned and advised by Lyn Alden. Published: September 2024 Executive Summary Bitcoin moves in the direction of global liquidity 83% of the time in any given 12-month period, which is higher than [ ] The post Bitc...",
+      "category": "Uncategorized",
+      "raw_summary": "Hallelujah. (Any views expressed here are the personal views of the author and should not form the basis for making investment decisions, nor be construed as a recommendation or advice to engage in investment transactions.) Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new aler...",
       "elevated_intelligence": {
-        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
-        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
+        "signal_headline": "Signal Awaiting Classification",
+        "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "alden_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "cross_reference": "See TOPIC_SYNTHESIZERS in pipeline.py to add a matching regex.",
         "is_urgent_shift": true
       },
       "metrics": {
-        "velocity_score": 9.0,
-        "momentum_label": "+360% 6h spike",
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
         "sparkline_points": [
           15,
           24,
@@ -286,62 +1646,62 @@
       }
     },
     {
-      "id": "sig_6f8350078c5e0356",
-      "timestamp": "2024-08-04T16:08:13+00:00",
+      "id": "sig_300c26efefb19072",
+      "timestamp": "2025-10-08T23:00:20+00:00",
       "entity": {
-        "name": "Lyn Alden",
-        "handle": "@LynAldenContact",
-        "platform": "newsletter",
-        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
-      "source_url": "https://www.lynalden.com/a-new-look-at-corporate-treasury-strategy/",
-      "source_url_type": "post",
-      "category": "Macro Plumbing & Balance Sheets",
-      "raw_summary": "A New Look at Corporate Treasury Strategy. Published: August 2024 In the modern era of corporate finance, the balance sheet of a corporation has trended toward being less important relative to the income statement. Back during Benjamin Graham s quintessential value investing days, he looked at balance sheet valuation metrics almost as much as he did income-related valuation metrics. But in mode...",
-      "elevated_intelligence": {
-        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
-        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
-        "is_urgent_shift": true
-      },
-      "metrics": {
-        "velocity_score": 9.0,
-        "momentum_label": "+360% 6h spike",
-        "sparkline_points": [
-          15,
-          24,
-          38,
-          55,
-          80,
-          115,
-          145
-        ]
-      }
-    },
-    {
-      "id": "sig_cfaf242b6d3c4364",
-      "timestamp": "2024-07-20T19:48:33+00:00",
-      "entity": {
-        "name": "Lyn Alden",
-        "handle": "@LynAldenContact",
-        "platform": "newsletter",
-        "avatar_url": "https://unavatar.io/x/LynAldenContact"
-      },
-      "source_url": "https://www.lynalden.com/the-power-of-nostr/",
+      "source_url": "https://cryptohayes.substack.com/p/long-live-the-king",
       "source_url_type": "post",
       "category": "Compute, Power & The Grid",
-      "raw_summary": "The Power of Nostr: Decentralized Social Media and More. Published: July 2024 It would be powerful if you could bring your digital identity, content, and followers from one social ecosystem, such as Twitter, LinkedIn, Instagram, or Substack, to another. Imagine if you could publish content and send messages in any of those types of ecosystems, with one continuous digital identity rather than se...",
+      "raw_summary": "Long Live the King!. Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for new alerts How does society adjudicate scarcity given that humanity hasn t reached a sci-fi utopian post-scarcity existence? Infinitely abundant energy does not allow us to consume whatever we want whenever we w...",
       "elevated_intelligence": {
-        "signal_headline": "Baseload Grid Interconnection Bottlenecks Accelerate Behind-the-Meter Power Co-Location",
-        "convergence_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
-        "alden_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
-        "cross_reference": "Directly links to recent corporate nuclear power purchase agreements and miner colocation pivots.",
+        "signal_headline": "Physical Power Constraints Anchor Modern Digital Infrastructure",
+        "convergence_lens": "All computation is fundamentally an irreversible thermodynamic transformation of electrical potential.",
+        "alden_lens": "All computation is fundamentally an irreversible thermodynamic transformation of electrical potential.",
+        "cross_reference": "Landauer's principle and thermodynamic limits of computation.",
         "is_urgent_shift": true
       },
       "metrics": {
-        "velocity_score": 9.0,
-        "momentum_label": "+360% 6h spike",
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
+    {
+      "id": "sig_96d72e404cff73d7",
+      "timestamp": "2025-10-08T23:00:20+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://cryptohayes.substack.com/p/long-live-the-king",
+      "source_url_type": "post",
+      "category": "Uncategorized",
+      "raw_summary": "Long Live the King!. (Any views expressed here are the personal views of the author and should not form the basis for making investment decisions, nor be construed as a recommendation or advice to engage in investment transactions.) Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for...",
+      "elevated_intelligence": {
+        "signal_headline": "Signal Awaiting Classification",
+        "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "alden_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
+        "cross_reference": "See TOPIC_SYNTHESIZERS in pipeline.py to add a matching regex.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
         "sparkline_points": [
           15,
           24,

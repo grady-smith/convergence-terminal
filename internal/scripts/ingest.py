@@ -53,6 +53,46 @@ RSS_FEEDS = [
         "platform": "newsletter",
         "avatar_url": "https://unavatar.io/x/LynAldenContact",
         "velocity_hint": 9.0
+    },
+    {
+        "name": "Arthur Hayes Substack",
+        "url": "https://cryptohayes.substack.com/feed",
+        "entity_name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "category": "Macro Plumbing & Balance Sheets",
+        "platform": "substack",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes",
+        "velocity_hint": 9.2
+    },
+    {
+        "name": "Bitcoin Core Releases",
+        "url": "https://github.com/bitcoin/bitcoin/releases.atom",
+        "entity_name": "Bitcoin Core Project",
+        "handle": "@bitcoincoreorg",
+        "category": "Bitcoin",
+        "platform": "github",
+        "avatar_url": "https://unavatar.io/x/bitcoincoreorg",
+        "velocity_hint": 9.5
+    },
+    {
+        "name": "LND Lightning Releases",
+        "url": "https://github.com/lightningnetwork/lnd/releases.atom",
+        "entity_name": "Jack Mallers",
+        "handle": "@jackmallers",
+        "category": "Agentic Rails & Settlement",
+        "platform": "github",
+        "avatar_url": "https://unavatar.io/x/jackmallers",
+        "velocity_hint": 9.1
+    },
+    {
+        "name": "Andrej Karpathy Activity",
+        "url": "https://github.com/karpathy.atom",
+        "entity_name": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "category": "Autonomous Intelligence",
+        "platform": "github",
+        "avatar_url": "https://unavatar.io/x/karpathy",
+        "velocity_hint": 9.3
     }
 ]
 
@@ -75,6 +115,7 @@ def strip_html_tags(text):
         return ""
     clean = re.sub(r"<[^>]+>", " ", text)
     clean = re.sub(r"&[a-zA-Z0-9#]+;", " ", clean)
+    clean = re.sub(r"\((?:Any|Opinions|Views) views expressed here[^)]*\)", " ", clean, flags=re.IGNORECASE)
     return " ".join(clean.split()).strip()
 
 def _local_tag(tag):
@@ -228,6 +269,7 @@ def harvest_all_feeds():
 def fetch_user_tweets(clean_handle, api_key, limit=3, timeout=10):
     """
     Queries TwitterAPI.io user/last_tweets endpoint with retry & backoff.
+    Returns (tweets, credits_exhausted: bool)
     """
     import time
     url = f"https://api.twitterapi.io/twitter/user/last_tweets?userName={clean_handle}"
@@ -244,16 +286,18 @@ def fetch_user_tweets(clean_handle, api_key, limit=3, timeout=10):
                 if res.status == 200:
                     payload = json.loads(res.read().decode("utf-8"))
                     tweets = payload.get("data", {}).get("tweets", [])
-                    return tweets[:limit]
+                    return tweets[:limit], False
         except urllib.error.HTTPError as e:
             if e.code == 429 and attempt == 0:
                 print(f" (429 backoff 3s)", end="", flush=True)
                 time.sleep(3.0)
                 continue
-            return None
+            elif e.code == 402:
+                return None, True
+            return None, False
         except Exception:
-            return None
-    return None
+            return None, False
+    return None, False
 
 def format_tweet_record(tweet, entity_meta):
     import time
@@ -340,7 +384,7 @@ def harvest_twitter_relay(watchlist, api_key, max_accounts=8):
         handle = meta["handle"].lstrip("@")
         print(f"  Fetching: @{handle} ({meta.get('name')})...", end="", flush=True)
         time.sleep(2.0)  # Rate limit pacing
-        tweets = fetch_user_tweets(handle, api_key, limit=3)
+        tweets, credits_exhausted = fetch_user_tweets(handle, api_key, limit=3)
         if tweets:
             count = 0
             for tw in tweets:
@@ -349,8 +393,11 @@ def harvest_twitter_relay(watchlist, api_key, max_accounts=8):
                     staged_tweets.append(record)
                     count += 1
             print(f" ✅ ({count} tweets)")
+        elif credits_exhausted:
+            print(f" ⚠️ (TwitterAPI credits exhausted — skipping remaining relay accounts)")
+            break
         else:
-            print(f" ⚠️ (fallback to archive/baseline)")
+            print(f" ⚠️ (no live tweets available)")
 
     print(f"  Total live tweets harvested: {len(staged_tweets)}")
     return staged_tweets

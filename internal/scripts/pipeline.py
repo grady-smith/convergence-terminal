@@ -146,7 +146,7 @@ TOPIC_SYNTHESIZERS = [
     )
 ]
 
-def synthesize_signal(post_id, entity_id, raw_text, source_url, timestamp, velocity_hint=7.5, sparkline=None):
+def synthesize_signal(post_id, entity_id, raw_text, source_url, timestamp, velocity_hint=7.5, sparkline=None, default_category=None):
     clean_text = raw_text.lower()
     
     matched_category = None
@@ -165,7 +165,7 @@ def synthesize_signal(post_id, entity_id, raw_text, source_url, timestamp, veloc
             break
 
     if not matched_category:
-        if any(k in clean_text for k in ["btc", "satoshi", "halving", "custody", "multisig"]):
+        if any(k in clean_text for k in ["btc", "satoshi", "halving", "custody", "multisig", "cryptocurrenc", "crypto"]):
             matched_category = "Bitcoin"
             matched_headline = "Cryptographic Consensus Guarantees Unchangeable Monetary Scarcity"
             matched_lens = "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power."
@@ -177,17 +177,25 @@ def synthesize_signal(post_id, entity_id, raw_text, source_url, timestamp, veloc
             matched_lens = "All computation is fundamentally an irreversible thermodynamic transformation of electrical potential."
             matched_cross_ref = "Landauer's principle and thermodynamic limits of computation."
             matched_urgent = True
-        elif any(k in clean_text for k in ["model", "ai", "llm", "neural"]):
+        elif any(k in clean_text for k in ["model", "ai", "llm", "neural", "nanochat"]):
             matched_category = "Autonomous Intelligence"
             matched_headline = "Autonomous Edge Models Disrupt Centralized Cloud Monopoly"
             matched_lens = "Local model weights running on user hardware preserve sovereignty against centralized platform censorship."
             matched_cross_ref = "Parallel to open-source software disruption of proprietary computing architectures."
             matched_urgent = False
+        elif any(k in clean_text for k in ["banking", "fractional reserve", "credit", "bond", "euro", "ecb", "fed", "liquidity", "yield"]):
+            matched_category = "Macro Plumbing & Balance Sheets"
+            matched_headline = "Structural Credit Expansion and Fractional Reserve Dynamics"
+            matched_lens = "Bank credit creation acts as an elastic money supply, distinct from base money and highly sensitive to interest rates."
+            matched_cross_ref = "Contrast between base money (M0) and broad money (M2) in the modern banking system."
+            matched_urgent = False
+        elif default_category and default_category != "Uncategorized":
+            matched_category = default_category
+            matched_headline = f"Structural Thesis: {default_category}"
+            matched_lens = "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture."
+            matched_cross_ref = "First-principles convergence framework."
+            matched_urgent = False
         else:
-            # No regex pattern matched and no keyword heuristic applied.
-            # Log a warning so operators can see which content is falling through,
-            # then classify explicitly as Uncategorized rather than silently
-            # routing to a misleading category.
             print(
                 f"  [TOPIC WARN] synthesize_signal: no pattern matched for post_id={post_id!r}. "
                 f"Text preview: {raw_text[:80]!r}. "
@@ -278,7 +286,7 @@ def run_pipeline(raw_inputs_path=None):
             quarantined_count += 1
             continue
 
-        signal = synthesize_signal(post_id, entity_id, raw_text, source_url, timestamp, velocity_hint, sparkline)
+        signal = synthesize_signal(post_id, entity_id, raw_text, source_url, timestamp, velocity_hint, sparkline, default_category=item.get("category"))
         db.insert_synthesized_signal(signal)
         print(f"  ✨ [SIGNAL PASSED] [{signal['category'][:20]:<20}] {signal['signal_headline'][:45]}...")
         passed_count += 1
