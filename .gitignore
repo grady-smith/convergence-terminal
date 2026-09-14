@@ -14,3 +14,8 @@ venv/
 .DS_Store
 .vscode/
 .idea/
+
+# Node & Testing
+node_modules/
+public/screenshot_*.png
+

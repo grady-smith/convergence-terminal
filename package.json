@@ -1,0 +1,26 @@
+{
+  "name": "eager-curie",
+  "version": "1.0.0",
+  "description": "> **High-Signal Intelligence Terminal** at the nexus of **Bitcoin**, **Energy & Compute Grids**, and **Autonomous AI Agents** under the **Convergence First-Principles Engine**.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "node tests/automated_browser_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grady-smith/convergence-terminal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grady-smith/convergence-terminal/issues"
+  },
+  "homepage": "https://github.com/grady-smith/convergence-terminal#readme",
+  "dependencies": {
+    "puppeteer": "^25.11.0"
+  }
+}

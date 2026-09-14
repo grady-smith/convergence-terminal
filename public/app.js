@@ -115,7 +115,30 @@ async function loadSignals(isBackgroundPoll = false) {
     }
 
     lastGeneratedAt = payload.generated_at;
-    allSignals = payload.items || [];
+    const rawItems = payload.items || [];
+    const seenUrls = new Set();
+    const seenContents = new Set();
+    const deduped = [];
+
+    for (const item of rawItems) {
+      const url = item.source_url;
+      const isSpecificPost = item.source_url_type === 'post' && url && url !== '#';
+      const urlKey = isSpecificPost ? url.toLowerCase() : null;
+      const headline = item.elevated_intelligence?.signal_headline || '';
+      let contentKey = `${item.entity?.handle || ''}:${headline.toLowerCase()}`;
+      if (headline === 'Signal Awaiting Classification') {
+        contentKey += `:${(item.raw_summary || '').substring(0, 60).toLowerCase()}`;
+      }
+
+      if (urlKey && seenUrls.has(urlKey)) continue;
+      if (seenContents.has(contentKey)) continue;
+
+      if (urlKey) seenUrls.add(urlKey);
+      seenContents.add(contentKey);
+      deduped.push(item);
+    }
+
+    allSignals = deduped;
     
     updateHeaderStats(payload);
     renderFilterButtons();
@@ -313,11 +336,11 @@ function renderCard(item, style) {
   ` : '';
 
   const crossRefBlock = item.elevated_intelligence?.cross_reference ? `
-    <div class="flex items-start gap-2 pt-2 border-t border-slate-800/80">
+    <div class="flex items-start gap-2 pt-2 border-t border-slate-800/80 min-w-0">
       <span class="px-1.5 py-0.5 rounded text-[9px] font-mono font-bold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 uppercase tracking-wider flex-shrink-0 mt-0.5">
         Cross-Ref
       </span>
-      <p class="text-xs text-slate-400 leading-relaxed">
+      <p class="text-xs text-slate-400 leading-relaxed break-words min-w-0">
         ${item.elevated_intelligence.cross_reference}
       </p>
     </div>
@@ -351,21 +374,21 @@ function renderCard(item, style) {
   `;
 
   return `
-    <article class="terminal-card rounded-xl p-5 border-l-4 ${style.accentBorder} flex flex-col justify-between gap-4 col-span-full max-w-4xl mx-auto w-full">
+    <article class="terminal-card rounded-xl p-4 sm:p-5 border-l-4 ${style.accentBorder} flex flex-col justify-between gap-4 h-full w-full min-w-0 overflow-hidden box-border">
       <!-- Card Top Bar -->
-      <div class="flex items-start justify-between gap-3 flex-wrap sm:flex-nowrap">
-        <div class="flex items-center gap-3">
-          <div class="w-10 h-10 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center font-mono font-bold text-amber-400 text-sm overflow-hidden flex-shrink-0">
+      <div class="flex items-start justify-between gap-3 flex-wrap min-w-0">
+        <div class="flex items-center gap-2.5 sm:gap-3 min-w-0 flex-1">
+          <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center font-mono font-bold text-amber-400 text-xs sm:text-sm overflow-hidden flex-shrink-0">
             <span title="${item.entity?.name}">${entityInitials}</span>
           </div>
-          <div>
-            <div class="flex items-center gap-2">
-              <h3 class="font-semibold text-slate-100 text-sm hover:text-amber-400 transition-colors">
+          <div class="min-w-0 flex-1">
+            <div class="flex items-center gap-1.5 min-w-0">
+              <h3 class="font-semibold text-slate-100 text-xs sm:text-sm hover:text-amber-400 transition-colors truncate">
                 ${item.entity?.name || 'Unknown Entity'}
               </h3>
-              <span class="text-xs font-mono text-slate-400">${item.entity?.handle || ''}</span>
+              <span class="text-[11px] sm:text-xs font-mono text-slate-400 truncate">${item.entity?.handle || ''}</span>
             </div>
-            <div class="flex items-center gap-2 text-[11px] font-mono text-slate-400 mt-0.5">
+            <div class="flex items-center gap-2 text-[10px] sm:text-[11px] font-mono text-slate-400 mt-0.5">
               <span class="uppercase tracking-wider text-slate-400">${item.entity?.platform || 'FEED'}</span>
               <span>•</span>
               <span>${relTime}</span>
@@ -373,31 +396,31 @@ function renderCard(item, style) {
           </div>
         </div>
 
-        <div class="flex items-center gap-2 flex-wrap sm:flex-nowrap">
+        <div class="flex items-center gap-1.5 flex-wrap justify-end max-w-full">
           ${urgentBadge}
-          <span class="px-2.5 py-1 rounded text-[11px] font-mono font-medium ${style.badgeBg} ${style.badgeText} border ${style.badgeBorder}">
+          <span class="px-2 py-0.5 rounded text-[10px] sm:text-[11px] font-mono font-medium ${style.badgeBg} ${style.badgeText} border ${style.badgeBorder} break-words text-right">
             ${item.category}
           </span>
         </div>
       </div>
 
       <!-- Headline & Summary -->
-      <div>
-        <h2 class="text-base sm:text-lg font-bold text-slate-100 tracking-tight leading-snug">
+      <div class="min-w-0">
+        <h2 class="text-base sm:text-lg font-bold text-slate-100 tracking-tight leading-snug break-words">
           ${item.elevated_intelligence?.signal_headline || item.raw_summary}
         </h2>
-        <p class="text-xs sm:text-sm text-slate-400 mt-2 leading-relaxed bg-slate-950/40 p-3 rounded-lg border border-slate-800/80 font-mono">
+        <p class="text-xs sm:text-sm text-slate-400 mt-2 leading-relaxed bg-slate-950/40 p-3 rounded-lg border border-slate-800/80 font-mono break-words">
           "${item.raw_summary}"
         </p>
       </div>
 
       <!-- Convergence Lens & Cross-Reference Box -->
-      <div class="bg-slate-900/90 rounded-lg p-3.5 border border-slate-800 space-y-2.5">
-        <div class="flex items-start gap-2">
+      <div class="bg-slate-900/90 rounded-lg p-3.5 border border-slate-800 space-y-2.5 min-w-0">
+        <div class="flex items-start gap-2 min-w-0">
           <span class="px-1.5 py-0.5 rounded text-[9px] font-mono font-bold bg-amber-500/10 text-amber-400 border border-amber-500/20 uppercase tracking-wider flex-shrink-0 mt-0.5">
             Convergence Lens
           </span>
-          <p class="text-xs sm:text-sm text-amber-100/90 leading-relaxed">
+          <p class="text-xs sm:text-sm text-amber-100/90 leading-relaxed break-words min-w-0 flex-1">
             ${lensContent}
           </p>
         </div>
@@ -405,17 +428,17 @@ function renderCard(item, style) {
       </div>
 
       <!-- Card Footer -->
-      <div class="flex items-center justify-between pt-2 border-t border-slate-800/60 flex-wrap gap-2 text-xs">
-        <div class="flex items-center gap-4">
+      <div class="flex items-center justify-between pt-2 border-t border-slate-800/60 flex-wrap gap-2 text-xs min-w-0">
+        <div class="flex items-center gap-3 sm:gap-4 flex-wrap">
           <div class="flex items-center gap-1.5 font-mono">
-            <span class="text-slate-400 text-[11px]">VELOCITY:</span>
-            <span class="font-bold text-amber-400 text-sm">${item.metrics?.velocity_score ?? '—'}</span>
+            <span class="text-slate-400 text-[10px] sm:text-[11px]">VELOCITY:</span>
+            <span class="font-bold text-amber-400 text-xs sm:text-sm">${item.metrics?.velocity_score ?? '—'}</span>
             <span class="text-slate-400 text-[10px]">/ 10</span>
           </div>
 
           <div class="flex items-center gap-2">
             ${sparkSvg}
-            <span class="font-mono text-[11px] text-slate-300 font-medium">${item.metrics?.momentum_label ?? '—'}</span>
+            <span class="font-mono text-[10px] sm:text-[11px] text-slate-300 font-medium">${item.metrics?.momentum_label ?? '—'}</span>
           </div>
         </div>
 
@@ -455,10 +478,10 @@ function renderSignals() {
 
   filtered.sort((a, b) => (b.metrics?.velocity_score || 0) - (a.metrics?.velocity_score || 0));
 
-  const displaySignals = filtered.slice(0, 1);
+  const displaySignals = filtered;
 
   if (countDisplay) {
-    countDisplay.textContent = `Showing 1 live signal from primary feed (Lyn Alden Newsletter)`;
+    countDisplay.textContent = `Showing ${filtered.length} signal${filtered.length !== 1 ? 's' : ''}`;
   }
 
   if (displaySignals.length === 0) {

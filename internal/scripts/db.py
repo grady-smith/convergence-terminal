@@ -258,6 +258,21 @@ def insert_raw_post(entity_id, handle, raw_text, source_url=None, timestamp=None
     clean_url = resolve_source_url(source_url, handle=handle)
 
     with db_connection() as conn:
+        # Deduplication by canonical post URL: if an article URL already exists for this entity, update it
+        if clean_url and classify_source_url(clean_url) == "post":
+            cursor = conn.cursor()
+            cursor.execute("SELECT id FROM raw_posts WHERE entity_id = ? AND source_url = ?", (entity_id, clean_url))
+            existing = cursor.fetchone()
+            if existing:
+                existing_id = existing["id"]
+                conn.execute("""
+                    UPDATE raw_posts 
+                    SET raw_text = ?, content_hash = ?, timestamp = ?
+                    WHERE id = ?
+                """, (raw_text, content_hash, ts, existing_id))
+                conn.commit()
+                return existing_id, False
+
         try:
             conn.execute("""
                 INSERT INTO raw_posts (id, entity_id, source_url, raw_text, content_hash, timestamp)
@@ -334,9 +349,10 @@ def export_public_data(limit=50):
             FROM synthesized_signals s
             JOIN raw_posts r ON s.raw_post_id = r.id
             LEFT JOIN entities e ON (s.entity_id = e.id OR lower(e.handle) = lower('@' || s.entity_id) OR lower(e.handle) = lower(s.entity_id))
-            ORDER BY s.velocity_score DESC, r.timestamp DESC, s.published_at DESC
-            LIMIT ?
-        """, (limit,))
+            ORDER BY 
+                CASE WHEN s.category != 'Uncategorized' THEN 0 ELSE 1 END,
+                s.velocity_score DESC, r.timestamp DESC, s.published_at DESC
+        """)
 
         rows = cursor.fetchall()
 
@@ -346,17 +362,38 @@ def export_public_data(limit=50):
 
     # Build output outside the connection context — connection is already closed.
     items = []
-    for r in rows:
-        try:
-            sparkline = json.loads(r["sparkline_points"])
-        except Exception:
-            sparkline = [10, 15, 25, 40, 60, 80, 100]
+    seen_post_urls = set()
+    seen_content_keys = set()
 
+    for r in rows:
         resolved_source = resolve_source_url(
             r["source_url"],
             handle=r["entity_handle"],
             platform=r["entity_platform"]
         )
+        source_type = classify_source_url(resolved_source)
+
+        # Deduplication rules:
+        # 1. If it's a specific post URL, only include once
+        url_key = resolved_source.lower() if (source_type == "post" and resolved_source and resolved_source != "#") else None
+        headline = r["signal_headline"] or ""
+        content_key = f"{r['entity_handle'].lower()}:{headline.lower()}"
+        if headline == "Signal Awaiting Classification":
+            content_key += f":{r['raw_text'][:50].lower()}"
+
+        if url_key and url_key in seen_post_urls:
+            continue
+        if content_key in seen_content_keys:
+            continue
+
+        if url_key:
+            seen_post_urls.add(url_key)
+        seen_content_keys.add(content_key)
+
+        try:
+            sparkline = json.loads(r["sparkline_points"])
+        except Exception:
+            sparkline = [10, 15, 25, 40, 60, 80, 100]
 
         items.append({
             "id": r["id"],
@@ -368,7 +405,7 @@ def export_public_data(limit=50):
                 "avatar_url": r["entity_avatar_url"]
             },
             "source_url": resolved_source,
-            "source_url_type": classify_source_url(resolved_source),
+            "source_url_type": source_type,
             "category": r["category"],
             "raw_summary": r["raw_text"],
             "elevated_intelligence": {
@@ -384,6 +421,9 @@ def export_public_data(limit=50):
                 "sparkline_points": sparkline
             }
         })
+
+        if len(items) >= limit:
+            break
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
