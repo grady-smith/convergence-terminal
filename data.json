@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-14T10:48:48.373542+00:00",
+  "generated_at": "2026-09-14T17:27:35.119896+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 32,
   "total_signals": 50,
-  "sludge_filtered_count": 6,
+  "sludge_filtered_count": 8,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -13,6 +13,40 @@
     "Autonomous Intelligence"
   ],
   "items": [
+    {
+      "id": "sig_fe2ed1612644b605",
+      "timestamp": "2026-09-14T12:58:46Z",
+      "entity": {
+        "name": "Bitcoin Core Project",
+        "handle": "@bitcoincoreorg",
+        "platform": "github",
+        "avatar_url": "https://unavatar.io/x/bitcoincoreorg"
+      },
+      "source_url": "https://github.com/bitcoin/bitcoin/releases/tag/v32.0rc1",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "v32.0rc1: Bitcoin Core 32.0 release candidate 1. Tree-SHA512: 8bf11a81e1cdff7aa9a0c1485ee969877eb717db911a5585e4bff9f08e6a62e774ad6f56de8eb696397960e6702b7d4f061e2525de155ae48c603cb9c813d112",
+      "elevated_intelligence": {
+        "signal_headline": "Cluster Mempool Linearization & Sovereign Node Telemetry Fortify Consensus Topology",
+        "convergence_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "alden_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "cross_reference": "Directly advances Bitcoin Core peer-to-peer consensus relay and Layer-2 settlement guarantees.",
+        "is_urgent_shift": true
+      },
+      "metrics": {
+        "velocity_score": 9.5,
+        "momentum_label": "+380% 6h spike",
+        "sparkline_points": [
+          15,
+          24,
+          38,
+          55,
+          80,
+          115,
+          145
+        ]
+      }
+    },
     {
       "id": "sig_2c1b16e2c27bf1ee",
       "timestamp": "2026-07-10T14:25:37Z",
@@ -1663,40 +1697,6 @@
         "convergence_lens": "All computation is fundamentally an irreversible thermodynamic transformation of electrical potential.",
         "alden_lens": "All computation is fundamentally an irreversible thermodynamic transformation of electrical potential.",
         "cross_reference": "Landauer's principle and thermodynamic limits of computation.",
-        "is_urgent_shift": true
-      },
-      "metrics": {
-        "velocity_score": 9.2,
-        "momentum_label": "+368% 6h spike",
-        "sparkline_points": [
-          15,
-          24,
-          38,
-          55,
-          80,
-          115,
-          145
-        ]
-      }
-    },
-    {
-      "id": "sig_96d72e404cff73d7",
-      "timestamp": "2025-10-08T23:00:20+00:00",
-      "entity": {
-        "name": "Arthur Hayes",
-        "handle": "@CryptoHayes",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/CryptoHayes"
-      },
-      "source_url": "https://cryptohayes.substack.com/p/long-live-the-king",
-      "source_url_type": "post",
-      "category": "Uncategorized",
-      "raw_summary": "Long Live the King!. (Any views expressed here are the personal views of the author and should not form the basis for making investment decisions, nor be construed as a recommendation or advice to engage in investment transactions.) Want More? Follow the Author on Instagram , LinkedIn and X Access the Korean language version here: Naver Subscribe to see the latest Events: Calendar Subscribe for...",
-      "elevated_intelligence": {
-        "signal_headline": "Signal Awaiting Classification",
-        "convergence_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
-        "alden_lens": "This signal did not match any first-principles topic pattern. Manual review recommended.",
-        "cross_reference": "See TOPIC_SYNTHESIZERS in pipeline.py to add a matching regex.",
         "is_urgent_shift": true
       },
       "metrics": {
