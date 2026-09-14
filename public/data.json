@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-14T23:02:07.413905+00:00",
+  "generated_at": "2026-09-14T23:50:24.163880+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
-  "tracked_entities_count": 32,
-  "total_signals": 15,
-  "sludge_filtered_count": 6,
+  "tracked_entities_count": 13,
+  "total_signals": 27,
+  "sludge_filtered_count": 10,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -14,24 +14,130 @@
   ],
   "items": [
     {
-      "id": "sig_2c1b16e2c27bf1ee",
-      "timestamp": "2026-07-10T14:25:37Z",
+      "id": "sig_10a67a164d12949b",
+      "timestamp": "2026-09-13T10:17:05+00:00",
+      "entity": {
+        "name": "Lyn Alden",
+        "handle": "@LynAldenContact",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+      },
+      "source_url": "https://twitter.com/LynAldenContact/status/2099079913609265557",
+      "source_url_type": "post",
+      "category": "Autonomous Intelligence",
+      "raw_summary": "RT @PatsOnYaBack: Explaining the Ocarina of Time Remake to Gen Z",
+      "elevated_intelligence": {
+        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
+        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.8,
+        "momentum_label": "+392% 6h spike",
+        "sparkline_points": [
+          31,
+          46,
+          39,
+          70,
+          101,
+          140,
+          187
+        ]
+      }
+    },
+    {
+      "id": "sig_e6410d35cc4043cd",
+      "timestamp": "2026-09-12T16:32:14+00:00",
+      "entity": {
+        "name": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "platform": "github",
+        "avatar_url": "https://unavatar.io/x/karpathy"
+      },
+      "source_url": "https://twitter.com/karpathy/status/2098811935114551617",
+      "source_url_type": "post",
+      "category": "Autonomous Intelligence",
+      "raw_summary": "I love this and really hope we can come together as an industry and make it happen.",
+      "elevated_intelligence": {
+        "signal_headline": "Structural Thesis: Autonomous Intelligence",
+        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "cross_reference": "First-principles convergence framework.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.8,
+        "momentum_label": "+392% 6h spike",
+        "sparkline_points": [
+          31,
+          46,
+          39,
+          70,
+          101,
+          140,
+          187
+        ]
+      }
+    },
+    {
+      "id": "sig_b01aebb1cb8c51a1",
+      "timestamp": "2026-09-10T23:09:44+00:00",
+      "entity": {
+        "name": "Andrej Karpathy",
+        "handle": "@karpathy",
+        "platform": "github",
+        "avatar_url": "https://unavatar.io/x/karpathy"
+      },
+      "source_url": "https://twitter.com/karpathy/status/2098187194024476764",
+      "source_url_type": "post",
+      "category": "Autonomous Intelligence",
+      "raw_summary": "RT @AnthropicAI: We're publishing our most detailed threat intelligence report to date. \n\nIt covers how people tried to misuse Claude\u2014for c\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
+        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.8,
+        "momentum_label": "+392% 6h spike",
+        "sparkline_points": [
+          31,
+          46,
+          39,
+          70,
+          101,
+          140,
+          187
+        ]
+      }
+    },
+    {
+      "id": "sig_fe2ed1612644b605",
+      "timestamp": "2026-09-14T12:58:46Z",
       "entity": {
         "name": "Bitcoin Core Project",
         "handle": "@bitcoincoreorg",
         "platform": "github",
         "avatar_url": "https://unavatar.io/x/bitcoincoreorg"
       },
-      "source_url": "https://github.com/bitcoin/bitcoin/releases/tag/v29.4",
+      "source_url": "https://github.com/bitcoin/bitcoin/releases/tag/v32.0rc1",
       "source_url_type": "post",
       "category": "Bitcoin",
-      "raw_summary": "Bitcoin Core 29.4. Bitcoin Core version 29.4 is now available from: https://bitcoincore.org/bin/bitcoin-core-29.4/ For the release notes please see the git repository: https://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-29.4.md Do not use the links provided by GitHub, rather use the above download links, they are guaranteed to be generated deterministically and signed.",
+      "raw_summary": "v32.0rc1: Bitcoin Core 32.0 release candidate 1. Tree-SHA512: 8bf11a81e1cdff7aa9a0c1485ee969877eb717db911a5585e4bff9f08e6a62e774ad6f56de8eb696397960e6702b7d4f061e2525de155ae48c603cb9c813d112",
       "elevated_intelligence": {
         "signal_headline": "Cluster Mempool Linearization & Sovereign Node Telemetry Fortify Consensus Topology",
         "convergence_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
         "alden_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
         "cross_reference": "Directly advances Bitcoin Core peer-to-peer consensus relay and Layer-2 settlement guarantees.",
-        "is_urgent_shift": true
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
       },
       "metrics": {
         "velocity_score": 9.5,
@@ -65,7 +171,8 @@
         "convergence_lens": "Physical latency and privacy constraints drive the unbundling of general intelligence into task-specific deterministic local models.",
         "alden_lens": "Physical latency and privacy constraints drive the unbundling of general intelligence into task-specific deterministic local models.",
         "cross_reference": "Validates the historical transition from mainframe compute to personal workstation distribution.",
-        "is_urgent_shift": true
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
       },
       "metrics": {
         "velocity_score": 9.3,
@@ -78,6 +185,146 @@
           80,
           115,
           145
+        ]
+      }
+    },
+    {
+      "id": "sig_cb6677f55fa30ddd",
+      "timestamp": "2026-09-14T15:10:18+00:00",
+      "entity": {
+        "name": "Jack Mallers",
+        "handle": "@jackmallers",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/jackmallers"
+      },
+      "source_url": "https://twitter.com/jackmallers/status/2099516094633435405",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "AI productivity was supposed to grow governments out of their debt crisis. Now the people building frontier AI want to \"slow it down\".\n\nIf productivity can\u2019t outrun the debt, then what? How does anyone get paid back?\n\nNobody can \u201cslow down\u201d Bitcoin. Stay humble. Stack sats.",
+      "elevated_intelligence": {
+        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
+        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          29,
+          43,
+          36,
+          65,
+          94,
+          131,
+          175
+        ]
+      }
+    },
+    {
+      "id": "sig_3ee080dd821cc741",
+      "timestamp": "2026-09-13T20:59:36+00:00",
+      "entity": {
+        "name": "Lyn Alden",
+        "handle": "@LynAldenContact",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+      },
+      "source_url": "https://twitter.com/LynAldenContact/status/2099241612006047981",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "In Egypt, you can be at a high end restaurant and have street cats come up and say hi.\n\nSome consider this a problem but not me. \ud83e\udd70",
+      "elevated_intelligence": {
+        "signal_headline": "Structural Thesis: Macro Plumbing & Balance Sheets",
+        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "cross_reference": "First-principles convergence framework.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          29,
+          43,
+          36,
+          65,
+          94,
+          131,
+          175
+        ]
+      }
+    },
+    {
+      "id": "sig_8904727542ffef9c",
+      "timestamp": "2026-09-13T12:55:07+00:00",
+      "entity": {
+        "name": "Dr. Adam Back",
+        "handle": "@adam3us",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/adam3us"
+      },
+      "source_url": "https://twitter.com/adam3us/status/2099119687124615314",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "#bitcoin passes $65k 200wma https://t.co/6W3RSiLkB3",
+      "elevated_intelligence": {
+        "signal_headline": "Structural Thesis: Bitcoin",
+        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "cross_reference": "First-principles convergence framework.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          29,
+          43,
+          36,
+          65,
+          94,
+          131,
+          175
+        ]
+      }
+    },
+    {
+      "id": "sig_42bc4398b22b4b92",
+      "timestamp": "2026-09-09T15:53:07+00:00",
+      "entity": {
+        "name": "Jack Mallers",
+        "handle": "@jackmallers",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/jackmallers"
+      },
+      "source_url": "https://twitter.com/jackmallers/status/2097714929205735552",
+      "source_url_type": "post",
+      "category": "Compute, Power & The Grid",
+      "raw_summary": "Increased buybacks are sending yields higher. Oops.\n\nTurns out people don\u2019t want to lend to a system that destroys the purchasing power they\u2019re paid back in.\n\nMaybe nothing stops this train. Maybe Bitcoiners aren\u2019t so crazy. Maybe save in what they can\u2019t print. Maybe buy bitcoin",
+      "elevated_intelligence": {
+        "signal_headline": "Baseload Grid Interconnection Bottlenecks Accelerate Behind-the-Meter Power Co-Location",
+        "convergence_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
+        "alden_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
+        "cross_reference": "Directly links to recent corporate nuclear power purchase agreements and miner colocation pivots.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          29,
+          43,
+          36,
+          65,
+          94,
+          131,
+          175
         ]
       }
     },
@@ -99,7 +346,8 @@
         "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
         "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
         "cross_reference": "First-principles convergence framework.",
-        "is_urgent_shift": true
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
       },
       "metrics": {
         "velocity_score": 9.2,
@@ -133,7 +381,8 @@
         "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
         "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
         "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
-        "is_urgent_shift": true
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
       },
       "metrics": {
         "velocity_score": 9.2,
@@ -167,7 +416,8 @@
         "convergence_lens": "Physical latency and privacy constraints drive the unbundling of general intelligence into task-specific deterministic local models.",
         "alden_lens": "Physical latency and privacy constraints drive the unbundling of general intelligence into task-specific deterministic local models.",
         "cross_reference": "Validates the historical transition from mainframe compute to personal workstation distribution.",
-        "is_urgent_shift": true
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
       },
       "metrics": {
         "velocity_score": 9.2,
@@ -201,7 +451,8 @@
         "convergence_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
         "alden_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
         "cross_reference": "Contrast between Austrian sound money principles and discretionary fiat credit expansion.",
-        "is_urgent_shift": true
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
       },
       "metrics": {
         "velocity_score": 9.2,
@@ -235,7 +486,8 @@
         "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
         "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
         "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
-        "is_urgent_shift": true
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
       },
       "metrics": {
         "velocity_score": 9.2,
@@ -269,7 +521,8 @@
         "convergence_lens": "All computation is fundamentally an irreversible thermodynamic transformation of electrical potential.",
         "alden_lens": "All computation is fundamentally an irreversible thermodynamic transformation of electrical potential.",
         "cross_reference": "Landauer's principle and thermodynamic limits of computation.",
-        "is_urgent_shift": true
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
       },
       "metrics": {
         "velocity_score": 9.2,
@@ -291,7 +544,7 @@
       "entity": {
         "name": "Jack Mallers",
         "handle": "@jackmallers",
-        "platform": "github",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/jackmallers"
       },
       "source_url": "https://github.com/lightningnetwork/lnd/releases/tag/v0.21.3-beta",
@@ -303,7 +556,8 @@
         "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
         "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
         "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
-        "is_urgent_shift": true
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
       },
       "metrics": {
         "velocity_score": 9.1,
@@ -325,7 +579,7 @@
       "entity": {
         "name": "Jack Mallers",
         "handle": "@jackmallers",
-        "platform": "github",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/jackmallers"
       },
       "source_url": "https://github.com/lightningnetwork/lnd/releases/tag/v0.21.2-beta",
@@ -337,7 +591,8 @@
         "convergence_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
         "alden_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
         "cross_reference": "Directly advances Bitcoin Core peer-to-peer consensus relay and Layer-2 settlement guarantees.",
-        "is_urgent_shift": true
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
       },
       "metrics": {
         "velocity_score": 9.1,
@@ -371,41 +626,8 @@
         "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
         "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
         "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
-        "is_urgent_shift": true
-      },
-      "metrics": {
-        "velocity_score": 9.0,
-        "momentum_label": "+360% 6h spike",
-        "sparkline_points": [
-          15,
-          24,
-          38,
-          55,
-          80,
-          115,
-          145
-        ]
-      }
-    },
-    {
-      "id": "sig_fa8f05e26c7a0b81",
-      "timestamp": "2026-03-13T13:29:44+00:00",
-      "entity": {
-        "name": "Lyn Alden",
-        "handle": "@LynAldenContact",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/LynAldenContact"
-      },
-      "source_url": "https://www.lynalden.com/the-stolguard-incident/",
-      "source_url_type": "post",
-      "category": "Autonomous Intelligence",
-      "raw_summary": "New Book: The Stolguard Incident. My new sci fi thriller, The Stolguard Incident, is now available! It can be purchased in print, ebook, or audio versions on Amazon here. You can also find the print version on Barnes Noble here, or you may be able to ask your local bookstore to order it for you. Premise: In the late [ ] The post New Book: The Stolguard Incident appeared first on Lyn Alden .",
-      "elevated_intelligence": {
-        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
-        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
-        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
-        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
-        "is_urgent_shift": true
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
       },
       "metrics": {
         "velocity_score": 9.0,
@@ -439,7 +661,8 @@
         "convergence_lens": "Bank credit creation acts as an elastic money supply, distinct from base money and highly sensitive to interest rates.",
         "alden_lens": "Bank credit creation acts as an elastic money supply, distinct from base money and highly sensitive to interest rates.",
         "cross_reference": "Contrast between base money (M0) and broad money (M2) in the modern banking system.",
-        "is_urgent_shift": true
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
       },
       "metrics": {
         "velocity_score": 9.0,
@@ -473,7 +696,8 @@
         "convergence_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
         "alden_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
         "cross_reference": "Contrast between Austrian sound money principles and discretionary fiat credit expansion.",
-        "is_urgent_shift": true
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
       },
       "metrics": {
         "velocity_score": 9.0,
@@ -507,7 +731,8 @@
         "convergence_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
         "alden_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
         "cross_reference": "Directly links to recent corporate nuclear power purchase agreements and miner colocation pivots.",
-        "is_urgent_shift": true
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
       },
       "metrics": {
         "velocity_score": 9.0,
@@ -520,6 +745,216 @@
           80,
           115,
           145
+        ]
+      }
+    },
+    {
+      "id": "sig_577f389224b80b17",
+      "timestamp": "2026-09-14T22:01:40+00:00",
+      "entity": {
+        "name": "Pierre Rochard",
+        "handle": "@BitcoinPierre",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
+      },
+      "source_url": "https://twitter.com/BitcoinPierre/status/2099619615886209189",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "RT @PunterJeff: $ASST market cap ATH \n\n$2.75B",
+      "elevated_intelligence": {
+        "signal_headline": "Structural Thesis: Bitcoin",
+        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "cross_reference": "First-principles convergence framework.",
+        "is_urgent_shift": false,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 8.6,
+        "momentum_label": "+344% 6h spike",
+        "sparkline_points": [
+          27,
+          40,
+          34,
+          61,
+          88,
+          122,
+          163
+        ]
+      }
+    },
+    {
+      "id": "sig_e6726762bad31b7f",
+      "timestamp": "2026-09-14T12:11:38+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://twitter.com/CryptoHayes/status/2099471130356556189",
+      "source_url_type": "post",
+      "category": "Compute, Power & The Grid",
+      "raw_summary": "RT @GenLayer: AI agents need three things to operate at scale: food (compute) to power them, memory to keep them running, and a place to se\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Baseload Grid Interconnection Bottlenecks Accelerate Behind-the-Meter Power Co-Location",
+        "convergence_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
+        "alden_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
+        "cross_reference": "Directly links to recent corporate nuclear power purchase agreements and miner colocation pivots.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 8.6,
+        "momentum_label": "+344% 6h spike",
+        "sparkline_points": [
+          27,
+          40,
+          34,
+          61,
+          88,
+          122,
+          163
+        ]
+      }
+    },
+    {
+      "id": "sig_847528c3a48c9f59",
+      "timestamp": "2026-09-14T22:27:05+00:00",
+      "entity": {
+        "name": "Pierre Rochard",
+        "handle": "@BitcoinPierre",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
+      },
+      "source_url": "https://twitter.com/BitcoinPierre/status/2099626014653489331",
+      "source_url_type": "post",
+      "category": "Autonomous Intelligence",
+      "raw_summary": "RT @JoshMandell6: I have some call options on $ASST which I need to exercise this week so I'm raising a little bit of cash.   It's quite re\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
+        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
+        "is_urgent_shift": false,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 7.8,
+        "momentum_label": "+195% 24h gain",
+        "sparkline_points": [
+          24,
+          37,
+          31,
+          55,
+          80,
+          111,
+          148
+        ]
+      }
+    },
+    {
+      "id": "sig_dbd342266ac28d26",
+      "timestamp": "2026-09-14T17:05:01+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://twitter.com/CryptoHayes/status/2099544963763581130",
+      "source_url_type": "post",
+      "category": "Compute, Power & The Grid",
+      "raw_summary": "Need to rent GPUs to mine @flop_labs ? Don\u2019t worry, the team is hard at work trying to source supply and will publish our results.",
+      "elevated_intelligence": {
+        "signal_headline": "Accelerated Silicon Clusters Collide with Substation Transformer Availability",
+        "convergence_lens": "Compute scaling is governed by electrical substation capacity and thermal dissipation physics rather than raw chip density.",
+        "alden_lens": "Compute scaling is governed by electrical substation capacity and thermal dissipation physics rather than raw chip density.",
+        "cross_reference": "Echoes the historical transition from single-core CPU frequency scaling to massive parallel power-constrained architectures.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 7.8,
+        "momentum_label": "+195% 24h gain",
+        "sparkline_points": [
+          24,
+          37,
+          31,
+          55,
+          80,
+          111,
+          148
+        ]
+      }
+    },
+    {
+      "id": "sig_4574bdaa72d1140c",
+      "timestamp": "2026-09-11T10:26:56+00:00",
+      "entity": {
+        "name": "Dr. Adam Back",
+        "handle": "@adam3us",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/adam3us"
+      },
+      "source_url": "https://twitter.com/adam3us/status/2098357619341594650",
+      "source_url_type": "post",
+      "category": "Autonomous Intelligence",
+      "raw_summary": "RT @side_swap: USDt on Liquid is moving on Bitfinex again. Deposits and withdrawals of Liquid USDt are live and working, so you can move US\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
+        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
+        "is_urgent_shift": false,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 7.8,
+        "momentum_label": "+195% 24h gain",
+        "sparkline_points": [
+          24,
+          37,
+          31,
+          55,
+          80,
+          111,
+          148
+        ]
+      }
+    },
+    {
+      "id": "sig_c2e0e228bbb1b64e",
+      "timestamp": "2026-09-09T16:15:02+00:00",
+      "entity": {
+        "name": "ERCOT",
+        "handle": "@ERCOT_ISO",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/ERCOT_ISO"
+      },
+      "source_url": "https://twitter.com/ERCOT_ISO/status/2097720443541045465",
+      "source_url_type": "post",
+      "category": "Compute, Power & The Grid",
+      "raw_summary": "Launching September 23, ERCOT PowerCast will give the public an inside look at what it takes to run one of the most dynamic and complex power grids in the world. Each month, industry experts will discuss the policies and topics facing the Texas grid. \n\nStay tuned for episode 1. Subscribe: https://t.co/yhz3gslgRe\n\nLearn more: https://t.co/Wh5yqlLCsA\n\n #ERCOTPowerCast #TexasGrid #EnergyIndustry #ERCOT",
+      "elevated_intelligence": {
+        "signal_headline": "Baseload Grid Interconnection Bottlenecks Accelerate Behind-the-Meter Power Co-Location",
+        "convergence_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
+        "alden_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
+        "cross_reference": "Directly links to recent corporate nuclear power purchase agreements and miner colocation pivots.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 7.8,
+        "momentum_label": "+195% 24h gain",
+        "sparkline_points": [
+          24,
+          37,
+          31,
+          55,
+          80,
+          111,
+          148
         ]
       }
     }

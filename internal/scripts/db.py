@@ -292,6 +292,13 @@ def insert_raw_post(entity_id, handle, raw_text, source_url=None, timestamp=None
 
     return post_id, is_new
 
+def has_synthesized_signal(raw_post_id):
+    """Check if a signal already exists for this raw post. Used for synthesis caching."""
+    with db_connection() as conn:
+        cursor = conn.cursor()
+        cursor.execute("SELECT id FROM synthesized_signals WHERE raw_post_id = ?", (raw_post_id,))
+        return cursor.fetchone() is not None
+
 def log_sludge(raw_post_id, entity_handle, raw_text, drop_reason, rule_violated):
     with db_connection() as conn:
         conn.execute("""
@@ -307,8 +314,8 @@ def insert_synthesized_signal(signal_dict):
             INSERT OR REPLACE INTO synthesized_signals (
                 id, raw_post_id, entity_id, category, signal_headline,
                 alden_lens, cross_reference, velocity_score, momentum_label,
-                sparkline_points, is_urgent_shift, published_at
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                sparkline_points, is_urgent_shift, synthesis_source, published_at
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """, (
             signal_dict["id"],
             signal_dict["raw_post_id"],
@@ -321,6 +328,7 @@ def insert_synthesized_signal(signal_dict):
             signal_dict.get("momentum_label"),
             sparkline_str,
             1 if signal_dict.get("is_urgent_shift", False) else 0,
+            signal_dict.get("synthesis_source", "heuristic"),
             signal_dict.get("published_at", datetime.now(timezone.utc).isoformat())
         ))
         conn.commit()
@@ -341,7 +349,7 @@ def export_public_data(limit=50):
             SELECT 
                 s.id, s.category, s.signal_headline, s.alden_lens, s.cross_reference,
                 s.velocity_score, s.momentum_label, s.sparkline_points, s.is_urgent_shift,
-                s.published_at, r.source_url, r.raw_text, r.timestamp,
+                s.synthesis_source, s.published_at, r.source_url, r.raw_text, r.timestamp,
                 COALESCE(e.name, r.entity_id) as entity_name,
                 COALESCE(e.handle, '@' || r.entity_id) as entity_handle,
                 COALESCE(e.platform, 'x') as entity_platform,
@@ -413,7 +421,8 @@ def export_public_data(limit=50):
                 "convergence_lens": r["alden_lens"],
                 "alden_lens": r["alden_lens"],
                 "cross_reference": r["cross_reference"],
-                "is_urgent_shift": bool(r["is_urgent_shift"])
+                "is_urgent_shift": bool(r["is_urgent_shift"]),
+                "synthesis_source": r["synthesis_source"] or "heuristic"
             },
             "metrics": {
                 "velocity_score": float(r["velocity_score"]) if r["velocity_score"] is not None else None,

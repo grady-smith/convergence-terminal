@@ -54,6 +54,7 @@ CREATE TABLE IF NOT EXISTS synthesized_signals (
     momentum_label TEXT,
     sparkline_points TEXT NOT NULL, -- JSON array of 7 integers
     is_urgent_shift INTEGER DEFAULT 0,
+    synthesis_source TEXT DEFAULT 'heuristic',  -- 'heuristic' or 'gemini'
     published_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY(raw_post_id) REFERENCES raw_posts(id),
     FOREIGN KEY(entity_id) REFERENCES entities(id)

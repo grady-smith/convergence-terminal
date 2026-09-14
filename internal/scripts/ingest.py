@@ -99,6 +99,24 @@ RSS_FEEDS = [
 def get_twitter_api_key():
     return os.environ.get("TWITTER_API_KEY") or os.environ.get("TWITTERAPI_IO_KEY")
 
+def check_twitter_balance(api_key, min_balance=0.50):
+    """
+    Pre-flight check: queries TwitterAPI.io account balance.
+    Returns (balance_ok: bool, balance: float).
+    Fails open (returns True) if the balance endpoint is unavailable.
+    """
+    url = "https://api.twitterapi.io/twitter/account/balance"
+    headers = {"X-API-Key": api_key}
+    req = urllib.request.Request(url, headers=headers)
+    try:
+        with urllib.request.urlopen(req, timeout=5) as res:
+            data = json.loads(res.read().decode("utf-8"))
+            balance = float(data.get("balance", 0))
+            return balance >= min_balance, balance
+    except Exception as e:
+        print(f"  ⚠️  Could not check TwitterAPI.io balance: {e} (proceeding anyway)")
+        return True, -1  # Fail open — don't block the pipeline
+
 def load_watchlist():
     possible_paths = [
         os.path.join(BASE_DIR, "internal", "config", "crypto_twitter_watchlist.json"),
@@ -408,11 +426,19 @@ def main():
     print("   Module: Active Ingestion Engine")
     print("==================================================")
 
-    # 1. Check Developer Relay API Key
+    # 1. Check Developer Relay API Key & Balance
     api_key = get_twitter_api_key()
+    twitter_enabled = False
     if api_key:
         masked_key = api_key[:6] + "..." + api_key[-4:] if len(api_key) > 10 else "***"
         print(f"🔑 TwitterAPI.io Relay Key: Configured ({masked_key}) via .env")
+        balance_ok, balance = check_twitter_balance(api_key)
+        if balance_ok:
+            if balance >= 0:
+                print(f"💰 TwitterAPI.io Balance: ${balance:.2f} (above minimum threshold)")
+            twitter_enabled = True
+        else:
+            print(f"⚠️  TwitterAPI.io Balance: ${balance:.2f} — below $0.50 minimum. Falling back to RSS-only mode.")
     else:
         print("⚠️  TwitterAPI.io Relay Key: Not detected (Standard $0.00 RSS mode active)")
 
@@ -428,8 +454,8 @@ def main():
     all_staged.extend(rss_items)
 
     # B) Live Twitter Relay Feeds
-    if api_key:
-        live_tweets = harvest_twitter_relay(watchlist, api_key, max_accounts=8)
+    if twitter_enabled:
+        live_tweets = harvest_twitter_relay(watchlist, api_key, max_accounts=7)
         all_staged.extend(live_tweets)
 
 

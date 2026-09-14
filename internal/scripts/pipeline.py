@@ -12,6 +12,18 @@ import json
 import re
 from datetime import datetime, timezone
 
+# Gemini AI synthesis (optional — falls back to heuristics if unavailable)
+GEMINI_CLIENT = None
+try:
+    from google import genai
+    gemini_key = os.environ.get("GEMINI_API_KEY")
+    if gemini_key:
+        GEMINI_CLIENT = genai.Client(api_key=gemini_key)
+        print("🤖 Gemini Flash synthesis: ENABLED (hybrid mode — urgent items only)")
+    else:
+        print("ℹ️  Gemini Flash synthesis: DISABLED (no GEMINI_API_KEY — heuristic mode)")
+except ImportError:
+    print("ℹ️  Gemini Flash synthesis: DISABLED (google-genai not installed — heuristic mode)")
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, SCRIPT_DIR)
 import db
@@ -225,6 +237,41 @@ def synthesize_signal(post_id, entity_id, raw_text, source_url, timestamp, veloc
         "published_at": datetime.now(timezone.utc).isoformat()
     }
 
+def gemini_synthesize(raw_text, category_hint, entity_name):
+    """
+    Calls Gemini Flash to generate a dynamic Convergence Lens analysis.
+    Returns (headline, lens, cross_ref) or None on failure.
+    """
+    if not GEMINI_CLIENT:
+        return None
+
+    prompt = f"""You are the Chief Intelligence Officer for ConvergenceTerminal, operating under the "Alden Standard."
+
+Analyze this signal from {entity_name} and provide:
+1. A concise signal headline (max 15 words) grounded in first-principles physics, monetary architecture, or settlement infrastructure.
+2. A "Convergence Lens" explanation (1-2 sentences) connecting this to thermodynamic reality, hard monetary physics, macro plumbing, or agentic protocol topology.
+3. A cross-reference (1 sentence) linking this to a historical parallel or related development.
+
+Category hint: {category_hint}
+
+Signal text:
+{raw_text[:500]}
+
+Respond in exactly this JSON format:
+{{"headline": "...", "lens": "...", "cross_reference": "..."}}"""
+
+    try:
+        response = GEMINI_CLIENT.models.generate_content(
+            model="gemini-2.0-flash",
+            contents=prompt
+        )
+        import json as _json
+        result = _json.loads(response.text.strip().removeprefix("```json").removesuffix("```").strip())
+        return result.get("headline"), result.get("lens"), result.get("cross_reference")
+    except Exception as e:
+        print(f"  ⚠️  Gemini synthesis failed: {e} (falling back to heuristic)")
+        return None
+
 def run_pipeline(raw_inputs_path=None):
     print("==================================================")
     print("⚡ ConvergenceTerminal: Ingestion & Synthesis Engine")
@@ -286,9 +333,27 @@ def run_pipeline(raw_inputs_path=None):
             quarantined_count += 1
             continue
 
+        if db.has_synthesized_signal(post_id):
+            continue
+
         signal = synthesize_signal(post_id, entity_id, raw_text, source_url, timestamp, velocity_hint, sparkline, default_category=item.get("category"))
+        
+        if signal["is_urgent_shift"] or velocity_hint >= 8.5:
+            gemini_result = gemini_synthesize(raw_text, signal["category"], entity.get("name", handle))
+            if gemini_result:
+                headline, lens, cross_ref = gemini_result
+                signal["signal_headline"] = headline
+                signal["alden_lens"] = lens
+                if cross_ref:
+                    signal["cross_reference"] = cross_ref
+                signal["synthesis_source"] = "gemini"
+            else:
+                signal["synthesis_source"] = "heuristic"
+        else:
+            signal["synthesis_source"] = "heuristic"
+
         db.insert_synthesized_signal(signal)
-        print(f"  ✨ [SIGNAL PASSED] [{signal['category'][:20]:<20}] {signal['signal_headline'][:45]}...")
+        print(f"  ✨ [SIGNAL PASSED] [{signal.get('synthesis_source', 'heuristic').upper()}] {signal['signal_headline'][:45]}...")
         passed_count += 1
 
     exported_signals, total_sludge = db.export_public_data(limit=50)

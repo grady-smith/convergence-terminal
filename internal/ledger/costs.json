@@ -1,15 +1,15 @@
 {
   "currency": "USD",
-  "budget_cap_monthly": 20.00,
-  "budget_cap_annual": 250.00,
+  "budget_cap_monthly": 5.0,
+  "budget_cap_annual": 60.0,
   "current_period": "September 2026",
-  "total_spent_to_date": 0.00,
+  "total_spent_to_date": 0.0,
   "expenses": [
     {
       "date": "2026-09-09",
       "category": "Prototyping & Scaffolding",
       "vendor": "Local Compute",
-      "amount": 0.00,
+      "amount": 0.0,
       "description": "Offline local test datasets, static frontend generation, and local mock testing.",
       "status": "settled"
     },
@@ -24,17 +24,17 @@
   ],
   "x_data_options_analysis": {
     "official_x_api_basic": {
-      "cost_per_month": 100.00,
+      "cost_per_month": 100.0,
       "verdict": "REJECTED (terrible ROI for personal budget)"
     },
     "developer_relay_recommended": {
       "provider": "TwitterAPI.io / SocialData.tools",
       "pricing_model": "Pay-as-you-go ($0.15 / 1k tweets)",
-      "estimated_monthly_volume": "28,800 tweets across 32 VIP accounts (3 checks/day @ 10 tweets)",
-      "estimated_data_cost_monthly": 4.32,
-      "gemini_flash_synthesis_cost": 5.00,
-      "total_projected_monthly": 9.32,
-      "verdict": "RECOMMENDED (comfortably under the $20.00/mo budget cap)",
+      "estimated_monthly_volume": "~4,200 tweets across 7 Twitter accounts (2 checks/day @ 3 tweets)",
+      "estimated_data_cost_monthly": 0.63,
+      "gemini_flash_synthesis_cost": 1.5,
+      "total_projected_monthly": 2.13,
+      "verdict": "RECOMMENDED (comfortably under the .00/mo budget cap)",
       "api_key_status": "provisioned_active",
       "api_key_storage": "local .env (git-ignored, zero raw secrets in version control)"
     }

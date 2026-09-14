@@ -327,5 +327,36 @@ class TestConvergencePipeline(unittest.TestCase):
         self.assertEqual(db.classify_source_url(None), "profile")
         self.assertEqual(db.classify_source_url("#"), "profile")
 
+    def test_balance_preflight_fails_open(self):
+        """Verify that check_twitter_balance fails open when endpoint is unreachable."""
+        balance_ok, balance = ingest.check_twitter_balance("fake_key_12345", min_balance=0.50)
+        # Should fail open (return True) since the key is fake / endpoint unreachable
+        self.assertTrue(balance_ok, "Balance check must fail open when endpoint is unavailable")
+
+    def test_synthesis_cache_prevents_reprocessing(self):
+        """Verify that has_synthesized_signal correctly identifies cached items."""
+        unique_run = uuid.uuid4().hex[:8]
+        entity_id = f"test-cache-{unique_run}"
+        handle = f"@cache_{unique_run}"
+        
+        db.upsert_entity({
+            "id": entity_id, "handle": handle,
+            "name": f"Cache Test {unique_run}", "category": "Bitcoin",
+            "platform": "x", "active": True
+        })
+        
+        post_id, _ = db.insert_raw_post(entity_id, handle, f"Cache test content {unique_run}")
+        
+        # Before synthesis — should not be cached
+        self.assertFalse(db.has_synthesized_signal(post_id))
+        
+        # Insert a synthesized signal
+        signal = pipeline.synthesize_signal(post_id, entity_id, f"Cache test content {unique_run}", "#", "2026-09-14T00:00:00Z")
+        signal["synthesis_source"] = "heuristic"
+        db.insert_synthesized_signal(signal)
+        
+        # After synthesis — should be cached
+        self.assertTrue(db.has_synthesized_signal(post_id))
+
 if __name__ == "__main__":
     unittest.main()

@@ -691,6 +691,29 @@
   },
   {
     "id": "rss_bitcoincoreorg_1",
+    "timestamp": "2026-09-14T12:58:46Z",
+    "entity": {
+      "name": "Bitcoin Core Project",
+      "handle": "@bitcoincoreorg",
+      "platform": "github",
+      "avatar_url": "https://unavatar.io/x/bitcoincoreorg"
+    },
+    "source_url": "https://github.com/bitcoin/bitcoin/releases/tag/v32.0rc1",
+    "category": "Bitcoin",
+    "raw_text": "v32.0rc1: Bitcoin Core 32.0 release candidate 1. Tree-SHA512: 8bf11a81e1cdff7aa9a0c1485ee969877eb717db911a5585e4bff9f08e6a62e774ad6f56de8eb696397960e6702b7d4f061e2525de155ae48c603cb9c813d112",
+    "velocity_hint": 9.5,
+    "sparkline": [
+      15,
+      24,
+      38,
+      55,
+      80,
+      115,
+      145
+    ]
+  },
+  {
+    "id": "rss_bitcoincoreorg_2",
     "timestamp": "2026-07-10T14:25:37Z",
     "entity": {
       "name": "Bitcoin Core Project",
@@ -713,7 +736,7 @@
     ]
   },
   {
-    "id": "rss_bitcoincoreorg_2",
+    "id": "rss_bitcoincoreorg_3",
     "timestamp": "2026-07-08T09:14:15Z",
     "entity": {
       "name": "Bitcoin Core Project",
@@ -736,7 +759,7 @@
     ]
   },
   {
-    "id": "rss_bitcoincoreorg_3",
+    "id": "rss_bitcoincoreorg_4",
     "timestamp": "2026-07-10T09:34:59Z",
     "entity": {
       "name": "Bitcoin Core Project",
@@ -759,7 +782,7 @@
     ]
   },
   {
-    "id": "rss_bitcoincoreorg_4",
+    "id": "rss_bitcoincoreorg_5",
     "timestamp": "2026-06-24T09:18:35Z",
     "entity": {
       "name": "Bitcoin Core Project",
@@ -782,7 +805,7 @@
     ]
   },
   {
-    "id": "rss_bitcoincoreorg_5",
+    "id": "rss_bitcoincoreorg_6",
     "timestamp": "2026-06-23T09:58:30Z",
     "entity": {
       "name": "Bitcoin Core Project",
@@ -805,7 +828,7 @@
     ]
   },
   {
-    "id": "rss_bitcoincoreorg_6",
+    "id": "rss_bitcoincoreorg_7",
     "timestamp": "2026-06-23T18:14:19Z",
     "entity": {
       "name": "Bitcoin Core Project",
@@ -828,7 +851,7 @@
     ]
   },
   {
-    "id": "rss_bitcoincoreorg_7",
+    "id": "rss_bitcoincoreorg_8",
     "timestamp": "2026-04-22T01:06:45Z",
     "entity": {
       "name": "Bitcoin Core Project",
@@ -851,7 +874,7 @@
     ]
   },
   {
-    "id": "rss_bitcoincoreorg_8",
+    "id": "rss_bitcoincoreorg_9",
     "timestamp": "2026-04-22T01:04:57Z",
     "entity": {
       "name": "Bitcoin Core Project",
@@ -874,7 +897,7 @@
     ]
   },
   {
-    "id": "rss_bitcoincoreorg_9",
+    "id": "rss_bitcoincoreorg_10",
     "timestamp": "2026-04-22T01:04:21Z",
     "entity": {
       "name": "Bitcoin Core Project",
@@ -885,29 +908,6 @@
     "source_url": "https://github.com/bitcoin/bitcoin/releases/tag/v25-final",
     "category": "Bitcoin",
     "raw_text": "v25-final: Bitcoin Core 25.x Final. Tree-SHA512: 827b20fad32a2f140e12595ff297fc29769a6189561f13c06e4b3dc05265f48efbf3185320d436229767918dfda9d7417ec8a39018662379641e3f7828ba93a5",
-    "velocity_hint": 9.5,
-    "sparkline": [
-      15,
-      24,
-      38,
-      55,
-      80,
-      115,
-      145
-    ]
-  },
-  {
-    "id": "rss_bitcoincoreorg_10",
-    "timestamp": "2026-04-22T01:01:22Z",
-    "entity": {
-      "name": "Bitcoin Core Project",
-      "handle": "@bitcoincoreorg",
-      "platform": "github",
-      "avatar_url": "https://unavatar.io/x/bitcoincoreorg"
-    },
-    "source_url": "https://github.com/bitcoin/bitcoin/releases/tag/v24-final",
-    "category": "Bitcoin",
-    "raw_text": "v24-final: Bitcoin Core 24.x Final. Tree-SHA512: 339466ace2d3401a690e1bbd7f7636a9905f379870a06a38151a745d0df4f1c9a532acecd38cade608e417343c6ac20563e42eae5fbd42128cb81802e3212340",
     "velocity_hint": 9.5,
     "sparkline": [
       15,
@@ -1193,6 +1193,420 @@
       80,
       115,
       145
+    ]
+  },
+  {
+    "id": "tw_LynAldenContact_2099525476192485698",
+    "timestamp": "2026-09-14T15:47:35+00:00",
+    "entity": {
+      "name": "Lyn Alden",
+      "handle": "@LynAldenContact",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/LynAldenContact"
+    },
+    "source_url": "https://twitter.com/LynAldenContact/status/2099525476192485698",
+    "category": "Macro Plumbing & Balance Sheets",
+    "raw_text": "RT @agnostoxxx: We must be getting close to a \"Liz Truss Meme Bottom\"\ud83d\ude06",
+    "velocity_hint": 8.6,
+    "sparkline": [
+      27,
+      40,
+      34,
+      61,
+      88,
+      122,
+      163
+    ]
+  },
+  {
+    "id": "tw_LynAldenContact_2099241612006047981",
+    "timestamp": "2026-09-13T20:59:36+00:00",
+    "entity": {
+      "name": "Lyn Alden",
+      "handle": "@LynAldenContact",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/LynAldenContact"
+    },
+    "source_url": "https://twitter.com/LynAldenContact/status/2099241612006047981",
+    "category": "Macro Plumbing & Balance Sheets",
+    "raw_text": "In Egypt, you can be at a high end restaurant and have street cats come up and say hi.\n\nSome consider this a problem but not me. \ud83e\udd70",
+    "velocity_hint": 9.2,
+    "sparkline": [
+      29,
+      43,
+      36,
+      65,
+      94,
+      131,
+      175
+    ]
+  },
+  {
+    "id": "tw_LynAldenContact_2099079913609265557",
+    "timestamp": "2026-09-13T10:17:05+00:00",
+    "entity": {
+      "name": "Lyn Alden",
+      "handle": "@LynAldenContact",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/LynAldenContact"
+    },
+    "source_url": "https://twitter.com/LynAldenContact/status/2099079913609265557",
+    "category": "Macro Plumbing & Balance Sheets",
+    "raw_text": "RT @PatsOnYaBack: Explaining the Ocarina of Time Remake to Gen Z",
+    "velocity_hint": 9.8,
+    "sparkline": [
+      31,
+      46,
+      39,
+      70,
+      101,
+      140,
+      187
+    ]
+  },
+  {
+    "id": "tw_jackmallers_2099617859148091558",
+    "timestamp": "2026-09-14T21:54:41+00:00",
+    "entity": {
+      "name": "Jack Mallers",
+      "handle": "@jackmallers",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/jackmallers"
+    },
+    "source_url": "https://twitter.com/jackmallers/status/2099617859148091558",
+    "category": "Agentic Rails & Settlement",
+    "raw_text": "RT @jackmallersshow: If AI delivers on its promise, it displaces the tax receipts who fund the government. If it doesn't, nobody gets paid\u2026",
+    "velocity_hint": 7.8,
+    "sparkline": [
+      24,
+      37,
+      31,
+      55,
+      80,
+      111,
+      148
+    ]
+  },
+  {
+    "id": "tw_jackmallers_2099516094633435405",
+    "timestamp": "2026-09-14T15:10:18+00:00",
+    "entity": {
+      "name": "Jack Mallers",
+      "handle": "@jackmallers",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/jackmallers"
+    },
+    "source_url": "https://twitter.com/jackmallers/status/2099516094633435405",
+    "category": "Agentic Rails & Settlement",
+    "raw_text": "AI productivity was supposed to grow governments out of their debt crisis. Now the people building frontier AI want to \"slow it down\".\n\nIf productivity can\u2019t outrun the debt, then what? How does anyone get paid back?\n\nNobody can \u201cslow down\u201d Bitcoin. Stay humble. Stack sats.",
+    "velocity_hint": 9.2,
+    "sparkline": [
+      29,
+      43,
+      36,
+      65,
+      94,
+      131,
+      175
+    ]
+  },
+  {
+    "id": "tw_jackmallers_2097714929205735552",
+    "timestamp": "2026-09-09T15:53:07+00:00",
+    "entity": {
+      "name": "Jack Mallers",
+      "handle": "@jackmallers",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/jackmallers"
+    },
+    "source_url": "https://twitter.com/jackmallers/status/2097714929205735552",
+    "category": "Agentic Rails & Settlement",
+    "raw_text": "Increased buybacks are sending yields higher. Oops.\n\nTurns out people don\u2019t want to lend to a system that destroys the purchasing power they\u2019re paid back in.\n\nMaybe nothing stops this train. Maybe Bitcoiners aren\u2019t so crazy. Maybe save in what they can\u2019t print. Maybe buy bitcoin",
+    "velocity_hint": 9.2,
+    "sparkline": [
+      29,
+      43,
+      36,
+      65,
+      94,
+      131,
+      175
+    ]
+  },
+  {
+    "id": "tw_CryptoHayes_2099544963763581130",
+    "timestamp": "2026-09-14T17:05:01+00:00",
+    "entity": {
+      "name": "Arthur Hayes",
+      "handle": "@CryptoHayes",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/CryptoHayes"
+    },
+    "source_url": "https://twitter.com/CryptoHayes/status/2099544963763581130",
+    "category": "Macro Plumbing & Balance Sheets",
+    "raw_text": "Need to rent GPUs to mine @flop_labs ? Don\u2019t worry, the team is hard at work trying to source supply and will publish our results.",
+    "velocity_hint": 7.8,
+    "sparkline": [
+      24,
+      37,
+      31,
+      55,
+      80,
+      111,
+      148
+    ]
+  },
+  {
+    "id": "tw_CryptoHayes_2099542086747849130",
+    "timestamp": "2026-09-14T16:53:35+00:00",
+    "entity": {
+      "name": "Arthur Hayes",
+      "handle": "@CryptoHayes",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/CryptoHayes"
+    },
+    "source_url": "https://twitter.com/CryptoHayes/status/2099542086747849130",
+    "category": "Macro Plumbing & Balance Sheets",
+    "raw_text": "RT @flop_labs: Nobody can hedge this, which is how it reaches the insurer in the first place.\n\nCompute sellers need 5-10 year contracts to\u2026",
+    "velocity_hint": 7.8,
+    "sparkline": [
+      24,
+      37,
+      31,
+      55,
+      80,
+      111,
+      148
+    ]
+  },
+  {
+    "id": "tw_CryptoHayes_2099471130356556189",
+    "timestamp": "2026-09-14T12:11:38+00:00",
+    "entity": {
+      "name": "Arthur Hayes",
+      "handle": "@CryptoHayes",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/CryptoHayes"
+    },
+    "source_url": "https://twitter.com/CryptoHayes/status/2099471130356556189",
+    "category": "Macro Plumbing & Balance Sheets",
+    "raw_text": "RT @GenLayer: AI agents need three things to operate at scale: food (compute) to power them, memory to keep them running, and a place to se\u2026",
+    "velocity_hint": 8.6,
+    "sparkline": [
+      27,
+      40,
+      34,
+      61,
+      88,
+      122,
+      163
+    ]
+  },
+  {
+    "id": "tw_ERCOT_ISO_2099581375707770976",
+    "timestamp": "2026-09-14T19:29:42+00:00",
+    "entity": {
+      "name": "ERCOT",
+      "handle": "@ERCOT_ISO",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/ERCOT_ISO"
+    },
+    "source_url": "https://twitter.com/ERCOT_ISO/status/2099581375707770976",
+    "category": "Compute, Power & The Grid",
+    "raw_text": "Near-record temperatures are forecast in the next few days with highs in the upper 90s and 100s. System temperatures will trend slightly lower by late week before a potential pattern change takes shape for parts of the state early next week. Rain chances remain minimal for now, with opportunities generally confined to the Coast and Panhandle regions. ERCOT is expecting moderate demand with peaks in the lower- to upper-80,000-Megawatt range. Monitor current and extended grid conditions:",
+    "velocity_hint": 7.5,
+    "sparkline": [
+      24,
+      36,
+      30,
+      54,
+      78,
+      108,
+      144
+    ]
+  },
+  {
+    "id": "tw_ERCOT_ISO_2099507526798582008",
+    "timestamp": "2026-09-14T14:36:16+00:00",
+    "entity": {
+      "name": "ERCOT",
+      "handle": "@ERCOT_ISO",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/ERCOT_ISO"
+    },
+    "source_url": "https://twitter.com/ERCOT_ISO/status/2099507526798582008",
+    "category": "Compute, Power & The Grid",
+    "raw_text": "The ERCOT Board of Directors is meeting this afternoon, September 14, beginning at 2:45 p.m. CDT and continuing on Tuesday, September 15, from 10 a.m. CDT. See the full regular meeting agenda and watch live: https://t.co/Vy0ruYdIdb",
+    "velocity_hint": 7.5,
+    "sparkline": [
+      24,
+      36,
+      30,
+      54,
+      78,
+      108,
+      144
+    ]
+  },
+  {
+    "id": "tw_ERCOT_ISO_2097720443541045465",
+    "timestamp": "2026-09-09T16:15:02+00:00",
+    "entity": {
+      "name": "ERCOT",
+      "handle": "@ERCOT_ISO",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/ERCOT_ISO"
+    },
+    "source_url": "https://twitter.com/ERCOT_ISO/status/2097720443541045465",
+    "category": "Compute, Power & The Grid",
+    "raw_text": "Launching September 23, ERCOT PowerCast will give the public an inside look at what it takes to run one of the most dynamic and complex power grids in the world. Each month, industry experts will discuss the policies and topics facing the Texas grid. \n\nStay tuned for episode 1. Subscribe: https://t.co/yhz3gslgRe\n\nLearn more: https://t.co/Wh5yqlLCsA\n\n #ERCOTPowerCast #TexasGrid #EnergyIndustry #ERCOT",
+    "velocity_hint": 7.8,
+    "sparkline": [
+      24,
+      37,
+      31,
+      55,
+      80,
+      111,
+      148
+    ]
+  },
+  {
+    "id": "tw_adam3us_2099119687124615314",
+    "timestamp": "2026-09-13T12:55:07+00:00",
+    "entity": {
+      "name": "Dr. Adam Back",
+      "handle": "@adam3us",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/adam3us"
+    },
+    "source_url": "https://twitter.com/adam3us/status/2099119687124615314",
+    "category": "Bitcoin",
+    "raw_text": "#bitcoin passes $65k 200wma https://t.co/6W3RSiLkB3",
+    "velocity_hint": 9.2,
+    "sparkline": [
+      29,
+      43,
+      36,
+      65,
+      94,
+      131,
+      175
+    ]
+  },
+  {
+    "id": "tw_adam3us_2098357619341594650",
+    "timestamp": "2026-09-11T10:26:56+00:00",
+    "entity": {
+      "name": "Dr. Adam Back",
+      "handle": "@adam3us",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/adam3us"
+    },
+    "source_url": "https://twitter.com/adam3us/status/2098357619341594650",
+    "category": "Bitcoin",
+    "raw_text": "RT @side_swap: USDt on Liquid is moving on Bitfinex again. Deposits and withdrawals of Liquid USDt are live and working, so you can move US\u2026",
+    "velocity_hint": 7.8,
+    "sparkline": [
+      24,
+      37,
+      31,
+      55,
+      80,
+      111,
+      148
+    ]
+  },
+  {
+    "id": "tw_adam3us_2098339995396243852",
+    "timestamp": "2026-09-11T09:16:54+00:00",
+    "entity": {
+      "name": "Dr. Adam Back",
+      "handle": "@adam3us",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/adam3us"
+    },
+    "source_url": "https://twitter.com/adam3us/status/2098339995396243852",
+    "category": "Bitcoin",
+    "raw_text": "RT @Arnab_Naskarr: These last few days, the @Blockstream team, the Liquid functionaries, and network partners have shown real sincerity and\u2026",
+    "velocity_hint": 7.8,
+    "sparkline": [
+      24,
+      37,
+      31,
+      55,
+      80,
+      111,
+      148
+    ]
+  },
+  {
+    "id": "tw_BitcoinPierre_2099626014653489331",
+    "timestamp": "2026-09-14T22:27:05+00:00",
+    "entity": {
+      "name": "Pierre Rochard",
+      "handle": "@BitcoinPierre",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/BitcoinPierre"
+    },
+    "source_url": "https://twitter.com/BitcoinPierre/status/2099626014653489331",
+    "category": "Bitcoin",
+    "raw_text": "RT @JoshMandell6: I have some call options on $ASST which I need to exercise this week so I'm raising a little bit of cash.   It's quite re\u2026",
+    "velocity_hint": 7.8,
+    "sparkline": [
+      24,
+      37,
+      31,
+      55,
+      80,
+      111,
+      148
+    ]
+  },
+  {
+    "id": "tw_BitcoinPierre_2099625240292692095",
+    "timestamp": "2026-09-14T22:24:01+00:00",
+    "entity": {
+      "name": "Pierre Rochard",
+      "handle": "@BitcoinPierre",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/BitcoinPierre"
+    },
+    "source_url": "https://twitter.com/BitcoinPierre/status/2099625240292692095",
+    "category": "Bitcoin",
+    "raw_text": "RT @TylerCompiler: JUST IN: Strive $ASST traded up over 6% today, the same day its 2029 LEAPS officially went live.\n\nOptions traders traded\u2026",
+    "velocity_hint": 7.8,
+    "sparkline": [
+      24,
+      37,
+      31,
+      55,
+      80,
+      111,
+      148
+    ]
+  },
+  {
+    "id": "tw_BitcoinPierre_2099619615886209189",
+    "timestamp": "2026-09-14T22:01:40+00:00",
+    "entity": {
+      "name": "Pierre Rochard",
+      "handle": "@BitcoinPierre",
+      "platform": "x",
+      "avatar_url": "https://unavatar.io/x/BitcoinPierre"
+    },
+    "source_url": "https://twitter.com/BitcoinPierre/status/2099619615886209189",
+    "category": "Bitcoin",
+    "raw_text": "RT @PunterJeff: $ASST market cap ATH \n\n$2.75B",
+    "velocity_hint": 8.6,
+    "sparkline": [
+      27,
+      40,
+      34,
+      61,
+      88,
+      122,
+      163
     ]
   }
 ]

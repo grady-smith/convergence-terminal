@@ -1,10 +1,2 @@
 # ConvergenceTerminal Python Dependencies
-#
-# The pipeline runs entirely on Python stdlib (urllib, json, xml.etree,
-# sqlite3, re, hashlib, subprocess). No third-party packages are currently
-# required.
-#
-# Add packages here when integrating live services:
-#   google-genai   — when Gemini AI synthesis is enabled
-#   requests       — if non-stdlib HTTP is needed (e.g. complex auth flows)
-#   feedparser     — if replacing the internal XML parser with a library
+google-genai

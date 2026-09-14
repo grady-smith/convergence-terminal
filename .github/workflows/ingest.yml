@@ -5,8 +5,8 @@ on:
     branches:
       - master
   schedule:
-    # Runs 3 times a day (12:00, 18:00, 00:00 UTC -> 08:00, 14:00, 20:00 ET)
-    - cron: '0 0,12,18 * * *'
+    # Runs 2 times a day (00:00, 12:00 UTC -> 08:00, 20:00 ET)
+    - cron: '0 0,12 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:

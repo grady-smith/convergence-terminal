@@ -1,8 +1,8 @@
 {
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "VIP Twitter/X watchlist curated for ConvergenceTerminal.",
   "status": "curated_active",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-14",
   "watchlist": [
     {
       "handle": "@LynAldenContact",
@@ -47,20 +47,6 @@
       "check_interval_hours": 8
     },
     {
-      "handle": "@americanhodl8",
-      "name": "American HODL",
-      "category": "Bitcoin",
-      "priority": "Tier-2",
-      "check_interval_hours": 8
-    },
-    {
-      "handle": "@bitcoincoreorg",
-      "name": "Bitcoin Core Project",
-      "category": "Bitcoin",
-      "priority": "Tier-1",
-      "check_interval_hours": 8
-    },
-    {
       "handle": "@BitcoinPierre",
       "name": "Pierre Rochard",
       "category": "Bitcoin",
@@ -68,44 +54,9 @@
       "check_interval_hours": 8
     },
     {
-      "handle": "@bitstein",
-      "name": "Michael Goldstein",
-      "category": "Bitcoin",
-      "priority": "Tier-2",
-      "check_interval_hours": 8
-    },
-    {
       "handle": "@callebtc",
       "name": "Calle",
       "category": "Agentic Rails & Settlement",
-      "priority": "Tier-1",
-      "check_interval_hours": 8
-    },
-    {
-      "handle": "@FormerDrJeff",
-      "name": "Dr. Jeff Ross",
-      "category": "Macro Plumbing & Balance Sheets",
-      "priority": "Tier-2",
-      "check_interval_hours": 8
-    },
-    {
-      "handle": "@jameslavish",
-      "name": "James Lavish",
-      "category": "Macro Plumbing & Balance Sheets",
-      "priority": "Tier-1",
-      "check_interval_hours": 8
-    },
-    {
-      "handle": "@JAN3com",
-      "name": "JAN3",
-      "category": "Bitcoin",
-      "priority": "Tier-1",
-      "check_interval_hours": 8
-    },
-    {
-      "handle": "@JasonPLowery",
-      "name": "Jason Lowery",
-      "category": "Compute, Power & The Grid",
       "priority": "Tier-1",
       "check_interval_hours": 8
     },
@@ -117,23 +68,9 @@
       "check_interval_hours": 8
     },
     {
-      "handle": "@jimmysong",
-      "name": "Jimmy Song",
-      "category": "Bitcoin",
-      "priority": "Tier-2",
-      "check_interval_hours": 8
-    },
-    {
       "handle": "@LawrenceLepard",
       "name": "Lawrence Lepard",
       "category": "Macro Plumbing & Balance Sheets",
-      "priority": "Tier-1",
-      "check_interval_hours": 8
-    },
-    {
-      "handle": "@lisa_hough_",
-      "name": "Lisa Hough",
-      "category": "Compute, Power & The Grid",
       "priority": "Tier-1",
       "check_interval_hours": 8
     },
@@ -147,83 +84,6 @@
     {
       "handle": "@PrestonPysh",
       "name": "Preston Pysh",
-      "category": "Macro Plumbing & Balance Sheets",
-      "priority": "Tier-1",
-      "check_interval_hours": 8
-    },
-    {
-      "handle": "@r0ckstardev",
-      "name": "Rockstar Dev",
-      "category": "Bitcoin",
-      "priority": "Tier-1",
-      "check_interval_hours": 8
-    },
-    {
-      "handle": "@TomerStrolight",
-      "name": "Tomer Strolight",
-      "category": "Bitcoin",
-      "priority": "Tier-2",
-      "check_interval_hours": 8
-    },
-    {
-      "handle": "@ClementDelangue",
-      "name": "Clément Delangue",
-      "category": "Autonomous Intelligence",
-      "priority": "Tier-1",
-      "check_interval_hours": 8
-    },
-    {
-      "handle": "@JensenHuang",
-      "name": "Jensen Huang",
-      "category": "Compute, Power & The Grid",
-      "priority": "Tier-1",
-      "check_interval_hours": 8
-    },
-    {
-      "handle": "@Palantirtech",
-      "name": "Palantir Technologies",
-      "category": "Autonomous Intelligence",
-      "priority": "Tier-1",
-      "check_interval_hours": 8
-    },
-    {
-      "handle": "@ssankar",
-      "name": "Shyam Sankar",
-      "category": "Autonomous Intelligence",
-      "priority": "Tier-1",
-      "check_interval_hours": 8
-    },
-    {
-      "handle": "@theaiagencysv",
-      "name": "The AI Agency",
-      "category": "Autonomous Intelligence",
-      "priority": "Tier-2",
-      "check_interval_hours": 8
-    },
-    {
-      "handle": "@AlexEpstein",
-      "name": "Alex Epstein",
-      "category": "Compute, Power & The Grid",
-      "priority": "Tier-1",
-      "check_interval_hours": 8
-    },
-    {
-      "handle": "@arny_trezzi",
-      "name": "Arny Trezzi",
-      "category": "Autonomous Intelligence",
-      "priority": "Tier-2",
-      "check_interval_hours": 8
-    },
-    {
-      "handle": "@CigSmokingMill",
-      "name": "Cigarette Smoking Millionaire",
-      "category": "Macro Plumbing & Balance Sheets",
-      "priority": "Tier-2",
-      "check_interval_hours": 8
-    },
-    {
-      "handle": "@TreasuryBonds1",
-      "name": "Treasury Bonds Monitor",
       "category": "Macro Plumbing & Balance Sheets",
       "priority": "Tier-1",
       "check_interval_hours": 8

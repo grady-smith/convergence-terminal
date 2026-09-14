@@ -5,7 +5,7 @@
 ---
 
 ## 🏛️ Executive Philosophy
-ConvergenceTerminal replaces the noise, algorithmic rage-bait, and dopamine trap of social feeds with curated, synthesized, and contextualized intelligence across 32 VIP leaders and thinkers.
+ConvergenceTerminal replaces the noise, algorithmic rage-bait, and dopamine trap of social feeds with curated, synthesized, and contextualized intelligence across 12 core VIP leaders and thinkers.
 
 ### The Convergence First-Principles Standard:
 1. **Thermodynamic & Physical Reality**: PoW and AI cluster scaling both collide with energy availability and electrical grid realities.
@@ -34,28 +34,18 @@ convergence-terminal/
 │   ├── styles.css               # Custom dark styling & monospace chips
 │   └── data.json                # Enriched signal feed produced by the pipeline
 ├── internal/                    # ← Operational backend (never served publicly)
+│   ├── WATCHLIST_INTAKE.md
 │   ├── config/
 │   │   ├── entities.json        # 32 tracked VIP thinkers + feed endpoints
 │   │   └── crypto_twitter_watchlist.json
 │   ├── data/
-│   │   ├── mock_inputs.json     # 18 offline test records for staging
 │   │   ├── sludge_quarantine.json
-│   │   └── archive/             # Historical daily signal snapshots
+│   │   └── raw_feeds.json
 │   ├── db/
 │   │   ├── schema.sql           # SQLite schema (entities, raw_posts, sludge_log, signals)
 │   │   └── terminal.db          # Live SQLite database (git-ignored in production)
 │   ├── ledger/                  # Cost & budget ledger
-│   └── scripts/                 # ← Canonical pipeline — all logic lives here
-│       ├── ingest.py            # Stage 1: RSS + Twitter relay ingestion → SQLite
-│       ├── pipeline.py          # Stage 2: Sludge filter + topic synthesis engine
-│       ├── synthesize.py        # Standalone offline synthesizer (reads mock_inputs.json)
-│       ├── db.py                # SQLite controller + public data exporter
-│       └── test_pipeline.py     # Full unit test suite (13 tests)
-└── scripts/                     # ← Thin dispatchers only — delegate to internal/
-    ├── ingest.py                # → delegates to internal/scripts/ingest.py
-    ├── synthesize.py            # → delegates to internal/scripts/synthesize.py
-    └── mock_inputs.json         # Mirror of internal/data/mock_inputs.json
-```
+│   ```
 
 ---
 
@@ -73,16 +63,11 @@ python3 internal/scripts/ingest.py
 # and export public/data.json in a single run.
 ```
 
-### Offline Staging (No API Keys Required)
-
-Use this to test synthesis logic locally against mock data:
+### Offline Testing
 
 ```bash
-# Reads internal/data/mock_inputs.json → writes public/data.json
-python3 internal/scripts/synthesize.py
-
-# Or via the top-level dispatcher (same result):
-python3 scripts/synthesize.py
+# Run the unit test suite (13 tests)
+cd internal/scripts && python3 -m unittest test_pipeline -v
 ```
 
 ### Local Web Terminal
@@ -103,7 +88,7 @@ cd internal/scripts && python3 -m unittest test_pipeline -v
 ## 🔄 Data Flow
 
 ```
-entities.json          mock_inputs.json (offline)
+entities.json          
      │                        │
      ▼                        ▼
 ingest.py  ──────────► pipeline.py

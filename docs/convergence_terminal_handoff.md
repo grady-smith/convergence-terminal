@@ -27,11 +27,11 @@
 * **Rule 4: Zero Sludge**: Outrage bait, tribal flame wars, price predictions, and personality drama are strictly dropped at the ingestion layer.
 
 ### C. Economics & Ingestion Reality
-* **Official X API**: Pay-per-read tollbooth (\$0.005/post read). Polling 100 accounts daily costs ~\$300–\$750/month. **Verdict: Avoid for this phase.**
-* **Developer Relays (e.g., TwitterAPI.io / Social Fetch)**: Wholesale developer rates (~\$0.15 per 1,000 reads). Tracking 100 accounts costs ~\$9–\$20/month. **Verdict: Primary social path.**
-* **Free Long-Form RSS**: Substack feeds, personal blogs, technical whitepapers, and GitHub releases cost \$0.00. **Verdict: Essential anchor.**
-* **Synthesis Cost**: Gemini 1.5/2.0 Flash API costs ~\$5–\$10/month for daily deduplication and analysis.
-* **Total Annual Run-Rate**: Well within the \$500–\$1,000 target budget (~\$150–\$250/year total).
+* **Official X API**: Pay-per-read tollbooth ($0.005/post read). Polling 100 accounts daily costs ~$300–$750/month. **Verdict: Avoid for this phase.**
+* **Developer Relays (e.g., TwitterAPI.io / Social Fetch)**: Wholesale developer rates (~$0.15 per 1,000 reads). Tracking 7 accounts costs ~$0.63/month. **Verdict: Primary social path.**
+* **Free Long-Form RSS**: Substack feeds, personal blogs, technical whitepapers, and GitHub releases cost $0.00. **Verdict: Essential anchor.**
+* **Synthesis Cost**: Gemini 1.5/2.0 Flash API (hybrid mode for urgent items) costs ~$1.50/month.
+* **Total Run-Rate**: ~$2.13/month total.
 
 ---
 
@@ -54,11 +54,19 @@ convergence-terminal/
 │   ├── app.js               # Feed renderer & inline SVG sparkline generator
 │   ├── styles.css           # Custom dark styling & monospace chips
 │   └── data.json            # Enriched data feed produced by ingestion pipeline
+├── internal/
+│   ├── config/
+│   ├── data/
+│   ├── db/
+│   ├── ledger/
+│   └── scripts/
+│       ├── ingest.py
+│       ├── pipeline.py
+│       ├── db.py
+│       └── test_pipeline.py
 ├── scripts/
-│   ├── ingest.py            # Aggregates RSS + social relay data
-│   ├── synthesize.py        # Gemini intelligence enrichment pipeline
-│   └── mock_inputs.json     # 10 test records for offline staging and verification
-├── requirements.txt         # google-genai, requests, feedparser
+│   └── ingest.py            # Dispatcher
+├── requirements.txt         # google-genai (for Gemini Flash hybrid synthesis)
 └── README.md
 ```
 
