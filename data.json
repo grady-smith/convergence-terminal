@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-14T10:48:19.013370+00:00",
+  "generated_at": "2026-09-14T10:48:48.373542+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 32,
   "total_signals": 50,
-  "sludge_filtered_count": 4,
+  "sludge_filtered_count": 6,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -427,7 +427,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/atencion",
@@ -461,7 +461,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/atencion",
@@ -495,7 +495,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/same-same-but-different",
@@ -529,7 +529,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/same-same-but-different",
@@ -563,7 +563,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/the-book-of-genesis",
@@ -597,7 +597,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/the-book-of-genesis",
@@ -631,7 +631,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/yen-quake",
@@ -665,7 +665,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/yen-quake",
@@ -699,7 +699,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/situationship",
@@ -733,7 +733,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/situationship",
@@ -767,7 +767,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/reality-test",
@@ -801,7 +801,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/reality-test",
@@ -835,7 +835,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/the-butterfly-touch",
@@ -869,7 +869,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/the-butterfly-touch",
@@ -903,7 +903,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/no-trade-zone",
@@ -937,7 +937,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/no-trade-zone",
@@ -971,7 +971,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/hype-man",
@@ -1005,7 +1005,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/hype-man",
@@ -1039,7 +1039,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/ios-warfare",
@@ -1073,7 +1073,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/ios-warfare",
@@ -1107,7 +1107,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/this-is-fine",
@@ -1141,7 +1141,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/this-is-fine",
@@ -1175,7 +1175,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/woomph",
@@ -1209,7 +1209,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/woomph",
@@ -1243,7 +1243,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/frowny-cloud",
@@ -1277,7 +1277,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/frowny-cloud",
@@ -1311,7 +1311,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/suavemente",
@@ -1345,7 +1345,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/suavemente",
@@ -1379,7 +1379,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/love-language",
@@ -1413,7 +1413,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/love-language",
@@ -1447,7 +1447,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/adapt-or-die",
@@ -1481,7 +1481,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/adapt-or-die",
@@ -1515,7 +1515,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/snow-forecast",
@@ -1549,7 +1549,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/snow-forecast",
@@ -1583,7 +1583,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/hallelujah",
@@ -1617,7 +1617,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/hallelujah",
@@ -1651,7 +1651,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/long-live-the-king",
@@ -1685,7 +1685,7 @@
       "entity": {
         "name": "Arthur Hayes",
         "handle": "@CryptoHayes",
-        "platform": "substack",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/CryptoHayes"
       },
       "source_url": "https://cryptohayes.substack.com/p/long-live-the-king",
