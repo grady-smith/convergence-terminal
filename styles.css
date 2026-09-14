@@ -30,6 +30,10 @@ body {
   background-color: var(--surface-card);
   border: 1px solid var(--border-card);
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  box-sizing: border-box;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .terminal-card:hover {
