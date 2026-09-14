@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-14T23:50:24.163880+00:00",
+  "generated_at": "2026-09-14T23:58:53.926309+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
   "total_signals": 27,
-  "sludge_filtered_count": 10,
+  "sludge_filtered_count": 12,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -54,7 +54,7 @@
       "entity": {
         "name": "Andrej Karpathy",
         "handle": "@karpathy",
-        "platform": "github",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/karpathy"
       },
       "source_url": "https://twitter.com/karpathy/status/2098811935114551617",
@@ -89,7 +89,7 @@
       "entity": {
         "name": "Andrej Karpathy",
         "handle": "@karpathy",
-        "platform": "github",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/karpathy"
       },
       "source_url": "https://twitter.com/karpathy/status/2098187194024476764",
@@ -159,7 +159,7 @@
       "entity": {
         "name": "Andrej Karpathy",
         "handle": "@karpathy",
-        "platform": "github",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/karpathy"
       },
       "source_url": "https://github.com/karpathy/nanochat/compare/437943bd90...07620a2567",
@@ -614,7 +614,7 @@
       "entity": {
         "name": "Lyn Alden",
         "handle": "@LynAldenContact",
-        "platform": "newsletter",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/LynAldenContact"
       },
       "source_url": "https://www.lynalden.com/orange-juice/",
@@ -649,7 +649,7 @@
       "entity": {
         "name": "Lyn Alden",
         "handle": "@LynAldenContact",
-        "platform": "newsletter",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/LynAldenContact"
       },
       "source_url": "https://www.lynalden.com/fractional-reserve-banking/",
@@ -684,7 +684,7 @@
       "entity": {
         "name": "Lyn Alden",
         "handle": "@LynAldenContact",
-        "platform": "newsletter",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/LynAldenContact"
       },
       "source_url": "https://www.lynalden.com/why-most-cryptocurrencies-wont-accrue-value/",
@@ -719,7 +719,7 @@
       "entity": {
         "name": "Lyn Alden",
         "handle": "@LynAldenContact",
-        "platform": "newsletter",
+        "platform": "x",
         "avatar_url": "https://unavatar.io/x/LynAldenContact"
       },
       "source_url": "https://www.lynalden.com/the-power-of-nostr/",
