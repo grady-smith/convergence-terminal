@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-14T23:02:07.413905+00:00",
+  "generated_at": "2026-09-14T23:02:51.930481+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 32,
   "total_signals": 15,
-  "sludge_filtered_count": 6,
+  "sludge_filtered_count": 8,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -14,18 +14,18 @@
   ],
   "items": [
     {
-      "id": "sig_2c1b16e2c27bf1ee",
-      "timestamp": "2026-07-10T14:25:37Z",
+      "id": "sig_fe2ed1612644b605",
+      "timestamp": "2026-09-14T12:58:46Z",
       "entity": {
         "name": "Bitcoin Core Project",
         "handle": "@bitcoincoreorg",
         "platform": "github",
         "avatar_url": "https://unavatar.io/x/bitcoincoreorg"
       },
-      "source_url": "https://github.com/bitcoin/bitcoin/releases/tag/v29.4",
+      "source_url": "https://github.com/bitcoin/bitcoin/releases/tag/v32.0rc1",
       "source_url_type": "post",
       "category": "Bitcoin",
-      "raw_summary": "Bitcoin Core 29.4. Bitcoin Core version 29.4 is now available from: https://bitcoincore.org/bin/bitcoin-core-29.4/ For the release notes please see the git repository: https://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-29.4.md Do not use the links provided by GitHub, rather use the above download links, they are guaranteed to be generated deterministically and signed.",
+      "raw_summary": "v32.0rc1: Bitcoin Core 32.0 release candidate 1. Tree-SHA512: 8bf11a81e1cdff7aa9a0c1485ee969877eb717db911a5585e4bff9f08e6a62e774ad6f56de8eb696397960e6702b7d4f061e2525de155ae48c603cb9c813d112",
       "elevated_intelligence": {
         "signal_headline": "Cluster Mempool Linearization & Sovereign Node Telemetry Fortify Consensus Topology",
         "convergence_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
@@ -359,7 +359,7 @@
       "entity": {
         "name": "Lyn Alden",
         "handle": "@LynAldenContact",
-        "platform": "x",
+        "platform": "newsletter",
         "avatar_url": "https://unavatar.io/x/LynAldenContact"
       },
       "source_url": "https://www.lynalden.com/orange-juice/",
@@ -393,7 +393,7 @@
       "entity": {
         "name": "Lyn Alden",
         "handle": "@LynAldenContact",
-        "platform": "x",
+        "platform": "newsletter",
         "avatar_url": "https://unavatar.io/x/LynAldenContact"
       },
       "source_url": "https://www.lynalden.com/the-stolguard-incident/",
@@ -427,7 +427,7 @@
       "entity": {
         "name": "Lyn Alden",
         "handle": "@LynAldenContact",
-        "platform": "x",
+        "platform": "newsletter",
         "avatar_url": "https://unavatar.io/x/LynAldenContact"
       },
       "source_url": "https://www.lynalden.com/fractional-reserve-banking/",
@@ -461,7 +461,7 @@
       "entity": {
         "name": "Lyn Alden",
         "handle": "@LynAldenContact",
-        "platform": "x",
+        "platform": "newsletter",
         "avatar_url": "https://unavatar.io/x/LynAldenContact"
       },
       "source_url": "https://www.lynalden.com/why-most-cryptocurrencies-wont-accrue-value/",
@@ -495,7 +495,7 @@
       "entity": {
         "name": "Lyn Alden",
         "handle": "@LynAldenContact",
-        "platform": "x",
+        "platform": "newsletter",
         "avatar_url": "https://unavatar.io/x/LynAldenContact"
       },
       "source_url": "https://www.lynalden.com/the-power-of-nostr/",
