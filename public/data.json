@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-14T23:58:53.926309+00:00",
+  "generated_at": "2026-09-15T04:00:51.479289+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
-  "total_signals": 27,
-  "sludge_filtered_count": 12,
+  "total_signals": 28,
+  "sludge_filtered_count": 15,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -185,6 +185,41 @@
           80,
           115,
           145
+        ]
+      }
+    },
+    {
+      "id": "sig_6d04b61e54fafa1e",
+      "timestamp": "2026-09-15T03:48:20+00:00",
+      "entity": {
+        "name": "Pierre Rochard",
+        "handle": "@BitcoinPierre",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
+      },
+      "source_url": "https://twitter.com/BitcoinPierre/status/2099706860412498370",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "RT @BitcoinMagazine: JUST IN: \ud83c\uddfa\ud83c\uddf8 The Clarity Act has \"really come together with a pretty compelling compromise here\", says Bitcoin Policy I\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Structural Thesis: Bitcoin",
+        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "cross_reference": "First-principles convergence framework.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          29,
+          43,
+          36,
+          65,
+          94,
+          131,
+          175
         ]
       }
     },
@@ -749,23 +784,23 @@
       }
     },
     {
-      "id": "sig_577f389224b80b17",
-      "timestamp": "2026-09-14T22:01:40+00:00",
+      "id": "sig_fac29b83192199d6",
+      "timestamp": "2026-09-15T03:23:10+00:00",
       "entity": {
         "name": "Pierre Rochard",
         "handle": "@BitcoinPierre",
         "platform": "x",
         "avatar_url": "https://unavatar.io/x/BitcoinPierre"
       },
-      "source_url": "https://twitter.com/BitcoinPierre/status/2099619615886209189",
+      "source_url": "https://twitter.com/BitcoinPierre/status/2099700525499347257",
       "source_url_type": "post",
       "category": "Bitcoin",
-      "raw_summary": "RT @PunterJeff: $ASST market cap ATH \n\n$2.75B",
+      "raw_summary": "RT @BTCtreasuries: JUST IN: Strive $ASST buys an additional 469 #Bitcoin and now holds a total of 25,000 BTC.\n\nIn less than 12 months of go\u2026",
       "elevated_intelligence": {
-        "signal_headline": "Structural Thesis: Bitcoin",
-        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
-        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
-        "cross_reference": "First-principles convergence framework.",
+        "signal_headline": "Cryptographic Consensus Guarantees Unchangeable Monetary Scarcity",
+        "convergence_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
+        "alden_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
+        "cross_reference": "Contrast between Austrian sound money principles and discretionary fiat credit expansion.",
         "is_urgent_shift": false,
         "synthesis_source": "heuristic"
       },
