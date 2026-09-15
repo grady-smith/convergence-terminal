@@ -181,7 +181,7 @@ function updateHeaderStats(payload) {
 
   if (payload?.generated_at) {
     const generatedDate = new Date(payload.generated_at);
-    document.getElementById('last-updated-time').textContent = generatedDate.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    document.getElementById('last-updated-time').textContent = generatedDate.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', timeZone: 'UTC' }) + ' UTC';
     updateSyncIndicators(generatedDate);
   } else {
     document.getElementById('last-updated-time').textContent = '--:--';
@@ -189,24 +189,24 @@ function updateHeaderStats(payload) {
 }
 
 // Global sync schedule configuration
-const SYNC_TIMES = ['08:00', '14:00', '20:00'];
+const SYNC_TIMES_UTC = ['00:00', '12:00'];
 
 function updateSyncIndicators(lastSyncDate) {
   const container = document.getElementById('sync-schedule-indicators');
   if (!container) return;
   
   const now = new Date();
-  const isToday = lastSyncDate.getDate() === now.getDate() && 
-                  lastSyncDate.getMonth() === now.getMonth() && 
-                  lastSyncDate.getFullYear() === now.getFullYear();
+  const isTodayUTC = lastSyncDate.getUTCDate() === now.getUTCDate() && 
+                     lastSyncDate.getUTCMonth() === now.getUTCMonth() && 
+                     lastSyncDate.getUTCFullYear() === now.getUTCFullYear();
   
-  const indicatorsHtml = SYNC_TIMES.map(timeStr => {
+  const indicatorsHtml = SYNC_TIMES_UTC.map(timeStr => {
     const [hours, minutes] = timeStr.split(':').map(Number);
-    const syncTime = new Date(now.getFullYear(), now.getMonth(), now.getDate(), hours, minutes, 0, 0);
+    const syncTime = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), hours, minutes, 0, 0));
     
-    // Check if this specific sync time has been fulfilled today
+    // Check if this specific sync time has been fulfilled today in UTC
     let isSynced = false;
-    if (isToday && lastSyncDate >= syncTime) {
+    if (isTodayUTC && lastSyncDate >= syncTime) {
       isSynced = true;
     }
     
@@ -215,7 +215,7 @@ function updateSyncIndicators(lastSyncDate) {
       ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30' 
       : 'bg-slate-800/50 text-slate-500 border border-slate-700/50';
     
-    return `<div class="${baseClass} ${colorClass}" title="Scheduled: ${timeStr}">${timeStr}</div>`;
+    return `<div class="${baseClass} ${colorClass}" title="Scheduled: ${timeStr} UTC">${timeStr} UTC</div>`;
   }).join('');
   
   container.innerHTML = indicatorsHtml;
