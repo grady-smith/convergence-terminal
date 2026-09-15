@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-15T09:12:32.210353+00:00",
+  "generated_at": "2026-09-15T16:00:47.305285+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
-  "total_signals": 29,
-  "sludge_filtered_count": 19,
+  "total_signals": 30,
+  "sludge_filtered_count": 21,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -185,6 +185,41 @@
           80,
           115,
           145
+        ]
+      }
+    },
+    {
+      "id": "sig_7a6b55fc43391597",
+      "timestamp": "2026-09-15T14:56:09+00:00",
+      "entity": {
+        "name": "Pierre Rochard",
+        "handle": "@BitcoinPierre",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
+      },
+      "source_url": "https://twitter.com/BitcoinPierre/status/2099874921992106051",
+      "source_url_type": "post",
+      "category": "Autonomous Intelligence",
+      "raw_summary": "RT @FBIDirectorKash: Memphis had the highest per-capita homicide rate in America. We said we were going to do something about it.\n\nWe did.\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
+        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          29,
+          43,
+          36,
+          65,
+          94,
+          131,
+          175
         ]
       }
     },
@@ -854,23 +889,23 @@
       }
     },
     {
-      "id": "sig_e0f52c68f1a30084",
-      "timestamp": "2026-09-15T04:18:31+00:00",
+      "id": "sig_1dda9476600abeda",
+      "timestamp": "2026-09-15T15:18:30+00:00",
       "entity": {
         "name": "Pierre Rochard",
         "handle": "@BitcoinPierre",
         "platform": "x",
         "avatar_url": "https://unavatar.io/x/BitcoinPierre"
       },
-      "source_url": "https://twitter.com/BitcoinPierre/status/2099714452757098513",
+      "source_url": "https://twitter.com/BitcoinPierre/status/2099880543361945756",
       "source_url_type": "post",
       "category": "Compute, Power & The Grid",
-      "raw_summary": "RT @lulumeservey: Founder energy is required to get things done\n\nHats off to all the bulls in the china shop who refuse to tiptoe around th\u2026",
+      "raw_summary": "Bernie Sanders doesn't like AI because he knows it will create so many jobs that even the lowest real wages will rise to a purchasing power that makes healthcare affordable for all. The concept of \"government welfare\" will be obsolete, nobody will need it except fraudsters.",
       "elevated_intelligence": {
-        "signal_headline": "Physical Power Constraints Anchor Modern Digital Infrastructure",
-        "convergence_lens": "All computation is fundamentally an irreversible thermodynamic transformation of electrical potential.",
-        "alden_lens": "All computation is fundamentally an irreversible thermodynamic transformation of electrical potential.",
-        "cross_reference": "Landauer's principle and thermodynamic limits of computation.",
+        "signal_headline": "Baseload Grid Interconnection Bottlenecks Accelerate Behind-the-Meter Power Co-Location",
+        "convergence_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
+        "alden_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
+        "cross_reference": "Directly links to recent corporate nuclear power purchase agreements and miner colocation pivots.",
         "is_urgent_shift": true,
         "synthesis_source": "heuristic"
       },
@@ -889,24 +924,24 @@
       }
     },
     {
-      "id": "sig_847528c3a48c9f59",
-      "timestamp": "2026-09-14T22:27:05+00:00",
+      "id": "sig_e0f52c68f1a30084",
+      "timestamp": "2026-09-15T04:18:31+00:00",
       "entity": {
         "name": "Pierre Rochard",
         "handle": "@BitcoinPierre",
         "platform": "x",
         "avatar_url": "https://unavatar.io/x/BitcoinPierre"
       },
-      "source_url": "https://twitter.com/BitcoinPierre/status/2099626014653489331",
+      "source_url": "https://twitter.com/BitcoinPierre/status/2099714452757098513",
       "source_url_type": "post",
-      "category": "Autonomous Intelligence",
-      "raw_summary": "RT @JoshMandell6: I have some call options on $ASST which I need to exercise this week so I'm raising a little bit of cash.   It's quite re\u2026",
+      "category": "Compute, Power & The Grid",
+      "raw_summary": "RT @lulumeservey: Founder energy is required to get things done\n\nHats off to all the bulls in the china shop who refuse to tiptoe around th\u2026",
       "elevated_intelligence": {
-        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
-        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
-        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
-        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
-        "is_urgent_shift": false,
+        "signal_headline": "Physical Power Constraints Anchor Modern Digital Infrastructure",
+        "convergence_lens": "All computation is fundamentally an irreversible thermodynamic transformation of electrical potential.",
+        "alden_lens": "All computation is fundamentally an irreversible thermodynamic transformation of electrical potential.",
+        "cross_reference": "Landauer's principle and thermodynamic limits of computation.",
+        "is_urgent_shift": true,
         "synthesis_source": "heuristic"
       },
       "metrics": {
