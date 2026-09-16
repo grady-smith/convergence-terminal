@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-15T16:00:47.305285+00:00",
+  "generated_at": "2026-09-16T02:44:58.686823+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
-  "total_signals": 30,
-  "sludge_filtered_count": 21,
+  "total_signals": 31,
+  "sludge_filtered_count": 24,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -185,6 +185,41 @@
           80,
           115,
           145
+        ]
+      }
+    },
+    {
+      "id": "sig_721ab1b5816252b3",
+      "timestamp": "2026-09-15T19:11:49+00:00",
+      "entity": {
+        "name": "Jack Mallers",
+        "handle": "@jackmallers",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/jackmallers"
+      },
+      "source_url": "https://twitter.com/jackmallers/status/2099939259679461748",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "We want to be your Bitcoin company.\n\nBuy, sell, save, borrow, bank, get paid, pay bills, custody, and more.\n\nOne account. Bitcoin only.",
+      "elevated_intelligence": {
+        "signal_headline": "Cryptographic Consensus Guarantees Unchangeable Monetary Scarcity",
+        "convergence_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
+        "alden_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
+        "cross_reference": "Contrast between Austrian sound money principles and discretionary fiat credit expansion.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          29,
+          43,
+          36,
+          65,
+          94,
+          131,
+          175
         ]
       }
     },
