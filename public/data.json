@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-16T02:44:58.686823+00:00",
+  "generated_at": "2026-09-16T15:54:23.256366+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
   "total_signals": 31,
-  "sludge_filtered_count": 24,
+  "sludge_filtered_count": 27,
   "categories": [
     "All Signals",
     "Bitcoin",
