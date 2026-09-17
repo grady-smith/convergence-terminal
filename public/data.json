@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-16T15:54:23.256366+00:00",
+  "generated_at": "2026-09-17T02:48:58.013288+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
-  "total_signals": 31,
-  "sludge_filtered_count": 27,
+  "total_signals": 32,
+  "sludge_filtered_count": 30,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -189,6 +189,41 @@
       }
     },
     {
+      "id": "sig_485fa9731ff0da43",
+      "timestamp": "2026-09-16T20:57:40+00:00",
+      "entity": {
+        "name": "Lyn Alden",
+        "handle": "@LynAldenContact",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+      },
+      "source_url": "https://twitter.com/LynAldenContact/status/2100328286287020224",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "As much as I love traveling, I'm back in America now.\n\nReady to lock back in.",
+      "elevated_intelligence": {
+        "signal_headline": "Structural Thesis: Macro Plumbing & Balance Sheets",
+        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "cross_reference": "First-principles convergence framework.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          29,
+          43,
+          36,
+          65,
+          94,
+          131,
+          175
+        ]
+      }
+    },
+    {
       "id": "sig_721ab1b5816252b3",
       "timestamp": "2026-09-15T19:11:49+00:00",
       "entity": {
@@ -311,41 +346,6 @@
         "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
         "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
         "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
-        "is_urgent_shift": true,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 9.2,
-        "momentum_label": "+368% 6h spike",
-        "sparkline_points": [
-          29,
-          43,
-          36,
-          65,
-          94,
-          131,
-          175
-        ]
-      }
-    },
-    {
-      "id": "sig_3ee080dd821cc741",
-      "timestamp": "2026-09-13T20:59:36+00:00",
-      "entity": {
-        "name": "Lyn Alden",
-        "handle": "@LynAldenContact",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/LynAldenContact"
-      },
-      "source_url": "https://twitter.com/LynAldenContact/status/2099241612006047981",
-      "source_url_type": "post",
-      "category": "Macro Plumbing & Balance Sheets",
-      "raw_summary": "In Egypt, you can be at a high end restaurant and have street cats come up and say hi.\n\nSome consider this a problem but not me. \ud83e\udd70",
-      "elevated_intelligence": {
-        "signal_headline": "Structural Thesis: Macro Plumbing & Balance Sheets",
-        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
-        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
-        "cross_reference": "First-principles convergence framework.",
         "is_urgent_shift": true,
         "synthesis_source": "heuristic"
       },
@@ -850,6 +850,41 @@
           80,
           115,
           145
+        ]
+      }
+    },
+    {
+      "id": "sig_88534701c8bf3730",
+      "timestamp": "2026-09-16T21:38:11+00:00",
+      "entity": {
+        "name": "Lyn Alden",
+        "handle": "@LynAldenContact",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+      },
+      "source_url": "https://twitter.com/LynAldenContact/status/2100338484070228027",
+      "source_url_type": "post",
+      "category": "Autonomous Intelligence",
+      "raw_summary": "People want Jarvis.\n\nOr an AI version of Alfred.\n\nThey want Jarvis/Alfred to handle all mundane details in their life, and we are nearing that.\n\nRight now, they have localized chat and decent agents that still struggle with basics but are on the trajectory.",
+      "elevated_intelligence": {
+        "signal_headline": "Compute Architecture Shifts from Cloud Monoliths to Distributed Edge Agents",
+        "convergence_lens": "Physical latency and privacy constraints drive the unbundling of general intelligence into task-specific deterministic local models.",
+        "alden_lens": "Physical latency and privacy constraints drive the unbundling of general intelligence into task-specific deterministic local models.",
+        "cross_reference": "Validates the historical transition from mainframe compute to personal workstation distribution.",
+        "is_urgent_shift": false,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 8.6,
+        "momentum_label": "+344% 6h spike",
+        "sparkline_points": [
+          27,
+          40,
+          34,
+          61,
+          88,
+          122,
+          163
         ]
       }
     },
