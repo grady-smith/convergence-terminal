@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-17T16:00:43.170282+00:00",
+  "generated_at": "2026-09-18T01:46:56.357713+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
-  "total_signals": 33,
-  "sludge_filtered_count": 33,
+  "total_signals": 36,
+  "sludge_filtered_count": 37,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -13,6 +13,41 @@
     "Autonomous Intelligence"
   ],
   "items": [
+    {
+      "id": "sig_5df48a9bb4a0fce3",
+      "timestamp": "2026-09-18T01:43:41+00:00",
+      "entity": {
+        "name": "Pierre Rochard",
+        "handle": "@BitcoinPierre",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
+      },
+      "source_url": "https://twitter.com/BitcoinPierre/status/2100762654742626720",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "RT @SenRonJohnson: No, it\u2019s a grossly mismanaged LEGAL Ponzi scheme. \n\nHad we actually invested just the annual surpluses in the equivalent\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Structural Thesis: Bitcoin",
+        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "cross_reference": "First-principles convergence framework.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.8,
+        "momentum_label": "+392% 6h spike",
+        "sparkline_points": [
+          31,
+          46,
+          39,
+          70,
+          101,
+          140,
+          187
+        ]
+      }
+    },
     {
       "id": "sig_10a67a164d12949b",
       "timestamp": "2026-09-13T10:17:05+00:00",
@@ -276,41 +311,6 @@
         "convergence_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
         "alden_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
         "cross_reference": "Contrast between Austrian sound money principles and discretionary fiat credit expansion.",
-        "is_urgent_shift": true,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 9.2,
-        "momentum_label": "+368% 6h spike",
-        "sparkline_points": [
-          29,
-          43,
-          36,
-          65,
-          94,
-          131,
-          175
-        ]
-      }
-    },
-    {
-      "id": "sig_6d04b61e54fafa1e",
-      "timestamp": "2026-09-15T03:48:20+00:00",
-      "entity": {
-        "name": "Pierre Rochard",
-        "handle": "@BitcoinPierre",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
-      },
-      "source_url": "https://twitter.com/BitcoinPierre/status/2099706860412498370",
-      "source_url_type": "post",
-      "category": "Bitcoin",
-      "raw_summary": "RT @BitcoinMagazine: JUST IN: \ud83c\uddfa\ud83c\uddf8 The Clarity Act has \"really come together with a pretty compelling compromise here\", says Bitcoin Policy I\u2026",
-      "elevated_intelligence": {
-        "signal_headline": "Structural Thesis: Bitcoin",
-        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
-        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
-        "cross_reference": "First-principles convergence framework.",
         "is_urgent_shift": true,
         "synthesis_source": "heuristic"
       },
@@ -955,6 +955,111 @@
           88,
           122,
           163
+        ]
+      }
+    },
+    {
+      "id": "sig_72bde20576a6c57c",
+      "timestamp": "2026-09-17T21:36:44+00:00",
+      "entity": {
+        "name": "Dr. Adam Back",
+        "handle": "@adam3us",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/adam3us"
+      },
+      "source_url": "https://twitter.com/adam3us/status/2100700504468717886",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "RT @darosior: BIP54 would make it so Bitcoin's PoW actually provides tight bounds on worst case resource usage.\n\nRead Pieter's latest post\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Proof-of-Work Thermodynamically Anchors Digital Scarcity to Unforgeable Physics",
+        "convergence_lens": "Consensus difficulty mathematically binds monetary credibility to real-world energy expenditure, eliminating political dilution and arbitrary debasement.",
+        "alden_lens": "Consensus difficulty mathematically binds monetary credibility to real-world energy expenditure, eliminating political dilution and arbitrary debasement.",
+        "cross_reference": "Builds upon Hashcash proof-of-work principles and Szabo's unforgeable costliness axioms.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 7.8,
+        "momentum_label": "+195% 24h gain",
+        "sparkline_points": [
+          24,
+          37,
+          31,
+          55,
+          80,
+          111,
+          148
+        ]
+      }
+    },
+    {
+      "id": "sig_41ba056c0e07c510",
+      "timestamp": "2026-09-17T21:31:21+00:00",
+      "entity": {
+        "name": "Dr. Adam Back",
+        "handle": "@adam3us",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/adam3us"
+      },
+      "source_url": "https://twitter.com/adam3us/status/2100699150975139847",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "RT @Liquid_BTC: LIQUID NETWORK UPDATE: ECOSYSTEM ACTIVITY\nStatus as of September 17, 2026, 21:05 UTC\n\nNetwork and Ecosystem Status\n\nSince r\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Cryptographic Consensus Guarantees Unchangeable Monetary Scarcity",
+        "convergence_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
+        "alden_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
+        "cross_reference": "Contrast between Austrian sound money principles and discretionary fiat credit expansion.",
+        "is_urgent_shift": false,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 7.8,
+        "momentum_label": "+195% 24h gain",
+        "sparkline_points": [
+          24,
+          37,
+          31,
+          55,
+          80,
+          111,
+          148
+        ]
+      }
+    },
+    {
+      "id": "sig_4f6a17e9220bfe05",
+      "timestamp": "2026-09-17T21:27:38+00:00",
+      "entity": {
+        "name": "Dr. Adam Back",
+        "handle": "@adam3us",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/adam3us"
+      },
+      "source_url": "https://twitter.com/adam3us/status/2100698215808897483",
+      "source_url_type": "post",
+      "category": "Agentic Rails & Settlement",
+      "raw_summary": "RT @AquaBitcoinES: El l\u00edmite en los swaps de Liquid a Lightning en AQUA se ha incrementado de 70k Sats a 100k Sats por transacci\u00f3n. \u26a1\n\nAhor\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Autonomous Agent Swarms Mandate Protocol-Native Micro-Settlement Rails",
+        "convergence_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
+        "alden_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
+        "cross_reference": "Parallels early HTTP 402 specifications now revitalized for machine-to-machine inference.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 7.8,
+        "momentum_label": "+195% 24h gain",
+        "sparkline_points": [
+          24,
+          37,
+          31,
+          55,
+          80,
+          111,
+          148
         ]
       }
     },
