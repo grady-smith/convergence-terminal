@@ -377,7 +377,7 @@ function renderCard(item, style) {
     <article class="terminal-card rounded-xl p-4 sm:p-5 border-l-4 ${style.accentBorder} flex flex-col justify-between gap-4 h-full w-full min-w-0 overflow-hidden box-border">
       <!-- Card Top Bar -->
       <div class="flex items-start justify-between gap-3 flex-wrap min-w-0">
-        <div class="flex items-center gap-2.5 sm:gap-3 min-w-0 flex-1">
+        <div class="flex items-center gap-2.5 sm:gap-3 min-w-[150px] flex-1">
           <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center font-mono font-bold text-amber-400 text-xs sm:text-sm overflow-hidden flex-shrink-0">
             <span title="${item.entity?.name}">${entityInitials}</span>
           </div>
