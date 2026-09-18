@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-18T02:35:46.115991+00:00",
+  "generated_at": "2026-09-18T15:35:33.227120+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
   "total_signals": 36,
-  "sludge_filtered_count": 40,
+  "sludge_filtered_count": 43,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -13,6 +13,41 @@
     "Autonomous Intelligence"
   ],
   "items": [
+    {
+      "id": "sig_bca71b6c5702708c",
+      "timestamp": "2026-09-18T14:09:10+00:00",
+      "entity": {
+        "name": "Pierre Rochard",
+        "handle": "@BitcoinPierre",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
+      },
+      "source_url": "https://twitter.com/BitcoinPierre/status/2100950259954311301",
+      "source_url_type": "post",
+      "category": "Autonomous Intelligence",
+      "raw_summary": "RT @GunOwners: \ud83d\udea8 BREAKING \ud83d\udea8 \n\nPresident Trump has personally \u201cdecided against appealing\u201d GOA\u2019s victory in Silencer Shop v. ATF. He will \u201cen\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
+        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.8,
+        "momentum_label": "+392% 6h spike",
+        "sparkline_points": [
+          31,
+          46,
+          39,
+          70,
+          101,
+          140,
+          187
+        ]
+      }
+    },
     {
       "id": "sig_5df48a9bb4a0fce3",
       "timestamp": "2026-09-18T01:43:41+00:00",
@@ -154,18 +189,18 @@
       }
     },
     {
-      "id": "sig_fe2ed1612644b605",
-      "timestamp": "2026-09-14T12:58:46Z",
+      "id": "sig_e792e53278e56d82",
+      "timestamp": "2026-09-18T14:30:08Z",
       "entity": {
         "name": "Bitcoin Core Project",
         "handle": "@bitcoincoreorg",
         "platform": "github",
         "avatar_url": "https://unavatar.io/x/bitcoincoreorg"
       },
-      "source_url": "https://github.com/bitcoin/bitcoin/releases/tag/v32.0rc1",
+      "source_url": "https://github.com/bitcoin/bitcoin/releases/tag/v32.0rc2",
       "source_url_type": "post",
       "category": "Bitcoin",
-      "raw_summary": "v32.0rc1: Bitcoin Core 32.0 release candidate 1. Tree-SHA512: 8bf11a81e1cdff7aa9a0c1485ee969877eb717db911a5585e4bff9f08e6a62e774ad6f56de8eb696397960e6702b7d4f061e2525de155ae48c603cb9c813d112",
+      "raw_summary": "v32.0rc2: Bitcoin Core 32.0 release candidate 2. Tree-SHA512: 04112697368f9aa4eeb72d405afc11b6c8c1d15a0005684ec912bcb6a43e50d37fec61991d45490f2059aa420f0db85150949dd1b5d33785a2eff1283850ef5d",
       "elevated_intelligence": {
         "signal_headline": "Cluster Mempool Linearization & Sovereign Node Telemetry Fortify Consensus Topology",
         "convergence_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
@@ -220,41 +255,6 @@
           80,
           115,
           145
-        ]
-      }
-    },
-    {
-      "id": "sig_67a62b60c1898f09",
-      "timestamp": "2026-09-17T15:14:57+00:00",
-      "entity": {
-        "name": "Pierre Rochard",
-        "handle": "@BitcoinPierre",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
-      },
-      "source_url": "https://twitter.com/BitcoinPierre/status/2100604427342070265",
-      "source_url_type": "post",
-      "category": "Autonomous Intelligence",
-      "raw_summary": "RT @TimSheehyMT: ActBlue has long been a Chinese money laundering apparatus. Explains a lot\u2026",
-      "elevated_intelligence": {
-        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
-        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
-        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
-        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
-        "is_urgent_shift": true,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 9.2,
-        "momentum_label": "+368% 6h spike",
-        "sparkline_points": [
-          29,
-          43,
-          36,
-          65,
-          94,
-          131,
-          175
         ]
       }
     },
@@ -854,6 +854,41 @@
       }
     },
     {
+      "id": "sig_1d43f0ab0a3bc0af",
+      "timestamp": "2026-09-18T11:52:46+00:00",
+      "entity": {
+        "name": "Dr. Adam Back",
+        "handle": "@adam3us",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/adam3us"
+      },
+      "source_url": "https://twitter.com/adam3us/status/2100915933598368004",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "RT @btcjvs: Bitcoin has stopped making new lows on bad news. Therefore, the bottom has been in for some time.\n\nThe low was back in February\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Cryptographic Consensus Guarantees Unchangeable Monetary Scarcity",
+        "convergence_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
+        "alden_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
+        "cross_reference": "Contrast between Austrian sound money principles and discretionary fiat credit expansion.",
+        "is_urgent_shift": false,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 8.6,
+        "momentum_label": "+344% 6h spike",
+        "sparkline_points": [
+          27,
+          40,
+          34,
+          61,
+          88,
+          122,
+          163
+        ]
+      }
+    },
+    {
       "id": "sig_88534701c8bf3730",
       "timestamp": "2026-09-16T21:38:11+00:00",
       "entity": {
@@ -977,41 +1012,6 @@
         "alden_lens": "Consensus difficulty mathematically binds monetary credibility to real-world energy expenditure, eliminating political dilution and arbitrary debasement.",
         "cross_reference": "Builds upon Hashcash proof-of-work principles and Szabo's unforgeable costliness axioms.",
         "is_urgent_shift": true,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 7.8,
-        "momentum_label": "+195% 24h gain",
-        "sparkline_points": [
-          24,
-          37,
-          31,
-          55,
-          80,
-          111,
-          148
-        ]
-      }
-    },
-    {
-      "id": "sig_41ba056c0e07c510",
-      "timestamp": "2026-09-17T21:31:21+00:00",
-      "entity": {
-        "name": "Dr. Adam Back",
-        "handle": "@adam3us",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/adam3us"
-      },
-      "source_url": "https://twitter.com/adam3us/status/2100699150975139847",
-      "source_url_type": "post",
-      "category": "Bitcoin",
-      "raw_summary": "RT @Liquid_BTC: LIQUID NETWORK UPDATE: ECOSYSTEM ACTIVITY\nStatus as of September 17, 2026, 21:05 UTC\n\nNetwork and Ecosystem Status\n\nSince r\u2026",
-      "elevated_intelligence": {
-        "signal_headline": "Cryptographic Consensus Guarantees Unchangeable Monetary Scarcity",
-        "convergence_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
-        "alden_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
-        "cross_reference": "Contrast between Austrian sound money principles and discretionary fiat credit expansion.",
-        "is_urgent_shift": false,
         "synthesis_source": "heuristic"
       },
       "metrics": {
