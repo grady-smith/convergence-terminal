@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-18T15:35:33.227120+00:00",
+  "generated_at": "2026-09-19T02:34:47.702213+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
-  "total_signals": 36,
-  "sludge_filtered_count": 43,
+  "total_signals": 37,
+  "sludge_filtered_count": 45,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -259,23 +259,93 @@
       }
     },
     {
-      "id": "sig_485fa9731ff0da43",
-      "timestamp": "2026-09-16T20:57:40+00:00",
+      "id": "sig_2d300bd40d179147",
+      "timestamp": "2026-09-18T22:28:11+00:00",
       "entity": {
         "name": "Lyn Alden",
         "handle": "@LynAldenContact",
         "platform": "x",
         "avatar_url": "https://unavatar.io/x/LynAldenContact"
       },
-      "source_url": "https://twitter.com/LynAldenContact/status/2100328286287020224",
+      "source_url": "https://twitter.com/LynAldenContact/status/2101075842809892910",
       "source_url_type": "post",
       "category": "Macro Plumbing & Balance Sheets",
-      "raw_summary": "As much as I love traveling, I'm back in America now.\n\nReady to lock back in.",
+      "raw_summary": "There are moments where I wonder if I\u2019ll run out of jokes.\n\nAnd then I see posts like this.",
       "elevated_intelligence": {
         "signal_headline": "Structural Thesis: Macro Plumbing & Balance Sheets",
         "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
         "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
         "cross_reference": "First-principles convergence framework.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          29,
+          43,
+          36,
+          65,
+          94,
+          131,
+          175
+        ]
+      }
+    },
+    {
+      "id": "sig_6cd11b44c5450a8e",
+      "timestamp": "2026-09-18T21:57:50+00:00",
+      "entity": {
+        "name": "Lyn Alden",
+        "handle": "@LynAldenContact",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+      },
+      "source_url": "https://twitter.com/LynAldenContact/status/2101068203921178974",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "The fact that people still care about 25 basis points is evidence that they don\u2019t yet appreciate the depth of the fiscal dominance we are in.\n\nAnyway, have a nice weekend.",
+      "elevated_intelligence": {
+        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
+        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          29,
+          43,
+          36,
+          65,
+          94,
+          131,
+          175
+        ]
+      }
+    },
+    {
+      "id": "sig_476e37a598dc6ec7",
+      "timestamp": "2026-09-18T20:18:55+00:00",
+      "entity": {
+        "name": "Pierre Rochard",
+        "handle": "@BitcoinPierre",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
+      },
+      "source_url": "https://twitter.com/BitcoinPierre/status/2101043310634701264",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "RT @BitcoinMagazine: JUST IN: Billionaire Tim Draper says huge companies like Apple and Facebook not holding Bitcoin on their balance sheet\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Fair-Value Accounting Catalyzes Corporate Treasury Balance Sheet Sovereignty",
+        "convergence_lens": "Mark-to-market treasury rules eliminate historical impairment penalties, aligning corporate balance sheets with non-debasable reserve assets.",
+        "alden_lens": "Mark-to-market treasury rules eliminate historical impairment penalties, aligning corporate balance sheets with non-debasable reserve assets.",
+        "cross_reference": "Parallels corporate gold reserves prior to the 1971 Bretton Woods suspension.",
         "is_urgent_shift": true,
         "synthesis_source": "heuristic"
       },
@@ -702,41 +772,6 @@
       "metrics": {
         "velocity_score": 9.1,
         "momentum_label": "+364% 6h spike",
-        "sparkline_points": [
-          15,
-          24,
-          38,
-          55,
-          80,
-          115,
-          145
-        ]
-      }
-    },
-    {
-      "id": "sig_dbd1d8f6a6ac347c",
-      "timestamp": "2026-07-15T14:16:27+00:00",
-      "entity": {
-        "name": "Lyn Alden",
-        "handle": "@LynAldenContact",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/LynAldenContact"
-      },
-      "source_url": "https://www.lynalden.com/orange-juice/",
-      "source_url_type": "post",
-      "category": "Macro Plumbing & Balance Sheets",
-      "raw_summary": "An Alternative to Private Equity: Introducing ORANGE JUICE. July 15, 2026 The rest of the team at Ego Death Capital and I have partnered with Adrian Steckel and Ruben Zweiban to launch ORANGE JUICE. It s a company that acquires, improves, and permanently holds cash-flowing businesses, backed by a bitcoin treasury. More specifically, ORANGE JUICE seeks to acquire profitable small and mid-sized b...",
-      "elevated_intelligence": {
-        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
-        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
-        "is_urgent_shift": true,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 9.0,
-        "momentum_label": "+360% 6h spike",
         "sparkline_points": [
           15,
           24,
