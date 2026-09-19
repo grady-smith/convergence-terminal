@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-19T02:34:47.702213+00:00",
+  "generated_at": "2026-09-19T15:09:14.149183+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
-  "total_signals": 37,
-  "sludge_filtered_count": 45,
+  "total_signals": 38,
+  "sludge_filtered_count": 47,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -889,6 +889,41 @@
       }
     },
     {
+      "id": "sig_0e8880368e3acac2",
+      "timestamp": "2026-09-19T08:22:06+00:00",
+      "entity": {
+        "name": "Dr. Adam Back",
+        "handle": "@adam3us",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/adam3us"
+      },
+      "source_url": "https://twitter.com/adam3us/status/2101225305675624854",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "RT @alistairmilne: To recap:\n\n- Fed raised interest rates\n- Clarity act failed\n- Bitcoin didn't go below $75k\n\nThank you for your attention\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
+        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 8.6,
+        "momentum_label": "+344% 6h spike",
+        "sparkline_points": [
+          27,
+          40,
+          34,
+          61,
+          88,
+          122,
+          163
+        ]
+      }
+    },
+    {
       "id": "sig_1d43f0ab0a3bc0af",
       "timestamp": "2026-09-18T11:52:46+00:00",
       "entity": {
@@ -1029,6 +1064,41 @@
       }
     },
     {
+      "id": "sig_d49661ace3a610a0",
+      "timestamp": "2026-09-19T12:51:43+00:00",
+      "entity": {
+        "name": "Pierre Rochard",
+        "handle": "@BitcoinPierre",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
+      },
+      "source_url": "https://twitter.com/BitcoinPierre/status/2101293156788584925",
+      "source_url_type": "post",
+      "category": "Compute, Power & The Grid",
+      "raw_summary": "RT @thepowerfulHRV: $MSTR mNAV ended the week at 1.2x, its highest level since mid June.\n\nmNAV refuses to go below 1x.\n\nIf I had a dollar f\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Baseload Grid Interconnection Bottlenecks Accelerate Behind-the-Meter Power Co-Location",
+        "convergence_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
+        "alden_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
+        "cross_reference": "Directly links to recent corporate nuclear power purchase agreements and miner colocation pivots.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 7.8,
+        "momentum_label": "+195% 24h gain",
+        "sparkline_points": [
+          24,
+          37,
+          31,
+          55,
+          80,
+          111,
+          148
+        ]
+      }
+    },
+    {
       "id": "sig_72bde20576a6c57c",
       "timestamp": "2026-09-17T21:36:44+00:00",
       "entity": {
@@ -1117,41 +1187,6 @@
         "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
         "cross_reference": "First-principles convergence framework.",
         "is_urgent_shift": false,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 7.8,
-        "momentum_label": "+195% 24h gain",
-        "sparkline_points": [
-          24,
-          37,
-          31,
-          55,
-          80,
-          111,
-          148
-        ]
-      }
-    },
-    {
-      "id": "sig_1dda9476600abeda",
-      "timestamp": "2026-09-15T15:18:30+00:00",
-      "entity": {
-        "name": "Pierre Rochard",
-        "handle": "@BitcoinPierre",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
-      },
-      "source_url": "https://twitter.com/BitcoinPierre/status/2099880543361945756",
-      "source_url_type": "post",
-      "category": "Compute, Power & The Grid",
-      "raw_summary": "Bernie Sanders doesn't like AI because he knows it will create so many jobs that even the lowest real wages will rise to a purchasing power that makes healthcare affordable for all. The concept of \"government welfare\" will be obsolete, nobody will need it except fraudsters.",
-      "elevated_intelligence": {
-        "signal_headline": "Baseload Grid Interconnection Bottlenecks Accelerate Behind-the-Meter Power Co-Location",
-        "convergence_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
-        "alden_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
-        "cross_reference": "Directly links to recent corporate nuclear power purchase agreements and miner colocation pivots.",
-        "is_urgent_shift": true,
         "synthesis_source": "heuristic"
       },
       "metrics": {
