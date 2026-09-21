@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-21T02:43:34.557576+00:00",
+  "generated_at": "2026-09-21T17:36:14.692656+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
   "total_signals": 38,
-  "sludge_filtered_count": 54,
+  "sludge_filtered_count": 56,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -290,6 +290,76 @@
           80,
           115,
           145
+        ]
+      }
+    },
+    {
+      "id": "sig_ab571aaa42040e5f",
+      "timestamp": "2026-09-21T15:48:45+00:00",
+      "entity": {
+        "name": "Jack Mallers",
+        "handle": "@jackmallers",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/jackmallers"
+      },
+      "source_url": "https://twitter.com/jackmallers/status/2102062486262264193",
+      "source_url_type": "post",
+      "category": "Autonomous Intelligence",
+      "raw_summary": "Bitcoin always crashes loudly and recovers quietly.\n\nZoom out and watch for lost levels slowly reclaimed through terrible sentiment. We don't need clarity bills or rate cuts. Fiat is broken. The long-term trend is in tact.\n\nIf you're not paying attention, you should be.",
+      "elevated_intelligence": {
+        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
+        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          29,
+          43,
+          36,
+          65,
+          94,
+          131,
+          175
+        ]
+      }
+    },
+    {
+      "id": "sig_0171cb5f587847aa",
+      "timestamp": "2026-09-21T12:20:43+00:00",
+      "entity": {
+        "name": "Pierre Rochard",
+        "handle": "@BitcoinPierre",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
+      },
+      "source_url": "https://twitter.com/BitcoinPierre/status/2102010131420508301",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "RT @ColeMacro: Strive acquired 1,355 $BTC for $107.7M at an average cost of $79,475 per bitcoin, bringing total holdings to \u20bf26,355.\n\nWarra\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Cryptographic Consensus Guarantees Unchangeable Monetary Scarcity",
+        "convergence_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
+        "alden_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
+        "cross_reference": "Contrast between Austrian sound money principles and discretionary fiat credit expansion.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          29,
+          43,
+          36,
+          65,
+          94,
+          131,
+          175
         ]
       }
     },
@@ -749,41 +819,6 @@
       }
     },
     {
-      "id": "sig_eb1ef6c1d49aae55",
-      "timestamp": "2026-09-02T09:47:46Z",
-      "entity": {
-        "name": "Jack Mallers",
-        "handle": "@jackmallers",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/jackmallers"
-      },
-      "source_url": "https://github.com/lightningnetwork/lnd/releases/tag/v0.21.3-beta",
-      "source_url_type": "post",
-      "category": "Autonomous Intelligence",
-      "raw_summary": "lnd v0.21.3-beta. Database Migrations This release introduces no new database migrations, but includes an important fix to the existing SQL invoice migration path: Native SQL invoice migration #11106 with their AMP sub-invoices. Previously, the HTLC rows were inserted without those associations, causing verification to fail and the migration transaction to roll back. Verifying the Release In or...",
-      "elevated_intelligence": {
-        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
-        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
-        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
-        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
-        "is_urgent_shift": true,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 9.1,
-        "momentum_label": "+364% 6h spike",
-        "sparkline_points": [
-          15,
-          24,
-          38,
-          55,
-          80,
-          115,
-          145
-        ]
-      }
-    },
-    {
       "id": "sig_5ea8ac30460c317c",
       "timestamp": "2026-08-13T18:03:32Z",
       "entity": {
@@ -976,41 +1011,6 @@
         "convergence_lens": "Physical latency and privacy constraints drive the unbundling of general intelligence into task-specific deterministic local models.",
         "alden_lens": "Physical latency and privacy constraints drive the unbundling of general intelligence into task-specific deterministic local models.",
         "cross_reference": "Validates the historical transition from mainframe compute to personal workstation distribution.",
-        "is_urgent_shift": false,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 8.6,
-        "momentum_label": "+344% 6h spike",
-        "sparkline_points": [
-          27,
-          40,
-          34,
-          61,
-          88,
-          122,
-          163
-        ]
-      }
-    },
-    {
-      "id": "sig_fac29b83192199d6",
-      "timestamp": "2026-09-15T03:23:10+00:00",
-      "entity": {
-        "name": "Pierre Rochard",
-        "handle": "@BitcoinPierre",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
-      },
-      "source_url": "https://twitter.com/BitcoinPierre/status/2099700525499347257",
-      "source_url_type": "post",
-      "category": "Bitcoin",
-      "raw_summary": "RT @BTCtreasuries: JUST IN: Strive $ASST buys an additional 469 #Bitcoin and now holds a total of 25,000 BTC.\n\nIn less than 12 months of go\u2026",
-      "elevated_intelligence": {
-        "signal_headline": "Cryptographic Consensus Guarantees Unchangeable Monetary Scarcity",
-        "convergence_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
-        "alden_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
-        "cross_reference": "Contrast between Austrian sound money principles and discretionary fiat credit expansion.",
         "is_urgent_shift": false,
         "synthesis_source": "heuristic"
       },
