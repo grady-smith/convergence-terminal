@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-20T15:13:22.807373+00:00",
+  "generated_at": "2026-09-21T02:43:34.557576+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
   "total_signals": 38,
-  "sludge_filtered_count": 52,
+  "sludge_filtered_count": 54,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -13,6 +13,41 @@
     "Autonomous Intelligence"
   ],
   "items": [
+    {
+      "id": "sig_e3c48db913e03485",
+      "timestamp": "2026-09-20T19:35:46+00:00",
+      "entity": {
+        "name": "Lyn Alden",
+        "handle": "@LynAldenContact",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+      },
+      "source_url": "https://twitter.com/LynAldenContact/status/2101757227816116518",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "RT @BTC_broo: We live in a simulation.",
+      "elevated_intelligence": {
+        "signal_headline": "Cryptographic Consensus Guarantees Unchangeable Monetary Scarcity",
+        "convergence_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
+        "alden_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
+        "cross_reference": "Contrast between Austrian sound money principles and discretionary fiat credit expansion.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.8,
+        "momentum_label": "+392% 6h spike",
+        "sparkline_points": [
+          31,
+          46,
+          39,
+          70,
+          101,
+          140,
+          187
+        ]
+      }
+    },
     {
       "id": "sig_bca71b6c5702708c",
       "timestamp": "2026-09-18T14:09:10+00:00",
@@ -801,41 +836,6 @@
         "convergence_lens": "Bank credit creation acts as an elastic money supply, distinct from base money and highly sensitive to interest rates.",
         "alden_lens": "Bank credit creation acts as an elastic money supply, distinct from base money and highly sensitive to interest rates.",
         "cross_reference": "Contrast between base money (M0) and broad money (M2) in the modern banking system.",
-        "is_urgent_shift": true,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 9.0,
-        "momentum_label": "+360% 6h spike",
-        "sparkline_points": [
-          15,
-          24,
-          38,
-          55,
-          80,
-          115,
-          145
-        ]
-      }
-    },
-    {
-      "id": "sig_583f0baed971ef9d",
-      "timestamp": "2025-12-01T17:45:10+00:00",
-      "entity": {
-        "name": "Lyn Alden",
-        "handle": "@LynAldenContact",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/LynAldenContact"
-      },
-      "source_url": "https://www.lynalden.com/why-most-cryptocurrencies-wont-accrue-value/",
-      "source_url_type": "post",
-      "category": "Bitcoin",
-      "raw_summary": "Why Most Cryptocurrencies Won\u2019t Accrue Value. December 2025 For many years now, I ve been bullish on bitcoin, and continue to be, but have not extended that view toward any other cryptocurrency. That decision continues to hold up well. Since I first recommended it in April 2020, it has gone from $6,900 to $126,000, and is currently back down to around $85,000. [ ] The post Why Most Cryptocurren...",
-      "elevated_intelligence": {
-        "signal_headline": "Cryptographic Consensus Guarantees Unchangeable Monetary Scarcity",
-        "convergence_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
-        "alden_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
-        "cross_reference": "Contrast between Austrian sound money principles and discretionary fiat credit expansion.",
         "is_urgent_shift": true,
         "synthesis_source": "heuristic"
       },
