@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-21T17:36:14.692656+00:00",
+  "generated_at": "2026-09-22T02:44:37.896012+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
-  "total_signals": 38,
-  "sludge_filtered_count": 56,
+  "total_signals": 39,
+  "sludge_filtered_count": 58,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -13,6 +13,41 @@
     "Autonomous Intelligence"
   ],
   "items": [
+    {
+      "id": "sig_810edaa21b38ddd0",
+      "timestamp": "2026-09-21T23:42:06+00:00",
+      "entity": {
+        "name": "Pierre Rochard",
+        "handle": "@BitcoinPierre",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
+      },
+      "source_url": "https://twitter.com/BitcoinPierre/status/2102181607431880943",
+      "source_url_type": "post",
+      "category": "Compute, Power & The Grid",
+      "raw_summary": "RT @RobertMSterling: We used to get hurricanes all the time. Big, powerful storms\u2014beautiful storms, but they were a disaster. And you know\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Baseload Grid Interconnection Bottlenecks Accelerate Behind-the-Meter Power Co-Location",
+        "convergence_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
+        "alden_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
+        "cross_reference": "Directly links to recent corporate nuclear power purchase agreements and miner colocation pivots.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.8,
+        "momentum_label": "+392% 6h spike",
+        "sparkline_points": [
+          31,
+          46,
+          39,
+          70,
+          101,
+          140,
+          187
+        ]
+      }
+    },
     {
       "id": "sig_e3c48db913e03485",
       "timestamp": "2026-09-20T19:35:46+00:00",
@@ -1064,23 +1099,58 @@
       }
     },
     {
-      "id": "sig_d49661ace3a610a0",
-      "timestamp": "2026-09-19T12:51:43+00:00",
+      "id": "sig_e9edb770781c4463",
+      "timestamp": "2026-09-22T01:16:43+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://twitter.com/CryptoHayes/status/2102205416549831064",
+      "source_url_type": "post",
+      "category": "Compute, Power & The Grid",
+      "raw_summary": "Check out my new essay \"Safety First\".\n\nTrump has a choice, print or print.\n\n\"Did you hear that? The AI bros suddenly developed a conscience and are worried about humanity\u2019s survival in the face of their almost silicon-God\u2019s ascendance. It\u2019s been almost silicon-God for some time now, but suddenly it\u2019s almost almost silicon-God and therefore it\u2019s time for introspection as to the path forward for the development of AGI.[1] That\u2019s the narrative, but cynical me looked at the calendar and thought, it\u2019s almost the close of the third quarter and Anthropic hasn\u2019t IPO\u2019d yet. I wonder how those financials look? Is that hockey stick growth of annualized revenue they allude to in press release after press release slowing down? They decree they are profitable if they remove all business running costs. I can\u2019t wait to parse through to be released their S-1 and understand exactly how much it costs for them to serve a token to a customer. And while they are being so honest with everyone, just exactly how many customers are profitable, and is that cohort increasing or decreasing? But alas, I will not get answers to my questions because \u201cSafety First\u201d.\n\nAs readers can tell from my tone, I believe that Anthropic, OpenAI, and SpaceX\u2019s pronouncement that Safety First guides them to slow down development of AGI is not driven by any concern for the wellbeing of unenlightened humans, but by the economic reality that the market doesn\u2019t want enough of the AI they are selling at its current price. To be specific, the market loves AI, but at the China price, which is 1/100th as expensive.\"\n\nRead more on my cryptohayes Substack",
+      "elevated_intelligence": {
+        "signal_headline": "Accelerated Silicon Clusters Collide with Substation Transformer Availability",
+        "convergence_lens": "Compute scaling is governed by electrical substation capacity and thermal dissipation physics rather than raw chip density.",
+        "alden_lens": "Compute scaling is governed by electrical substation capacity and thermal dissipation physics rather than raw chip density.",
+        "cross_reference": "Echoes the historical transition from single-core CPU frequency scaling to massive parallel power-constrained architectures.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 7.8,
+        "momentum_label": "+195% 24h gain",
+        "sparkline_points": [
+          24,
+          37,
+          31,
+          55,
+          80,
+          111,
+          148
+        ]
+      }
+    },
+    {
+      "id": "sig_5775c22f3e314e15",
+      "timestamp": "2026-09-22T00:05:03+00:00",
       "entity": {
         "name": "Pierre Rochard",
         "handle": "@BitcoinPierre",
         "platform": "x",
         "avatar_url": "https://unavatar.io/x/BitcoinPierre"
       },
-      "source_url": "https://twitter.com/BitcoinPierre/status/2101293156788584925",
+      "source_url": "https://twitter.com/BitcoinPierre/status/2102187382636188031",
       "source_url_type": "post",
-      "category": "Compute, Power & The Grid",
-      "raw_summary": "RT @thepowerfulHRV: $MSTR mNAV ended the week at 1.2x, its highest level since mid June.\n\nmNAV refuses to go below 1x.\n\nIf I had a dollar f\u2026",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "RT @Striveclips: Matt Cole says the market misreads the Bitcoin treasury strategy as a get-rich-quick scheme.\n\nHe underwrites $BTC over a f\u2026",
       "elevated_intelligence": {
-        "signal_headline": "Baseload Grid Interconnection Bottlenecks Accelerate Behind-the-Meter Power Co-Location",
-        "convergence_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
-        "alden_lens": "Thermodynamics and physical power contracts remain the non-negotiable bottleneck for both AI compute clusters and Proof-of-Work hashing.",
-        "cross_reference": "Directly links to recent corporate nuclear power purchase agreements and miner colocation pivots.",
+        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
+        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
         "is_urgent_shift": true,
         "synthesis_source": "heuristic"
       },
@@ -1221,41 +1291,6 @@
         "convergence_lens": "All computation is fundamentally an irreversible thermodynamic transformation of electrical potential.",
         "alden_lens": "All computation is fundamentally an irreversible thermodynamic transformation of electrical potential.",
         "cross_reference": "Landauer's principle and thermodynamic limits of computation.",
-        "is_urgent_shift": true,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 7.8,
-        "momentum_label": "+195% 24h gain",
-        "sparkline_points": [
-          24,
-          37,
-          31,
-          55,
-          80,
-          111,
-          148
-        ]
-      }
-    },
-    {
-      "id": "sig_dbd342266ac28d26",
-      "timestamp": "2026-09-14T17:05:01+00:00",
-      "entity": {
-        "name": "Arthur Hayes",
-        "handle": "@CryptoHayes",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/CryptoHayes"
-      },
-      "source_url": "https://twitter.com/CryptoHayes/status/2099544963763581130",
-      "source_url_type": "post",
-      "category": "Compute, Power & The Grid",
-      "raw_summary": "Need to rent GPUs to mine @flop_labs ? Don\u2019t worry, the team is hard at work trying to source supply and will publish our results.",
-      "elevated_intelligence": {
-        "signal_headline": "Accelerated Silicon Clusters Collide with Substation Transformer Availability",
-        "convergence_lens": "Compute scaling is governed by electrical substation capacity and thermal dissipation physics rather than raw chip density.",
-        "alden_lens": "Compute scaling is governed by electrical substation capacity and thermal dissipation physics rather than raw chip density.",
-        "cross_reference": "Echoes the historical transition from single-core CPU frequency scaling to massive parallel power-constrained architectures.",
         "is_urgent_shift": true,
         "synthesis_source": "heuristic"
       },
