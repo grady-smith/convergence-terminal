@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-22T02:44:37.896012+00:00",
+  "generated_at": "2026-09-22T16:03:48.397866+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
   "total_signals": 39,
-  "sludge_filtered_count": 58,
+  "sludge_filtered_count": 60,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -13,6 +13,41 @@
     "Autonomous Intelligence"
   ],
   "items": [
+    {
+      "id": "sig_2b9b4373ee807e95",
+      "timestamp": "2026-09-22T03:27:25+00:00",
+      "entity": {
+        "name": "Pierre Rochard",
+        "handle": "@BitcoinPierre",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
+      },
+      "source_url": "https://twitter.com/BitcoinPierre/status/2102238311993524389",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "RT @xw33bttv: lol watch the fear porn marketing vanish entirely once senior management becomes legally liable for all the tall tales they b\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Structural Thesis: Bitcoin",
+        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "cross_reference": "First-principles convergence framework.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.8,
+        "momentum_label": "+392% 6h spike",
+        "sparkline_points": [
+          31,
+          46,
+          39,
+          70,
+          101,
+          140,
+          187
+        ]
+      }
+    },
     {
       "id": "sig_810edaa21b38ddd0",
       "timestamp": "2026-09-21T23:42:06+00:00",
@@ -101,41 +136,6 @@
         "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
         "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
         "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
-        "is_urgent_shift": true,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 9.8,
-        "momentum_label": "+392% 6h spike",
-        "sparkline_points": [
-          31,
-          46,
-          39,
-          70,
-          101,
-          140,
-          187
-        ]
-      }
-    },
-    {
-      "id": "sig_5df48a9bb4a0fce3",
-      "timestamp": "2026-09-18T01:43:41+00:00",
-      "entity": {
-        "name": "Pierre Rochard",
-        "handle": "@BitcoinPierre",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
-      },
-      "source_url": "https://twitter.com/BitcoinPierre/status/2100762654742626720",
-      "source_url_type": "post",
-      "category": "Bitcoin",
-      "raw_summary": "RT @SenRonJohnson: No, it\u2019s a grossly mismanaged LEGAL Ponzi scheme. \n\nHad we actually invested just the annual surpluses in the equivalent\u2026",
-      "elevated_intelligence": {
-        "signal_headline": "Structural Thesis: Bitcoin",
-        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
-        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
-        "cross_reference": "First-principles convergence framework.",
         "is_urgent_shift": true,
         "synthesis_source": "heuristic"
       },
@@ -325,6 +325,41 @@
           80,
           115,
           145
+        ]
+      }
+    },
+    {
+      "id": "sig_b88e3232b37b00e9",
+      "timestamp": "2026-09-22T09:05:47+00:00",
+      "entity": {
+        "name": "Dr. Adam Back",
+        "handle": "@adam3us",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/adam3us"
+      },
+      "source_url": "https://twitter.com/adam3us/status/2102323464715575324",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "RT @DTAPCAP: Pretty straightforward for BTC.\n\nTextbook cup and handle breakup.\n\nAn entire year of selling just swallowed up in the past 5 w\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Cryptographic Consensus Guarantees Unchangeable Monetary Scarcity",
+        "convergence_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
+        "alden_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
+        "cross_reference": "Contrast between Austrian sound money principles and discretionary fiat credit expansion.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          29,
+          43,
+          36,
+          65,
+          94,
+          131,
+          175
         ]
       }
     },
@@ -959,18 +994,18 @@
       }
     },
     {
-      "id": "sig_0e8880368e3acac2",
-      "timestamp": "2026-09-19T08:22:06+00:00",
+      "id": "sig_c2f5788f13f8c5af",
+      "timestamp": "2026-09-22T11:34:09+00:00",
       "entity": {
-        "name": "Dr. Adam Back",
-        "handle": "@adam3us",
+        "name": "Pierre Rochard",
+        "handle": "@BitcoinPierre",
         "platform": "x",
-        "avatar_url": "https://unavatar.io/x/adam3us"
+        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
       },
-      "source_url": "https://twitter.com/adam3us/status/2101225305675624854",
+      "source_url": "https://twitter.com/BitcoinPierre/status/2102360799117246842",
       "source_url_type": "post",
       "category": "Macro Plumbing & Balance Sheets",
-      "raw_summary": "RT @alistairmilne: To recap:\n\n- Fed raised interest rates\n- Clarity act failed\n- Bitcoin didn't go below $75k\n\nThank you for your attention\u2026",
+      "raw_summary": "RT @HurdleRatePod: Welcome Back to The Hurdle Rate\n\nEpisode 75: Growing Trust Grows Liquidity\n\nIn this week's Hurdle Rate, the crew breaks\u2026",
       "elevated_intelligence": {
         "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
         "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
@@ -994,24 +1029,24 @@
       }
     },
     {
-      "id": "sig_1d43f0ab0a3bc0af",
-      "timestamp": "2026-09-18T11:52:46+00:00",
+      "id": "sig_0e8880368e3acac2",
+      "timestamp": "2026-09-19T08:22:06+00:00",
       "entity": {
         "name": "Dr. Adam Back",
         "handle": "@adam3us",
         "platform": "x",
         "avatar_url": "https://unavatar.io/x/adam3us"
       },
-      "source_url": "https://twitter.com/adam3us/status/2100915933598368004",
+      "source_url": "https://twitter.com/adam3us/status/2101225305675624854",
       "source_url_type": "post",
-      "category": "Bitcoin",
-      "raw_summary": "RT @btcjvs: Bitcoin has stopped making new lows on bad news. Therefore, the bottom has been in for some time.\n\nThe low was back in February\u2026",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "RT @alistairmilne: To recap:\n\n- Fed raised interest rates\n- Clarity act failed\n- Bitcoin didn't go below $75k\n\nThank you for your attention\u2026",
       "elevated_intelligence": {
-        "signal_headline": "Cryptographic Consensus Guarantees Unchangeable Monetary Scarcity",
-        "convergence_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
-        "alden_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
-        "cross_reference": "Contrast between Austrian sound money principles and discretionary fiat credit expansion.",
-        "is_urgent_shift": false,
+        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
+        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
+        "is_urgent_shift": true,
         "synthesis_source": "heuristic"
       },
       "metrics": {
@@ -1116,41 +1151,6 @@
         "convergence_lens": "Compute scaling is governed by electrical substation capacity and thermal dissipation physics rather than raw chip density.",
         "alden_lens": "Compute scaling is governed by electrical substation capacity and thermal dissipation physics rather than raw chip density.",
         "cross_reference": "Echoes the historical transition from single-core CPU frequency scaling to massive parallel power-constrained architectures.",
-        "is_urgent_shift": true,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 7.8,
-        "momentum_label": "+195% 24h gain",
-        "sparkline_points": [
-          24,
-          37,
-          31,
-          55,
-          80,
-          111,
-          148
-        ]
-      }
-    },
-    {
-      "id": "sig_5775c22f3e314e15",
-      "timestamp": "2026-09-22T00:05:03+00:00",
-      "entity": {
-        "name": "Pierre Rochard",
-        "handle": "@BitcoinPierre",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
-      },
-      "source_url": "https://twitter.com/BitcoinPierre/status/2102187382636188031",
-      "source_url_type": "post",
-      "category": "Macro Plumbing & Balance Sheets",
-      "raw_summary": "RT @Striveclips: Matt Cole says the market misreads the Bitcoin treasury strategy as a get-rich-quick scheme.\n\nHe underwrites $BTC over a f\u2026",
-      "elevated_intelligence": {
-        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
-        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
         "is_urgent_shift": true,
         "synthesis_source": "heuristic"
       },
