@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-22T16:03:48.397866+00:00",
+  "generated_at": "2026-09-23T02:45:09.845345+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
   "total_signals": 39,
-  "sludge_filtered_count": 60,
+  "sludge_filtered_count": 62,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -329,6 +329,41 @@
       }
     },
     {
+      "id": "sig_8f757e154c862114",
+      "timestamp": "2026-09-22T16:55:55+00:00",
+      "entity": {
+        "name": "Jack Mallers",
+        "handle": "@jackmallers",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/jackmallers"
+      },
+      "source_url": "https://twitter.com/jackmallers/status/2102441776552591561",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "$40,000,000,000,000.\n\nThe U.S. national debt has gotten so large that the number almost loses meaning.\n\nSo how big is the debt, really?",
+      "elevated_intelligence": {
+        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
+        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          29,
+          43,
+          36,
+          65,
+          94,
+          131,
+          175
+        ]
+      }
+    },
+    {
       "id": "sig_b88e3232b37b00e9",
       "timestamp": "2026-09-22T09:05:47+00:00",
       "entity": {
@@ -556,41 +591,6 @@
         "convergence_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
         "alden_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
         "cross_reference": "Contrast between Austrian sound money principles and discretionary fiat credit expansion.",
-        "is_urgent_shift": true,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 9.2,
-        "momentum_label": "+368% 6h spike",
-        "sparkline_points": [
-          29,
-          43,
-          36,
-          65,
-          94,
-          131,
-          175
-        ]
-      }
-    },
-    {
-      "id": "sig_cb6677f55fa30ddd",
-      "timestamp": "2026-09-14T15:10:18+00:00",
-      "entity": {
-        "name": "Jack Mallers",
-        "handle": "@jackmallers",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/jackmallers"
-      },
-      "source_url": "https://twitter.com/jackmallers/status/2099516094633435405",
-      "source_url_type": "post",
-      "category": "Macro Plumbing & Balance Sheets",
-      "raw_summary": "AI productivity was supposed to grow governments out of their debt crisis. Now the people building frontier AI want to \"slow it down\".\n\nIf productivity can\u2019t outrun the debt, then what? How does anyone get paid back?\n\nNobody can \u201cslow down\u201d Bitcoin. Stay humble. Stack sats.",
-      "elevated_intelligence": {
-        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
-        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
         "is_urgent_shift": true,
         "synthesis_source": "heuristic"
       },
