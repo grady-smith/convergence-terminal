@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-23T15:54:06.887122+00:00",
+  "generated_at": "2026-09-24T02:34:36.246800+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
-  "total_signals": 39,
-  "sludge_filtered_count": 64,
+  "total_signals": 40,
+  "sludge_filtered_count": 66,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -360,6 +360,41 @@
           80,
           115,
           145
+        ]
+      }
+    },
+    {
+      "id": "sig_1c34e873fcf5548b",
+      "timestamp": "2026-09-23T17:45:28+00:00",
+      "entity": {
+        "name": "Jack Mallers",
+        "handle": "@jackmallers",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/jackmallers"
+      },
+      "source_url": "https://twitter.com/jackmallers/status/2102816632188059913",
+      "source_url_type": "post",
+      "category": "Agentic Rails & Settlement",
+      "raw_summary": "Bitcoin doesn\u2019t need any more \u201cclarity\u201d.\n\n21 million. That\u2019s all the clarity we ever needed.",
+      "elevated_intelligence": {
+        "signal_headline": "Structural Thesis: Agentic Rails & Settlement",
+        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "cross_reference": "First-principles convergence framework.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          29,
+          43,
+          36,
+          65,
+          94,
+          131,
+          175
         ]
       }
     },
@@ -1134,6 +1169,41 @@
       }
     },
     {
+      "id": "sig_4c7b39d7c72f75a5",
+      "timestamp": "2026-09-23T21:13:04+00:00",
+      "entity": {
+        "name": "Arthur Hayes",
+        "handle": "@CryptoHayes",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/CryptoHayes"
+      },
+      "source_url": "https://twitter.com/CryptoHayes/status/2102868877374107876",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "France is melting down before our eyes. OAT vs. BUND spread is at 2011 Euro Crisis levels.\n\nLivre_Euro printer is warming up ...",
+      "elevated_intelligence": {
+        "signal_headline": "Structural Credit Expansion and Fractional Reserve Dynamics",
+        "convergence_lens": "Bank credit creation acts as an elastic money supply, distinct from base money and highly sensitive to interest rates.",
+        "alden_lens": "Bank credit creation acts as an elastic money supply, distinct from base money and highly sensitive to interest rates.",
+        "cross_reference": "Contrast between base money (M0) and broad money (M2) in the modern banking system.",
+        "is_urgent_shift": false,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 7.8,
+        "momentum_label": "+195% 24h gain",
+        "sparkline_points": [
+          24,
+          37,
+          31,
+          55,
+          80,
+          111,
+          148
+        ]
+      }
+    },
+    {
       "id": "sig_e9edb770781c4463",
       "timestamp": "2026-09-22T01:16:43+00:00",
       "entity": {
@@ -1222,41 +1292,6 @@
         "alden_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
         "cross_reference": "Parallels early HTTP 402 specifications now revitalized for machine-to-machine inference.",
         "is_urgent_shift": true,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 7.8,
-        "momentum_label": "+195% 24h gain",
-        "sparkline_points": [
-          24,
-          37,
-          31,
-          55,
-          80,
-          111,
-          148
-        ]
-      }
-    },
-    {
-      "id": "sig_2d5c9389f24ce221",
-      "timestamp": "2026-09-17T15:33:56+00:00",
-      "entity": {
-        "name": "Jack Mallers",
-        "handle": "@jackmallers",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/jackmallers"
-      },
-      "source_url": "https://twitter.com/jackmallers/status/2100609203643510824",
-      "source_url_type": "post",
-      "category": "Agentic Rails & Settlement",
-      "raw_summary": "RT @jackmallersshow: You use money every day. But where does it come from, what makes it valuable, and why is Bitcoin better money?\n\nIn Les\u2026",
-      "elevated_intelligence": {
-        "signal_headline": "Structural Thesis: Agentic Rails & Settlement",
-        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
-        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
-        "cross_reference": "First-principles convergence framework.",
-        "is_urgent_shift": false,
         "synthesis_source": "heuristic"
       },
       "metrics": {
