@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-24T02:34:36.246800+00:00",
+  "generated_at": "2026-09-24T16:16:15.437439+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
-  "total_signals": 40,
-  "sludge_filtered_count": 66,
+  "total_signals": 42,
+  "sludge_filtered_count": 68,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -13,6 +13,41 @@
     "Autonomous Intelligence"
   ],
   "items": [
+    {
+      "id": "sig_bbcc7da8ffc7eed3",
+      "timestamp": "2026-09-24T14:32:41+00:00",
+      "entity": {
+        "name": "Lyn Alden",
+        "handle": "@LynAldenContact",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+      },
+      "source_url": "https://twitter.com/LynAldenContact/status/2103130507382763980",
+      "source_url_type": "post",
+      "category": "Agentic Rails & Settlement",
+      "raw_summary": "RT @fejau_inc: yeah so basically trump got cocky after succeeding with venezuela and had a hot hand and decided to double down and strike i\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Autonomous Agent Swarms Mandate Protocol-Native Micro-Settlement Rails",
+        "convergence_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
+        "alden_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
+        "cross_reference": "Parallels early HTTP 402 specifications now revitalized for machine-to-machine inference.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.8,
+        "momentum_label": "+392% 6h spike",
+        "sparkline_points": [
+          31,
+          46,
+          39,
+          70,
+          101,
+          140,
+          187
+        ]
+      }
+    },
     {
       "id": "sig_0dba391c75946d00",
       "timestamp": "2026-09-23T14:41:02+00:00",
@@ -1169,6 +1204,76 @@
       }
     },
     {
+      "id": "sig_74db3b200e34ad0f",
+      "timestamp": "2026-09-24T07:27:14+00:00",
+      "entity": {
+        "name": "Dr. Adam Back",
+        "handle": "@adam3us",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/adam3us"
+      },
+      "source_url": "https://twitter.com/adam3us/status/2103023437350400369",
+      "source_url_type": "post",
+      "category": "Autonomous Intelligence",
+      "raw_summary": "RT @RichardByworth: @odysseusito @DylanLeClair This is misinformation: puts were 1-2 week expiries and were sold when they had cash to buy\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
+        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
+        "is_urgent_shift": false,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 7.8,
+        "momentum_label": "+195% 24h gain",
+        "sparkline_points": [
+          24,
+          37,
+          31,
+          55,
+          80,
+          111,
+          148
+        ]
+      }
+    },
+    {
+      "id": "sig_554a8f1ea3c9e49c",
+      "timestamp": "2026-09-24T07:25:19+00:00",
+      "entity": {
+        "name": "Dr. Adam Back",
+        "handle": "@adam3us",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/adam3us"
+      },
+      "source_url": "https://twitter.com/adam3us/status/2103022953445126617",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "RT @Core_LN: Core Lightning 26.06.8 is out, and every node runner should upgrade.\n\nThis release fixes vulnerabilities responsibly reported\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Cluster Mempool Linearization & Sovereign Node Telemetry Fortify Consensus Topology",
+        "convergence_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "alden_lens": "Decentralized consensus integrity depends entirely on independent verification rather than delegated trust in centralized RPC choke points.",
+        "cross_reference": "Directly advances Bitcoin Core peer-to-peer consensus relay and Layer-2 settlement guarantees.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 7.8,
+        "momentum_label": "+195% 24h gain",
+        "sparkline_points": [
+          24,
+          37,
+          31,
+          55,
+          80,
+          111,
+          148
+        ]
+      }
+    },
+    {
       "id": "sig_4c7b39d7c72f75a5",
       "timestamp": "2026-09-23T21:13:04+00:00",
       "entity": {
@@ -1327,41 +1432,6 @@
         "alden_lens": "All computation is fundamentally an irreversible thermodynamic transformation of electrical potential.",
         "cross_reference": "Landauer's principle and thermodynamic limits of computation.",
         "is_urgent_shift": true,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 7.8,
-        "momentum_label": "+195% 24h gain",
-        "sparkline_points": [
-          24,
-          37,
-          31,
-          55,
-          80,
-          111,
-          148
-        ]
-      }
-    },
-    {
-      "id": "sig_4574bdaa72d1140c",
-      "timestamp": "2026-09-11T10:26:56+00:00",
-      "entity": {
-        "name": "Dr. Adam Back",
-        "handle": "@adam3us",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/adam3us"
-      },
-      "source_url": "https://twitter.com/adam3us/status/2098357619341594650",
-      "source_url_type": "post",
-      "category": "Autonomous Intelligence",
-      "raw_summary": "RT @side_swap: USDt on Liquid is moving on Bitfinex again. Deposits and withdrawals of Liquid USDt are live and working, so you can move US\u2026",
-      "elevated_intelligence": {
-        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
-        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
-        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
-        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
-        "is_urgent_shift": false,
         "synthesis_source": "heuristic"
       },
       "metrics": {
