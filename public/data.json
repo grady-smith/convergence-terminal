@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-24T16:16:15.437439+00:00",
+  "generated_at": "2026-09-25T02:51:56.268461+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
   "total_signals": 42,
-  "sludge_filtered_count": 68,
+  "sludge_filtered_count": 71,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -13,6 +13,41 @@
     "Autonomous Intelligence"
   ],
   "items": [
+    {
+      "id": "sig_9a5b6267abd14860",
+      "timestamp": "2026-09-24T19:59:41+00:00",
+      "entity": {
+        "name": "Dr. Adam Back",
+        "handle": "@adam3us",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/adam3us"
+      },
+      "source_url": "https://twitter.com/adam3us/status/2103212798960410903",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "RT @saylor: Out of \u20bfubblegum.",
+      "elevated_intelligence": {
+        "signal_headline": "Structural Thesis: Bitcoin",
+        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "cross_reference": "First-principles convergence framework.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.8,
+        "momentum_label": "+392% 6h spike",
+        "sparkline_points": [
+          31,
+          46,
+          39,
+          70,
+          101,
+          140,
+          187
+        ]
+      }
+    },
     {
       "id": "sig_bbcc7da8ffc7eed3",
       "timestamp": "2026-09-24T14:32:41+00:00",
@@ -696,41 +731,6 @@
         "convergence_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
         "alden_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
         "cross_reference": "Contrast between Austrian sound money principles and discretionary fiat credit expansion.",
-        "is_urgent_shift": true,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 9.2,
-        "momentum_label": "+368% 6h spike",
-        "sparkline_points": [
-          29,
-          43,
-          36,
-          65,
-          94,
-          131,
-          175
-        ]
-      }
-    },
-    {
-      "id": "sig_8904727542ffef9c",
-      "timestamp": "2026-09-13T12:55:07+00:00",
-      "entity": {
-        "name": "Dr. Adam Back",
-        "handle": "@adam3us",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/adam3us"
-      },
-      "source_url": "https://twitter.com/adam3us/status/2099119687124615314",
-      "source_url_type": "post",
-      "category": "Bitcoin",
-      "raw_summary": "#bitcoin passes $65k 200wma https://t.co/6W3RSiLkB3",
-      "elevated_intelligence": {
-        "signal_headline": "Structural Thesis: Bitcoin",
-        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
-        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
-        "cross_reference": "First-principles convergence framework.",
         "is_urgent_shift": true,
         "synthesis_source": "heuristic"
       },
