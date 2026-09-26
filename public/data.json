@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-26T02:55:11.267169+00:00",
+  "generated_at": "2026-09-26T15:30:32.734174+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
   "total_signals": 43,
-  "sludge_filtered_count": 74,
+  "sludge_filtered_count": 75,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -299,7 +299,7 @@
       "entity": {
         "name": "Andrej Karpathy",
         "handle": "@karpathy",
-        "platform": "x",
+        "platform": "github",
         "avatar_url": "https://unavatar.io/x/karpathy"
       },
       "source_url": "https://twitter.com/karpathy/status/2098811935114551617",
@@ -334,7 +334,7 @@
       "entity": {
         "name": "Andrej Karpathy",
         "handle": "@karpathy",
-        "platform": "x",
+        "platform": "github",
         "avatar_url": "https://unavatar.io/x/karpathy"
       },
       "source_url": "https://twitter.com/karpathy/status/2098187194024476764",
@@ -404,7 +404,7 @@
       "entity": {
         "name": "Andrej Karpathy",
         "handle": "@karpathy",
-        "platform": "x",
+        "platform": "github",
         "avatar_url": "https://unavatar.io/x/karpathy"
       },
       "source_url": "https://github.com/karpathy/nanochat/compare/437943bd90...07620a2567",
