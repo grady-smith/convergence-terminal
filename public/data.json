@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-29T03:37:26.941412+00:00",
+  "generated_at": "2026-09-29T17:25:45.409837+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
-  "total_signals": 45,
-  "sludge_filtered_count": 77,
+  "total_signals": 46,
+  "sludge_filtered_count": 79,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -1270,6 +1270,41 @@
           88,
           122,
           163
+        ]
+      }
+    },
+    {
+      "id": "sig_675e11645a6acb41",
+      "timestamp": "2026-09-29T10:23:17+00:00",
+      "entity": {
+        "name": "Dr. Adam Back",
+        "handle": "@adam3us",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/adam3us"
+      },
+      "source_url": "https://twitter.com/adam3us/status/2104879679622479876",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "RT @side_swap: Good steps from the Liquid Federation. An independent audit of Elements 23.3.4 is underway and the PAK list is being renewed\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Structural Credit Expansion and Fractional Reserve Dynamics",
+        "convergence_lens": "Bank credit creation acts as an elastic money supply, distinct from base money and highly sensitive to interest rates.",
+        "alden_lens": "Bank credit creation acts as an elastic money supply, distinct from base money and highly sensitive to interest rates.",
+        "cross_reference": "Contrast between base money (M0) and broad money (M2) in the modern banking system.",
+        "is_urgent_shift": false,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 7.8,
+        "momentum_label": "+195% 24h gain",
+        "sparkline_points": [
+          24,
+          37,
+          31,
+          55,
+          80,
+          111,
+          148
         ]
       }
     },
