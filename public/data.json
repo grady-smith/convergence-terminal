@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-28T19:04:14.764239+00:00",
+  "generated_at": "2026-09-29T03:37:26.941412+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
-  "total_signals": 44,
-  "sludge_filtered_count": 76,
+  "total_signals": 45,
+  "sludge_filtered_count": 77,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -434,6 +434,41 @@
       }
     },
     {
+      "id": "sig_52036edb53e347bc",
+      "timestamp": "2026-09-28T20:23:31+00:00",
+      "entity": {
+        "name": "Lyn Alden",
+        "handle": "@LynAldenContact",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+      },
+      "source_url": "https://twitter.com/LynAldenContact/status/2104668349007323557",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "Alright, here are my 9 games.",
+      "elevated_intelligence": {
+        "signal_headline": "Structural Thesis: Macro Plumbing & Balance Sheets",
+        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "cross_reference": "First-principles convergence framework.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          29,
+          43,
+          36,
+          65,
+          94,
+          131,
+          175
+        ]
+      }
+    },
+    {
       "id": "sig_d6092f316055eb28",
       "timestamp": "2026-09-28T16:28:25+00:00",
       "entity": {
@@ -591,41 +626,6 @@
         "convergence_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
         "alden_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
         "cross_reference": "Contrast between Austrian sound money principles and discretionary fiat credit expansion.",
-        "is_urgent_shift": true,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 9.2,
-        "momentum_label": "+368% 6h spike",
-        "sparkline_points": [
-          29,
-          43,
-          36,
-          65,
-          94,
-          131,
-          175
-        ]
-      }
-    },
-    {
-      "id": "sig_2d300bd40d179147",
-      "timestamp": "2026-09-18T22:28:11+00:00",
-      "entity": {
-        "name": "Lyn Alden",
-        "handle": "@LynAldenContact",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/LynAldenContact"
-      },
-      "source_url": "https://twitter.com/LynAldenContact/status/2101075842809892910",
-      "source_url_type": "post",
-      "category": "Macro Plumbing & Balance Sheets",
-      "raw_summary": "There are moments where I wonder if I\u2019ll run out of jokes.\n\nAnd then I see posts like this.",
-      "elevated_intelligence": {
-        "signal_headline": "Structural Thesis: Macro Plumbing & Balance Sheets",
-        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
-        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
-        "cross_reference": "First-principles convergence framework.",
         "is_urgent_shift": true,
         "synthesis_source": "heuristic"
       },
@@ -1060,6 +1060,41 @@
           80,
           115,
           145
+        ]
+      }
+    },
+    {
+      "id": "sig_949ef9af524496d3",
+      "timestamp": "2026-09-29T02:49:35+00:00",
+      "entity": {
+        "name": "Pierre Rochard",
+        "handle": "@BitcoinPierre",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
+      },
+      "source_url": "https://twitter.com/BitcoinPierre/status/2104765503424319984",
+      "source_url_type": "post",
+      "category": "Compute, Power & The Grid",
+      "raw_summary": "RT @basedjensen: btw what does it say about the AI safety nonprofit circuit that after years of funding, conferences and papers, nvidia has\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Accelerated Silicon Clusters Collide with Substation Transformer Availability",
+        "convergence_lens": "Compute scaling is governed by electrical substation capacity and thermal dissipation physics rather than raw chip density.",
+        "alden_lens": "Compute scaling is governed by electrical substation capacity and thermal dissipation physics rather than raw chip density.",
+        "cross_reference": "Echoes the historical transition from single-core CPU frequency scaling to massive parallel power-constrained architectures.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 8.6,
+        "momentum_label": "+344% 6h spike",
+        "sparkline_points": [
+          27,
+          40,
+          34,
+          61,
+          88,
+          122,
+          163
         ]
       }
     },
