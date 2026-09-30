@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-30T03:23:22.988764+00:00",
+  "generated_at": "2026-09-30T17:23:15.050479+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
   "total_signals": 46,
-  "sludge_filtered_count": 80,
+  "sludge_filtered_count": 81,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -13,6 +13,41 @@
     "Autonomous Intelligence"
   ],
   "items": [
+    {
+      "id": "sig_b719b23271492f3c",
+      "timestamp": "2026-09-30T16:37:20+00:00",
+      "entity": {
+        "name": "Pierre Rochard",
+        "handle": "@BitcoinPierre",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
+      },
+      "source_url": "https://twitter.com/BitcoinPierre/status/2105336201867919819",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "RT @DavidSacks: The Bretton Woods of Super Intelligence",
+      "elevated_intelligence": {
+        "signal_headline": "Structural Thesis: Bitcoin",
+        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "cross_reference": "First-principles convergence framework.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.8,
+        "momentum_label": "+392% 6h spike",
+        "sparkline_points": [
+          31,
+          46,
+          39,
+          70,
+          101,
+          140,
+          187
+        ]
+      }
+    },
     {
       "id": "sig_9a5b6267abd14860",
       "timestamp": "2026-09-24T19:59:41+00:00",
@@ -66,41 +101,6 @@
         "convergence_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
         "alden_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
         "cross_reference": "Parallels early HTTP 402 specifications now revitalized for machine-to-machine inference.",
-        "is_urgent_shift": true,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 9.8,
-        "momentum_label": "+392% 6h spike",
-        "sparkline_points": [
-          31,
-          46,
-          39,
-          70,
-          101,
-          140,
-          187
-        ]
-      }
-    },
-    {
-      "id": "sig_0dba391c75946d00",
-      "timestamp": "2026-09-23T14:41:02+00:00",
-      "entity": {
-        "name": "Pierre Rochard",
-        "handle": "@BitcoinPierre",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
-      },
-      "source_url": "https://twitter.com/BitcoinPierre/status/2102770221144846783",
-      "source_url_type": "post",
-      "category": "Bitcoin",
-      "raw_summary": "RT @SteaknShake: America\u2019s corporate governance system is broken, and it\u2019s killing public companies. Look no further than Cracker Barrel: D\u2026",
-      "elevated_intelligence": {
-        "signal_headline": "Structural Thesis: Bitcoin",
-        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
-        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
-        "cross_reference": "First-principles convergence framework.",
         "is_urgent_shift": true,
         "synthesis_source": "heuristic"
       },
@@ -1064,6 +1064,41 @@
       }
     },
     {
+      "id": "sig_a35f90b351fd3a4a",
+      "timestamp": "2026-09-30T16:35:37+00:00",
+      "entity": {
+        "name": "Pierre Rochard",
+        "handle": "@BitcoinPierre",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
+      },
+      "source_url": "https://twitter.com/BitcoinPierre/status/2105335770567381048",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "RT @bitcoinpolicy: NEW FINDINGS: We took a close look at MSCI\u2019s effort to exclude Bitcoin treasury companies from major stock indexes.\n\nWe\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
+        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 8.6,
+        "momentum_label": "+344% 6h spike",
+        "sparkline_points": [
+          27,
+          40,
+          34,
+          61,
+          88,
+          122,
+          163
+        ]
+      }
+    },
+    {
       "id": "sig_949ef9af524496d3",
       "timestamp": "2026-09-29T02:49:35+00:00",
       "entity": {
@@ -1116,41 +1151,6 @@
         "convergence_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
         "alden_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
         "cross_reference": "Parallels early HTTP 402 specifications now revitalized for machine-to-machine inference.",
-        "is_urgent_shift": true,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 8.6,
-        "momentum_label": "+344% 6h spike",
-        "sparkline_points": [
-          27,
-          40,
-          34,
-          61,
-          88,
-          122,
-          163
-        ]
-      }
-    },
-    {
-      "id": "sig_c2f5788f13f8c5af",
-      "timestamp": "2026-09-22T11:34:09+00:00",
-      "entity": {
-        "name": "Pierre Rochard",
-        "handle": "@BitcoinPierre",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
-      },
-      "source_url": "https://twitter.com/BitcoinPierre/status/2102360799117246842",
-      "source_url_type": "post",
-      "category": "Macro Plumbing & Balance Sheets",
-      "raw_summary": "RT @HurdleRatePod: Welcome Back to The Hurdle Rate\n\nEpisode 75: Growing Trust Grows Liquidity\n\nIn this week's Hurdle Rate, the crew breaks\u2026",
-      "elevated_intelligence": {
-        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
-        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
         "is_urgent_shift": true,
         "synthesis_source": "heuristic"
       },
