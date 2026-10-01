@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-30T17:23:15.050479+00:00",
+  "generated_at": "2026-10-01T03:29:21.913906+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
-  "total_signals": 46,
-  "sludge_filtered_count": 81,
+  "total_signals": 48,
+  "sludge_filtered_count": 84,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -14,18 +14,18 @@
   ],
   "items": [
     {
-      "id": "sig_b719b23271492f3c",
-      "timestamp": "2026-09-30T16:37:20+00:00",
+      "id": "sig_8a45523763f73e5e",
+      "timestamp": "2026-10-01T00:43:47+00:00",
       "entity": {
         "name": "Pierre Rochard",
         "handle": "@BitcoinPierre",
         "platform": "x",
         "avatar_url": "https://unavatar.io/x/BitcoinPierre"
       },
-      "source_url": "https://twitter.com/BitcoinPierre/status/2105336201867919819",
+      "source_url": "https://twitter.com/BitcoinPierre/status/2105458623006531990",
       "source_url_type": "post",
       "category": "Bitcoin",
-      "raw_summary": "RT @DavidSacks: The Bretton Woods of Super Intelligence",
+      "raw_summary": "RT @boisechampion: Message from a buddy of mine",
       "elevated_intelligence": {
         "signal_headline": "Structural Thesis: Bitcoin",
         "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
@@ -1064,6 +1064,41 @@
       }
     },
     {
+      "id": "sig_c0652de1b9fdc455",
+      "timestamp": "2026-09-30T22:17:03+00:00",
+      "entity": {
+        "name": "Jack Mallers",
+        "handle": "@jackmallers",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/jackmallers"
+      },
+      "source_url": "https://twitter.com/jackmallers/status/2105421695079367158",
+      "source_url_type": "post",
+      "category": "Agentic Rails & Settlement",
+      "raw_summary": "RT @Strike: Time is money.",
+      "elevated_intelligence": {
+        "signal_headline": "Autonomous Agent Swarms Mandate Protocol-Native Micro-Settlement Rails",
+        "convergence_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
+        "alden_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
+        "cross_reference": "Parallels early HTTP 402 specifications now revitalized for machine-to-machine inference.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 8.6,
+        "momentum_label": "+344% 6h spike",
+        "sparkline_points": [
+          27,
+          40,
+          34,
+          61,
+          88,
+          122,
+          163
+        ]
+      }
+    },
+    {
       "id": "sig_a35f90b351fd3a4a",
       "timestamp": "2026-09-30T16:35:37+00:00",
       "entity": {
@@ -1116,41 +1151,6 @@
         "convergence_lens": "Compute scaling is governed by electrical substation capacity and thermal dissipation physics rather than raw chip density.",
         "alden_lens": "Compute scaling is governed by electrical substation capacity and thermal dissipation physics rather than raw chip density.",
         "cross_reference": "Echoes the historical transition from single-core CPU frequency scaling to massive parallel power-constrained architectures.",
-        "is_urgent_shift": true,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 8.6,
-        "momentum_label": "+344% 6h spike",
-        "sparkline_points": [
-          27,
-          40,
-          34,
-          61,
-          88,
-          122,
-          163
-        ]
-      }
-    },
-    {
-      "id": "sig_b6fc528a3f687193",
-      "timestamp": "2026-09-25T16:05:18+00:00",
-      "entity": {
-        "name": "Jack Mallers",
-        "handle": "@jackmallers",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/jackmallers"
-      },
-      "source_url": "https://twitter.com/jackmallers/status/2103516199518945538",
-      "source_url_type": "post",
-      "category": "Agentic Rails & Settlement",
-      "raw_summary": "RT @Strike: Strike is the only bitcoin-only platform in the world that allows you to:\n\n- Direct deposit your paycheck with no fees\n- Buy an\u2026",
-      "elevated_intelligence": {
-        "signal_headline": "Autonomous Agent Swarms Mandate Protocol-Native Micro-Settlement Rails",
-        "convergence_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
-        "alden_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
-        "cross_reference": "Parallels early HTTP 402 specifications now revitalized for machine-to-machine inference.",
         "is_urgent_shift": true,
         "synthesis_source": "heuristic"
       },
@@ -1270,6 +1270,76 @@
           88,
           122,
           163
+        ]
+      }
+    },
+    {
+      "id": "sig_85b13e81f77324eb",
+      "timestamp": "2026-10-01T03:03:24+00:00",
+      "entity": {
+        "name": "Lyn Alden",
+        "handle": "@LynAldenContact",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+      },
+      "source_url": "https://twitter.com/LynAldenContact/status/2105493755750969578",
+      "source_url_type": "post",
+      "category": "Compute, Power & The Grid",
+      "raw_summary": "Over time, AI will make informational content cheaper and cheaper.\n\nWhat's left?\n\nSilicon Valley people call it \"taste\", and I think that's valid. Financially, that means signal.\n\nWhat you'll notice from me is what I choose to object to. The exceptions. That's signal.",
+      "elevated_intelligence": {
+        "signal_headline": "Accelerated Silicon Clusters Collide with Substation Transformer Availability",
+        "convergence_lens": "Compute scaling is governed by electrical substation capacity and thermal dissipation physics rather than raw chip density.",
+        "alden_lens": "Compute scaling is governed by electrical substation capacity and thermal dissipation physics rather than raw chip density.",
+        "cross_reference": "Echoes the historical transition from single-core CPU frequency scaling to massive parallel power-constrained architectures.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 7.8,
+        "momentum_label": "+195% 24h gain",
+        "sparkline_points": [
+          24,
+          37,
+          31,
+          55,
+          80,
+          111,
+          148
+        ]
+      }
+    },
+    {
+      "id": "sig_3d01bec9b5432a83",
+      "timestamp": "2026-10-01T02:22:17+00:00",
+      "entity": {
+        "name": "Pierre Rochard",
+        "handle": "@BitcoinPierre",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
+      },
+      "source_url": "https://twitter.com/BitcoinPierre/status/2105483411083431970",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "Their attack on bitcoin mining backfired and destroyed the carbon emissions global warming hoax, so all of the \u201cjournalists\u201d and activists had to move on to attacking AI and defending the IRGC.",
+      "elevated_intelligence": {
+        "signal_headline": "Proof-of-Work Thermodynamically Anchors Digital Scarcity to Unforgeable Physics",
+        "convergence_lens": "Consensus difficulty mathematically binds monetary credibility to real-world energy expenditure, eliminating political dilution and arbitrary debasement.",
+        "alden_lens": "Consensus difficulty mathematically binds monetary credibility to real-world energy expenditure, eliminating political dilution and arbitrary debasement.",
+        "cross_reference": "Builds upon Hashcash proof-of-work principles and Szabo's unforgeable costliness axioms.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 7.8,
+        "momentum_label": "+195% 24h gain",
+        "sparkline_points": [
+          24,
+          37,
+          31,
+          55,
+          80,
+          111,
+          148
         ]
       }
     },
