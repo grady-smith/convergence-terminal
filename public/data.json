@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T17:12:16.523179+00:00",
+  "generated_at": "2026-10-03T03:13:34.727199+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
   "total_signals": 49,
@@ -434,6 +434,41 @@
       }
     },
     {
+      "id": "sig_6e2f00d9bbff1e30",
+      "timestamp": "2026-10-02T18:29:22+00:00",
+      "entity": {
+        "name": "Jack Mallers",
+        "handle": "@jackmallers",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/jackmallers"
+      },
+      "source_url": "https://twitter.com/jackmallers/status/2106089172482326793",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "Unfortunately, it seems governments are offering us all two choices:\n\n1. They default on their debt\n2. They pay us back in worthless paper\n\nIt\u2019s never too late to buy bitcoin.",
+      "elevated_intelligence": {
+        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
+        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          29,
+          43,
+          36,
+          65,
+          94,
+          131,
+          175
+        ]
+      }
+    },
+    {
       "id": "sig_52036edb53e347bc",
       "timestamp": "2026-09-28T20:23:31+00:00",
       "entity": {
@@ -521,41 +556,6 @@
         "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
         "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
         "cross_reference": "First-principles convergence framework.",
-        "is_urgent_shift": true,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 9.2,
-        "momentum_label": "+368% 6h spike",
-        "sparkline_points": [
-          29,
-          43,
-          36,
-          65,
-          94,
-          131,
-          175
-        ]
-      }
-    },
-    {
-      "id": "sig_8f757e154c862114",
-      "timestamp": "2026-09-22T16:55:55+00:00",
-      "entity": {
-        "name": "Jack Mallers",
-        "handle": "@jackmallers",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/jackmallers"
-      },
-      "source_url": "https://twitter.com/jackmallers/status/2102441776552591561",
-      "source_url_type": "post",
-      "category": "Macro Plumbing & Balance Sheets",
-      "raw_summary": "$40,000,000,000,000.\n\nThe U.S. national debt has gotten so large that the number almost loses meaning.\n\nSo how big is the debt, really?",
-      "elevated_intelligence": {
-        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
-        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
         "is_urgent_shift": true,
         "synthesis_source": "heuristic"
       },
@@ -1064,18 +1064,18 @@
       }
     },
     {
-      "id": "sig_c0652de1b9fdc455",
-      "timestamp": "2026-09-30T22:17:03+00:00",
+      "id": "sig_fb07dc1fb85cd604",
+      "timestamp": "2026-10-02T22:20:31+00:00",
       "entity": {
         "name": "Jack Mallers",
         "handle": "@jackmallers",
         "platform": "x",
         "avatar_url": "https://unavatar.io/x/jackmallers"
       },
-      "source_url": "https://twitter.com/jackmallers/status/2105421695079367158",
+      "source_url": "https://twitter.com/jackmallers/status/2106147343720743167",
       "source_url_type": "post",
       "category": "Agentic Rails & Settlement",
-      "raw_summary": "RT @Strike: Time is money.",
+      "raw_summary": "RT @Strike: Your cash has a new income stream...\n\nSoon.",
       "elevated_intelligence": {
         "signal_headline": "Autonomous Agent Swarms Mandate Protocol-Native Micro-Settlement Rails",
         "convergence_lens": "Autonomous code agents cannot hold bank accounts or KYC cards; sub-cent streaming settlement requires protocol-native Lightning L2 channels.",
