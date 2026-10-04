@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-03T15:31:55.938957+00:00",
+  "generated_at": "2026-10-04T03:42:16.351325+00:00",
   "engine": "Convergence Intelligence Engine v1.1",
   "tracked_entities_count": 13,
   "total_signals": 49,
-  "sludge_filtered_count": 90,
+  "sludge_filtered_count": 91,
   "categories": [
     "All Signals",
     "Bitcoin",
@@ -14,23 +14,23 @@
   ],
   "items": [
     {
-      "id": "sig_d5b00711a5922fa8",
-      "timestamp": "2026-10-02T06:35:51+00:00",
+      "id": "sig_3daba7852ecf5548",
+      "timestamp": "2026-10-03T22:15:54+00:00",
       "entity": {
-        "name": "Andrej Karpathy",
-        "handle": "@karpathy",
+        "name": "Pierre Rochard",
+        "handle": "@BitcoinPierre",
         "platform": "x",
-        "avatar_url": "https://unavatar.io/x/karpathy"
+        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
       },
-      "source_url": "https://twitter.com/karpathy/status/2105909609487872075",
+      "source_url": "https://twitter.com/BitcoinPierre/status/2106508568820109583",
       "source_url_type": "post",
-      "category": "Autonomous Intelligence",
-      "raw_summary": "Cool eval. Simply ask an LLM \u201cLand or Water?\u201d and give it a latitude and longitude coordinate as text. Ask 16,200 times, plot as image. The models know. From compressing the internet.",
+      "category": "Bitcoin",
+      "raw_summary": "RT @jack: government of India officially removes bitchat from the App Store",
       "elevated_intelligence": {
-        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
-        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
-        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
-        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
+        "signal_headline": "Structural Thesis: Bitcoin",
+        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
+        "cross_reference": "First-principles convergence framework.",
         "is_urgent_shift": true,
         "synthesis_source": "heuristic"
       },
@@ -49,23 +49,23 @@
       }
     },
     {
-      "id": "sig_8a45523763f73e5e",
-      "timestamp": "2026-10-01T00:43:47+00:00",
+      "id": "sig_d5b00711a5922fa8",
+      "timestamp": "2026-10-02T06:35:51+00:00",
       "entity": {
-        "name": "Pierre Rochard",
-        "handle": "@BitcoinPierre",
+        "name": "Andrej Karpathy",
+        "handle": "@karpathy",
         "platform": "x",
-        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
+        "avatar_url": "https://unavatar.io/x/karpathy"
       },
-      "source_url": "https://twitter.com/BitcoinPierre/status/2105458623006531990",
+      "source_url": "https://twitter.com/karpathy/status/2105909609487872075",
       "source_url_type": "post",
-      "category": "Bitcoin",
-      "raw_summary": "RT @boisechampion: Message from a buddy of mine",
+      "category": "Autonomous Intelligence",
+      "raw_summary": "Cool eval. Simply ask an LLM \u201cLand or Water?\u201d and give it a latitude and longitude coordinate as text. Ask 16,200 times, plot as image. The models know. From compressing the internet.",
       "elevated_intelligence": {
-        "signal_headline": "Structural Thesis: Bitcoin",
-        "convergence_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
-        "alden_lens": "Primary macro and structural thesis analyzing liquidity, monetary flows, and system architecture.",
-        "cross_reference": "First-principles convergence framework.",
+        "signal_headline": "Autonomous Edge Models Disrupt Centralized Cloud Monopoly",
+        "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
+        "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
         "is_urgent_shift": true,
         "synthesis_source": "heuristic"
       },
@@ -434,6 +434,76 @@
       }
     },
     {
+      "id": "sig_75dd1d39b966da72",
+      "timestamp": "2026-10-03T18:34:56+00:00",
+      "entity": {
+        "name": "Lyn Alden",
+        "handle": "@LynAldenContact",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/LynAldenContact"
+      },
+      "source_url": "https://twitter.com/LynAldenContact/status/2106452961593557481",
+      "source_url_type": "post",
+      "category": "Macro Plumbing & Balance Sheets",
+      "raw_summary": "If you want fiscal dominance in a chart, here it is.",
+      "elevated_intelligence": {
+        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
+        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
+        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          29,
+          43,
+          36,
+          65,
+          94,
+          131,
+          175
+        ]
+      }
+    },
+    {
+      "id": "sig_9b854d2067eb5b1b",
+      "timestamp": "2026-10-03T15:36:07+00:00",
+      "entity": {
+        "name": "Pierre Rochard",
+        "handle": "@BitcoinPierre",
+        "platform": "x",
+        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
+      },
+      "source_url": "https://twitter.com/BitcoinPierre/status/2106407961245757557",
+      "source_url_type": "post",
+      "category": "Bitcoin",
+      "raw_summary": "RT @ColeMacro: From March \u201823 to the top, $MSTR did a 20X in Total Return while Bitcoin was a 5X. \n\nA 5X for $BTC from current levels would\u2026",
+      "elevated_intelligence": {
+        "signal_headline": "Cryptographic Consensus Guarantees Unchangeable Monetary Scarcity",
+        "convergence_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
+        "alden_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
+        "cross_reference": "Contrast between Austrian sound money principles and discretionary fiat credit expansion.",
+        "is_urgent_shift": true,
+        "synthesis_source": "heuristic"
+      },
+      "metrics": {
+        "velocity_score": 9.2,
+        "momentum_label": "+368% 6h spike",
+        "sparkline_points": [
+          29,
+          43,
+          36,
+          65,
+          94,
+          131,
+          175
+        ]
+      }
+    },
+    {
       "id": "sig_6e2f00d9bbff1e30",
       "timestamp": "2026-10-02T18:29:22+00:00",
       "entity": {
@@ -591,76 +661,6 @@
         "convergence_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
         "alden_lens": "Local model weights running on user hardware preserve sovereignty against centralized platform censorship.",
         "cross_reference": "Parallel to open-source software disruption of proprietary computing architectures.",
-        "is_urgent_shift": true,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 9.2,
-        "momentum_label": "+368% 6h spike",
-        "sparkline_points": [
-          29,
-          43,
-          36,
-          65,
-          94,
-          131,
-          175
-        ]
-      }
-    },
-    {
-      "id": "sig_0171cb5f587847aa",
-      "timestamp": "2026-09-21T12:20:43+00:00",
-      "entity": {
-        "name": "Pierre Rochard",
-        "handle": "@BitcoinPierre",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/BitcoinPierre"
-      },
-      "source_url": "https://twitter.com/BitcoinPierre/status/2102010131420508301",
-      "source_url_type": "post",
-      "category": "Bitcoin",
-      "raw_summary": "RT @ColeMacro: Strive acquired 1,355 $BTC for $107.7M at an average cost of $79,475 per bitcoin, bringing total holdings to \u20bf26,355.\n\nWarra\u2026",
-      "elevated_intelligence": {
-        "signal_headline": "Cryptographic Consensus Guarantees Unchangeable Monetary Scarcity",
-        "convergence_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
-        "alden_lens": "Immutable mathematical limits prevent sovereign debasement and preserve long-term purchasing power.",
-        "cross_reference": "Contrast between Austrian sound money principles and discretionary fiat credit expansion.",
-        "is_urgent_shift": true,
-        "synthesis_source": "heuristic"
-      },
-      "metrics": {
-        "velocity_score": 9.2,
-        "momentum_label": "+368% 6h spike",
-        "sparkline_points": [
-          29,
-          43,
-          36,
-          65,
-          94,
-          131,
-          175
-        ]
-      }
-    },
-    {
-      "id": "sig_6cd11b44c5450a8e",
-      "timestamp": "2026-09-18T21:57:50+00:00",
-      "entity": {
-        "name": "Lyn Alden",
-        "handle": "@LynAldenContact",
-        "platform": "x",
-        "avatar_url": "https://unavatar.io/x/LynAldenContact"
-      },
-      "source_url": "https://twitter.com/LynAldenContact/status/2101068203921178974",
-      "source_url_type": "post",
-      "category": "Macro Plumbing & Balance Sheets",
-      "raw_summary": "The fact that people still care about 25 basis points is evidence that they don\u2019t yet appreciate the depth of the fiscal dominance we are in.\n\nAnyway, have a nice weekend.",
-      "elevated_intelligence": {
-        "signal_headline": "Fiscal Dominance Paradox: Treasury Debt Refunding Forces Central Bank Monetization",
-        "convergence_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "alden_lens": "In high sovereign debt-to-GDP regimes, central bank interest outlays expand private liquidity, structurally forcing capital into scarce monetary assets.",
-        "cross_reference": "Follows the 1940s post-war fiscal dominance framework and ongoing Treasury refunding dynamics.",
         "is_urgent_shift": true,
         "synthesis_source": "heuristic"
       },
